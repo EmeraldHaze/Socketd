@@ -1,0 +1,55 @@
+[02:54:47 PM]Log opened, IP:pool-70-110-27-130.washdc.fios.verizon.net(70.110.27.130)
+[02:54:47 PM]Proc: Once upon a day, you were a-walking in a forest, when you accidentally stepped on some railroads, upon which you were driven, against your will, to a cave and thrown within. Good thing you have that handy light source in your pocket.
+[02:54:47 PM]Proc: Behind you, you see not only the awesome foe that is the Rough Ground of Unwalkability, but also an Indestructible Fallen Log, which had fallen immediately after your entrance. There is no escape but forward. Such is life, for those lacking in motivation. Exits: S
+[02:54:47 PM]Proc: Where do you want to go?  input
+[02:55:47 PM]User: s
+[02:55:47 PM]Proc: The tunnel goes into an ornate room, with two doors out. The one too the west poses a magnificent grandeur, whilst the one too the east seems rather flimsy and fake, although both are equally splendid. In the middle is depicted the god Janus, as a statue, with a particularly mocking expression. Exits: NWE
+Where do you want to go?  input
+[02:56:00 PM]User: nwe
+[02:56:00 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[02:56:10 PM]User: east
+[02:56:10 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[02:56:17 PM]Log Closed
+[03:08:09 PM]Log opened, IP:pool-70-110-27-130.washdc.fios.verizon.net(70.110.27.130)
+[03:08:09 PM]Proc: Once upon a day, you were a-walking in a forest, when you accidentally stepped on some railroads, upon which you were driven, against your will, to a cave and thrown within. Good thing you have that handy light source in your pocket.
+Behind you, you see not only the awesome foe that is the Rough Ground of Unwalkability, but also an Indestructible Fallen Log, which had fallen immediately after your entrance. There is no escape but forward. Such is life, for those lacking in motivation. Exits: S
+Where do you want to go?  input
+[03:09:11 PM]User: forward
+[03:09:11 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:17 PM]User: south
+[03:09:17 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:21 PM]User: north
+[03:09:21 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:29 PM]User: south
+[03:09:29 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:33 PM]User: east
+[03:09:33 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:43 PM]User: west
+[03:09:43 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:09:52 PM]User: s
+[03:09:52 PM]Proc: The tunnel goes into an ornate room, with two doors out. The one too the west poses a magnificent grandeur, whilst the one too the east seems rather flimsy and fake, although both are equally splendid. In the middle is depicted the god Janus, as a statue, with a particularly mocking expression. Exits: NWE
+Where do you want to go?  input
+[03:10:12 PM]User: NWE
+[03:10:12 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:10:19 PM]User: EAST
+[03:10:19 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:10:23 PM]User: WEST
+[03:10:23 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:10:37 PM]User: MIDDLE
+[03:10:37 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:11:02 PM]User: NORTH
+[03:11:02 PM]Proc: Please give a good direction
+Where do you want to go?  input
+[03:11:05 PM]Log Closed

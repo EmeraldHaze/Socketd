@@ -1,0 +1,19 @@
+Runing on  7000
+[02:40:22 PM] Wireless_Broadband_Router(173.176.255.136)  has connected. There are now 1 users.
+[02:47:56 PM]Wireless_Broadband_Router(173.176.255.136)  has quit. There are now 0 users.
+[03:02:02 PM] Wireless_Broadband_Router(173.176.255.136)  has connected. There are now 1 users.
+[03:13:56 PM] sheltermail.net(12.157.65.194)  has connected. There are now 2 users.
+[03:14:30 PM]sheltermail.net(12.157.65.194)  has quit. There are now 1 users.
+[03:19:31 PM] host-64-9-127-26.svcable.net(64.9.127.26)  has connected. There are now 2 users.
+[03:19:40 PM]host-64-9-127-26.svcable.net(64.9.127.26)  has quit. There are now 1 users.
+[03:31:56 PM] host86-130-199-240.range86-130.btcentralplus.com(86.130.199.240)  has connected. There are now 2 users.
+[03:35:08 PM]host86-130-199-240.range86-130.btcentralplus.com(86.130.199.240)  has quit. There are now 1 users.
+[03:36:42 PM] cpe-98-15-227-68.hvc.res.rr.com(98.15.227.68)  has connected. There are now 2 users.
+[03:37:21 PM]cpe-98-15-227-68.hvc.res.rr.com(98.15.227.68)  has quit. There are now 1 users.
+[03:43:44 PM] stjhnbsu0nw-142167255036.dhcp-dynamic.FibreOp.nb.bellaliant.net(142.167.255.36)  has connected. There are now 2 users.
+[03:43:49 PM]stjhnbsu0nw-142167255036.dhcp-dynamic.FibreOp.nb.bellaliant.net(142.167.255.36)  has quit. There are now 1 users.
+[03:46:08 PM] cpe-066-057-044-095.nc.res.rr.com(66.57.44.95)  has connected. There are now 2 users.
+[03:46:55 PM]cpe-066-057-044-095.nc.res.rr.com(66.57.44.95)  has quit. There are now 1 users.
+[04:01:10 PM] 78-131-79-132.pool.hdsnet.hu(78.131.79.132)  has connected. There are now 2 users.
+[04:03:32 PM]78-131-79-132.pool.hdsnet.hu(78.131.79.132)  has quit. There are now 1 users.
+[04:07:49 PM]Wireless_Broadband_Router(173.176.255.136)  has quit. There are now 0 users.

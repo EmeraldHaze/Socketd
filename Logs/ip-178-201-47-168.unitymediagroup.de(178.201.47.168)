@@ -1,0 +1,14 @@
+[04:01:28 PM]Log opened, IP:ip-178-201-47-168.unitymediagroup.de(178.201.47.168)
+*--- Failure #91 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #91 ---
+[04:01:28 PM]Ended with errors!
+
+[04:02:09 PM]Log Closed
+[04:02:35 PM]Log opened, IP:ip-178-201-47-168.unitymediagroup.de(178.201.47.168)
+*--- Failure #93 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #93 ---
+[04:02:35 PM]Ended with errors!
+
+[04:04:30 PM]Log Closed

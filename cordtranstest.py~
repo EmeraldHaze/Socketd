@@ -1,0 +1,19 @@
+def g(cord):
+    """The descriptions start at line 25, with A1. Then it goes B1, etc. Basicly interpret this is as a base-<map length> number, with the numebr the 'tens' and the letter the 'ones'. Ha. A1 should be 24+1+(1-1)*8 (on a 8x8 map), C4 will be 24+3+(4-1)*8, etc."""
+    line = 0
+    lttr = ord(cord[0]) - ord('A') + 1
+    num = int(cord[1])-1
+    base = 8
+    return line+lttr+num*base
+
+from string import ascii_uppercase
+lttrs = []
+for c in ascii_uppercase:
+    lttrs.append(c)
+
+lttrs = lttrs[:8]
+
+for num in range(1,  9):
+    for lttr in lttrs:
+        print 'Cords: ', lttr,  num
+        print g(lttr+str(num))
