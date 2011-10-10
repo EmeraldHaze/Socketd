@@ -1,31 +1,30 @@
 #!/usr/bin/python
 from Maps.TheMap import Main as map
-import sys
-sys.path.append('/home/glycan/Documents/Python/Converter')
-from prep import *
-#def p(s):
-#    print s
+import sys, prep
+sys.stdout = prep.stdout
+
 place = getattr(map, map.startt)
-debug = False
+newcords = map.startt
+debug = True
+
 def getdir(place):
       Dir = raw_input('Where do you want to go?  ').upper()
       if Dir not in place.dirlinks:
-            p('Please give a good direction')
+            print 'Please give a good direction'
             Dir = getdir(place)
       return Dir
-p(map.story)
+
+print map.story
+
 while True:
-    try:
-        if debug == True:
-            p(newcords)
-    except:
-        pass
+    if debug == True:
+        print newcords
 
     look = place.look+' Exits: '
     for Dir in place.dirlinks:
         look+=Dir+', '
         look = look[:-2]
-    p(look)
+    print look
     if place.end == True:
         break
     newdir = getdir(place)

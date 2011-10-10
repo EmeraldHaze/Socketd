@@ -1,0 +1,7 @@
+[01:01:11 PM]Log opened, IP:UnknownHost(1.1.1.1)
+*--- Failure #7 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #7 ---
+[01:01:11 PM]Ended with errors!
+
+[01:01:49 PM]Log Closed

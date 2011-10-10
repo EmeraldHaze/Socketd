@@ -1,6 +1,6 @@
 story = "Once upon a day, you were a-walking in a forest, when you accidentally stepped on some railroads, upon which you were driven, against your will, to a cave and thrown within. Good thing you have that handy light source in your pocket."
 l = 8
-startt = "B6"
+startt = "B7"
 from Maps.TheMap.Types import *
 class Place:
         def __init__(self, Type, dirlinks, cordlinks, **kwargs):
