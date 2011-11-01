@@ -8,6 +8,7 @@ class Wrap:
         self.f = f
 
     def write(self, data):
+        open("LOG", "a").write("WRITE CALLED\n")
         self.f.write(data)
         self.f.flush()
 

@@ -1,0 +1,18 @@
+[09:28:18 PM]Log opened, IP:UnkownHost(1.1.1.1)
+[09:28:18 PM]ERROR: Upon execvpe python -c 'print 'die!';import sys;f = open('TEST');while 1:f.write(sys.stdin.read(1));f.flush()) [] in environment id 155456212
+:Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 414, in _fork
+    executable, args, environment)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 460, in _execChild
+    os.execvpe(executable, args, environment)
+  File "/usr/lib/python2.7/os.py", line 353, in execvpe
+    _execvpe(file, args, env)
+  File "/usr/lib/python2.7/os.py", line 380, in _execvpe
+    func(fullname, *argrest)
+OSError: [Errno 2] No such file or directory
+*--- Failure #7 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #7 ---
+[09:28:18 PM]ended with errors!
+
+[09:29:53 PM]Log Closed

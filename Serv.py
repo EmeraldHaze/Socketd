@@ -11,8 +11,8 @@ from twisted.internet import reactor, protocol, error
 from time import strftime
 from socket import gethostbyaddr
 
-prg = "/I/M1/game/Maze.py"
-cwd = "/I/M1/game"
+prg = "/home/glycan/QFTSOM/main.py"
+cwd = "/home/glycan/QFTSOM/"
 port = 7000
 
 def log(f, msg, end = "\n"):
@@ -26,11 +26,14 @@ class PrgProto(protocol.ProcessProtocol):
     def __init__(self, out, dataDict):
         self.ip = dataDict['ip']
         #Out of the arguments that were passed from the client, take IP.
-        try:
-            hostname = gethostbyaddr(self.ip)[0]
-        except:
-            hostname = "UnkownHost"
-        self.name = hostname+'('+str(self.ip)+')'
+        if self.ip in names:
+            self.name = names[self.ip]
+        else:
+            try:
+                hostname = gethostbyaddr(self.ip)[0]
+            except:
+                hostname = "UnkownHost"
+            self.name = hostname+'('+str(self.ip)+')'
         self.out = out.transport
         #This is a pipe too the user
         self.log = open('Logs/'+self.name+'', 'a')
@@ -88,13 +91,14 @@ class PrgShell(protocol.Protocol):
             log(self.proc.log, 'Log Closed')
             self.proc.log.close()
             print strftime('[%r]'), self.proc.name, ' has quit. There are now', current_users, 'users.'
+            self.proc.stopped = True
+            self.proc.transport.signalProcess('KILL')
+            #This will kill the child so there aren't blocked proccess all over the place
+
 
         except AttributeError:
             #This will happen if the proc is not initilized
             print strftime('[%r]')+' Someone has quit without sending predata! [Users:', current_users, ']'
-        self.proc.stopped = True
-        self.proc.transport.signalProcess('KILL')
-        #This will kill the child so there aren't blocked proccess all over the place
 
     def dataReceived(self, data):
         if self.started:
@@ -128,6 +132,7 @@ def add(ip):
     json.dump(list(ipset), open('IPs.txt', 'w'))
 
 ipset = set(json.load(open('IPs.txt')))
+names = json.load(open("names.txt"))
 current_users = 0
 
 factory = protocol.ServerFactory()
