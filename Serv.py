@@ -5,69 +5,42 @@ A) makes an instance of a specified program
 B) logs some data
 C) acts as a interface between them, logging eavrything by hostname.
 """
-
-import json
+from twisted.protocols import basic
 from twisted.internet import reactor, protocol, error
-from time import strftime
 from socket import gethostbyaddr
+from collections import deque
+from time import strftime
+from sys import stdout
+import json
 
 prg ="/I/M1/tester.py"#"/home/glycan/QFTSOM/main.py"
 cwd = "/home/glycan/QFTSOM/"
 port = 7000
+users_needed = 2
+current_users = 0
+class Log:
+    def __init__(self, f):
+        self.f = f
+        self.lnbuff = deque([""])
 
-def log(f, msg, end = "\n"):
-    f.write(strftime('[%r]') + msg + end)
-    f.flush()
-
-class PrgProto(protocol.ProcessProtocol):
-    """
-    Process-side protocol
-    """
-    def __init__(self, out, dataDict):
-        self.ip = dataDict['ip']
-        #Out of the arguments that were passed from the client, take IP.
-        if self.ip in names:
-            self.name = names[self.ip]
-        else:
-            try:
-                hostname = gethostbyaddr(self.ip)[0]
-            except:
-                hostname = "UnkownHost"
-            self.name = hostname+'('+str(self.ip)+')'
-        self.out = out.transport
-        #This is a pipe too the user
-        self.log = open('Logs/'+self.name+'', 'a')
-        log(self.log, 'Log opened, IP:'+self.name)
-        self.stopped = False
-
-    def outReceived(self, data):
-        """
-        When you get something, log it, then send it.
-        """
-        log(self.log, 'Proc: '+ data, end = "")
-        self.out.write(data)
-
-    def errReceived(self, data):
-        """
-        Errors should be logged and outputed
-        """
-        log(self.log, "ERROR: ", data)
-        print("{}'s process has errored: {}".format(self.name, data))
-
-    def processEnded(self, reason):
-        if not self.stopped:
-            if reason.check(error.ProcessDone):
-                #Is it done?
-                quitmsg = 'ended cleanly (The user won)'
+    def write(self, msg):
+        for char in msg:
+            if char == "\n":
+                self.lnbuff.append("")
             else:
-                quitmsg = 'ended with errors!'
-                reason.printDetailedTraceback(self.log)
-                self.out.write('You seem to of have broken your game, you insensitive clod!')
+                self.lnbuff[-1] += char
+        while self.lnbuff:
+            line = self.lnbuff.popleft()
+            if line:
+                self.f.write(strftime("[%r]")+line+"\n")
+        self.f.flush()
+        self.lnbuff.append("")
 
-            log(self.log, quitmsg+'\n')
-            print strftime('[%r] ')+self.name+'\'s process has '+quitmsg
+    def close(self):
+        self.f.close()
 
-class PrgShell(protocol.Protocol):
+
+class User(protocol.Protocol):
     """
     This is a protocol describing what to do when someone connects to you
     """
@@ -77,46 +50,98 @@ class PrgShell(protocol.Protocol):
         """
         global current_users
         current_users += 1
-        self.started = False
+        self.running = False
         self.predata = ''
         #predata is the raw data recived before the start
-        self.dataDict = {}
-        #dataDict is the same, json-loaded
+        self.data_dict = {}
+        #data_dict is the same, json-loaded
 
     def connectionLost(self, reason):
+        """
+        Adjust things and kill assoscieted resources
+        """
         global current_users
-        current_users -= 1
-        try:
-            #This will work only if the proc(cess) is initilized
-            log(self.proc.log, 'Log Closed')
-            self.proc.log.close()
-            print strftime('[%r]'), self.proc.name, ' has quit. There are now', current_users, 'users.'
-            self.proc.stopped = True
-            self.proc.transport.signalProcess('KILL')
-            #This will kill the child so there aren't blocked proccess all over the place
-
-
-        except AttributeError:
-            #This will happen if the proc is not initilized
+        if self.running:
+            print strftime('[%r]'), self.name, ' has quit. There are now', current_users, 'users.'
+        else:
             print strftime('[%r]')+' Someone has quit without sending predata! [Users:', current_users, ']'
 
+        try:
+            self.prog.transport.signalProcess('KILL')
+        except error.ProcessExitedAlready or AttributeError or Exception:
+            pass
+
+        current_users -= 1
+        self.log.write('Log Closed')
+        self.log.close()
+        self.running = False
+
     def dataReceived(self, data):
-        if self.started:
-            log(self.proc.log, 'User: '+data)
-            self.proc.transport.writeToChild(0, data)
+        if self.running:
+            data = ' '.join(data.split())
+            self.log.write("User: "+data)
+            self.prog.transport.writeToChild(0, data + "\n")
             #0 is stdin
         else:
             self.predata+=data
             if self.predata[-1] == '}':
                 #If the predata is ended [it's a dict]
-                self.dataDict = json.loads(self.predata)
-                global reactor, current_users
-                self.proc = PrgProto(self, self.dataDict)
-                reactor.spawnProcess(self.proc, prg, [], path = cwd)
-                #Makes a proc for this user
-                add(self.proc.ip)
-                print strftime('[%r] ')+self.proc.name, ' has connected. There are now', current_users, 'users.'
-                self.started = True
+                self.data_dict = json.loads(self.predata)
+                try:
+                    self.name = names[self.data_dict['ip']]
+                except KeyError:
+                    self.name = self.data_dict['ip']
+
+                self.log = Log(open('Logs/'+self.name, 'a'))
+                self.log.write('Log opened')
+
+                add(self.data_dict['ip'])
+                print strftime('[%r] ')+self.name, ' has connected. There are now', current_users, 'users.'
+                users.append(self)
+                connect_users()
+
+
+class Prog(protocol.ProcessProtocol):#, basic.Int16StringReceiver):
+    """
+    Program/process-side protocol
+    """
+    def __init__(self, users):
+        self.user = users
+        self.sendto = None
+        self.charsleft = 0
+
+    def dataReceived(self, data):
+        """
+        A whole message is sent to the user specified by the first bit
+        """
+        print('DTRECV')
+        sendto = data[:1]
+        data = data[1:]
+        self.user.log.write(data)
+        self.user.transport.write(data)
+
+#    dataReceived = stringReceived
+
+    def errReceived(self, data):
+        """
+        Errors should be logged and outputed
+        """
+        self.user.log.write("ERROR: " + data)
+        print("{}'s process has errored: {}".format(self.user.name, data))
+
+    def processEnded(self, reason):
+        if self.user.running:
+            if reason.check(error.ProcessDone):
+                #Is it done?
+                quitmsg = 'ended cleanly'
+            else:
+                quitmsg = 'ended with errors!'
+                reason.printDetailedTraceback(self.user.log)
+                self.user.transport.write('You seem to of have broken your game, you insensitive clod!')
+
+            self.user.log.write(quitmsg)
+            print strftime('[%r] ')+self.user.name+'\'s process has '+quitmsg
+
 
 def add(ip):
     """
@@ -131,13 +156,24 @@ def add(ip):
     open('userstats.txt', 'w').write(" ".join((str(maxu), str(int(total)+1), str(unique))))
     json.dump(list(ipset), open('IPs.txt', 'w'))
 
+def connect_users():
+    #if len(users) >= users_needed:
+    if users:
+        user = users.pop()
+        prog = Prog(user)
+        user.prog = prog
+        reactor.spawnProcess(prog, prg, [], path = cwd)
+        user.running = True
+        print user.name, 'is running'#!~
+
 ipset = set(json.load(open('IPs.txt')))
-names = json.load(open("names.txt"))
-current_users = 0
+names = json.load(open("/I/M1/names.txt"))
+
+users = []
 
 factory = protocol.ServerFactory()
-factory.protocol = PrgShell
+factory.protocol = User
 reactor.listenTCP(port, factory)
 
-print 'Runing on ', port
+print 'Runing on ~~', port
 reactor.run()

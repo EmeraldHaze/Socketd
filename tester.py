@@ -4,7 +4,7 @@ from sys import stdout, stdin, stderr
 
 stdout.write("HELLO WORLD!\nQUERY:")
 stdout.flush()
-a = stdin.read("")
+a = stdin.readline()
 stdout.write("YOU SAID: "+a)
 stdout.flush()
 #~
