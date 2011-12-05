@@ -11,7 +11,7 @@ from twisted.internet import reactor, protocol, error
 from time import strftime
 from socket import gethostbyaddr
 
-prg = "/home/glycan/QFTSOM/main.py"
+prg ="/I/M1/tester.py"#"/home/glycan/QFTSOM/main.py"
 cwd = "/home/glycan/QFTSOM/"
 port = 7000
 

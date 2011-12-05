@@ -253,3 +253,101 @@ Python's headbut missed!
 4: kick
 5: kick
 Choice? [10:11:54 PM]User: 3
+[09:44:40 PM]Log opened, IP:Glycan
+[09:44:41 PM]Proc:   This is QFTSOM 0.2  
+ P You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)  
+[09:44:41 PM]Proc:   0: Left Fang, HP: 5  
+[09:44:41 PM]Proc:   1: Right Fang, HP: 5  
+  2: Torso, HP: 60  
+[09:44:41 PM]Proc:   3: Head, HP: 30  
+  4: Left Arm, HP: 30  
+[09:44:41 PM]Proc:   5: Right Arm, HP: 30  
+  6: Left Leg, HP: 30  
+[09:44:41 PM]Proc:   7: Right Leg, HP: 30  
+  Choice? [09:44:58 PM]User: !
+[09:45:17 PM]Log Closed
+[09:46:13 PM]Log opened, IP:Glycan
+[09:46:13 PM]Proc: This is QFTSOM 0.2
+You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[09:46:13 PM]Proc: 0: Left Fang, HP: 5[09:46:13 PM]Proc: 
+[09:46:13 PM]Proc: 1: Right Fang, HP: 5
+2: Torso, HP: 60
+3: Head, HP: 30
+4: Left Arm, HP: 30
+[09:46:13 PM]Proc: 5: Right Arm, HP: 30
+6: Left Leg, HP: 30
+7: Right Leg, HP: 30
+Choice? [09:47:32 PM]Log Closed
+[09:52:24 PM]Log opened, IP:Glycan
+[09:52:25 PM]Proc: This is QFTSOM 0.2
+You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[09:52:25 PM]Proc: 0: Left Fang, HP: 5
+[09:52:25 PM]Proc: 1: Right Fang, HP: 5
+2: Torso, HP: 60
+[09:52:25 PM]Proc: 3: Head, HP: 30
+4: Left Arm, HP: 30
+5: Right Arm, HP: 30
+[09:52:25 PM]Proc: 6: Left Leg, HP: 30
+7: Right Leg, HP: 30
+Choice? [09:52:27 PM]User: 0
+[09:55:35 PM]User: 6
+[09:59:55 PM]ERROR: >>> [09:59:55 PM]Log Closed
+[10:12:35 PM]Log opened, IP:Glycan
+[10:12:35 PM]ERROR: Upon execvpe tester.py [] in environment id 158606444
+:Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 414, in _fork
+    executable, args, environment)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 460, in _execChild
+    os.execvpe(executable, args, environment)
+  File "/usr/lib/python2.7/os.py", line 353, in execvpe
+    _execvpe(file, args, env)
+  File "/usr/lib/python2.7/os.py", line 380, in _execvpe
+    func(fullname, *argrest)
+OSError: [Errno 2] No such file or directory
+*--- Failure #7 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #7 ---
+[10:12:35 PM]ended with errors!
+
+[10:12:58 PM]Log Closed
+[01:42:23 PM]Log opened, IP:Glycan
+[01:42:23 PM]ERROR: Upon execvpe ./tester.py [] in environment id 150176876
+:Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 414, in _fork
+    executable, args, environment)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 460, in _execChild
+    os.execvpe(executable, args, environment)
+  File "/usr/lib/python2.7/os.py", line 353, in execvpe
+    _execvpe(file, args, env)
+  File "/usr/lib/python2.7/os.py", line 368, in _execvpe
+    func(file, *argrest)
+OSError: [Errno 2] No such file or directory
+*--- Failure #7 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #7 ---
+[01:42:23 PM]ended with errors!
+
+[01:42:25 PM]Log Closed
+[01:42:58 PM]Log opened, IP:Glycan
+[01:42:58 PM]Proc: HELLO WORLD!
+QUERY:[01:42:58 PM]ERROR: Traceback (most recent call last):
+  File "/I/M1/tester.py", line 7, in <module>
+    a = stdin.read("")
+TypeError: an integer is required
+*--- Failure #7 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #7 ---
+[01:42:58 PM]ended with errors!
+
+[01:42:59 PM]Log Closed
+[01:43:10 PM]Log opened, IP:Glycan
+[01:43:11 PM]Proc: HELLO WORLD!
+QUERY:[01:43:11 PM]ERROR: Traceback (most recent call last):
+[01:43:11 PM]ERROR:   File "/I/M1/tester.py", line 7, in <module>
+[01:43:11 PM]ERROR:     [01:43:11 PM]ERROR: a = stdin.read("")
+[01:43:11 PM]ERROR: TypeError[01:43:11 PM]ERROR: : [01:43:11 PM]ERROR: an integer is required[01:43:11 PM]ERROR: 
+*--- Failure #10 ---
+Failure: twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+*--- End of Failure #10 ---
+[01:43:11 PM]ended with errors!
+
