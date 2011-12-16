@@ -2,11 +2,14 @@
 from sys import stdout, stdin, stderr
 
 
-stdout.write("HELLO WORLD!\nQUERY:")
+stdout.write("Hello world\nQuery:")
 stdout.flush()
 a = stdin.readline()
-stdout.write("YOU SAID: "+a)
+stdout.write("You said: "+a)
 stdout.flush()
+f = open("logfile", 'w')
+f.write("The user said: "+a)
+f.close()
 #~
 #~ class Wrap:
     #~ def __init__(self, f):

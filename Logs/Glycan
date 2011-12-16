@@ -1,8 +1,307 @@
-[01:54:35 PM]Log opened
-[01:54:35 PM]ERROR: Traceback (most recent call last):
-[01:54:35 PM]  File "/I/M1/tester.py", line 7, in <module>
-[01:54:35 PM]    a = stdin.read("")
-[01:54:35 PM]TypeError: an integer is required
-[01:56:22 PM]Log opened
-[01:56:31 PM]User: a
-[01:56:31 PM]ended cleanly (The user won)
+[02:45:23 PM]Log opened
+[02:45:27 PM]User: a
+[02:45:27 PM]ERROR: Traceback (most recent call last):
+[02:45:27 PM]  File "/I/M1/tester.py", line 10, in <module>
+[02:45:27 PM]ERROR:     f = open("A FILE")
+[02:45:27 PM]IOError: [Errno 2] No such file or directory: 'A FILE'
+[02:45:27 PM]*--- Failure #9 ---
+[02:45:27 PM]Failure: 
+[02:45:27 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[02:45:27 PM]*--- End of Failure #9 ---
+[02:45:27 PM]ended with errors!
+[02:45:56 PM]Log Closed
+[02:46:00 PM]Log opened
+[02:46:59 PM]Log opened
+[02:47:03 PM]User: aa
+[02:47:03 PM]ended cleanly
+[02:47:14 PM]Log Closed
+[02:47:32 PM]User: z!!!
+[02:47:32 PM]ended cleanly
+[02:48:32 PM]Log opened
+[02:48:35 PM]User: ZZZZZZZZZZ
+[02:48:35 PM]ended cleanly
+[07:05:55 PM]Log opened
+[07:06:08 PM]User: foo
+[07:06:08 PM]ended cleanly
+[07:07:52 PM]Log Closed
+[07:21:39 PM]Log opened
+[07:38:09 PM]Log Closed
+[07:38:32 PM]Log opened
+[07:40:59 PM]Log opened
+[07:40:59 PM]ello world
+[07:40:59 PM]Query:
+[07:41:02 PM]User: a
+[07:41:02 PM]ou said: a
+[07:41:02 PM]ended cleanly
+[07:42:28 PM]Log opened
+[07:42:28 PM]his is QFTSOM 0.2
+[07:42:28 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[07:42:28 PM]: Left Fang, HP: 5
+[07:42:28 PM]: Right Fang, HP: 5
+[07:42:28 PM]: Torso, HP: 60
+[07:42:28 PM]3: Head, HP: 30
+[07:42:28 PM]: Left Arm, HP: 30
+[07:42:28 PM]5: Right Arm, HP: 30
+[07:42:28 PM]6: Left Leg, HP: 30
+[07:42:28 PM]: Right Leg, HP: 30
+[07:42:28 PM]Choice? 
+[07:42:58 PM]Log Closed
+[07:43:06 PM]Log opened
+[07:43:06 PM]This is QFTSOM 0.2
+[07:43:06 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[07:43:06 PM]0: Left Fang, HP: 5
+[07:43:06 PM]1: Right Fang, HP: 5
+[07:43:06 PM]2: Torso, HP: 60
+[07:43:06 PM]3: Head, HP: 30
+[07:43:06 PM]4: Left Arm, HP: 30
+[07:43:06 PM]5: Right Arm, HP: 30
+[07:43:06 PM]6: Left Leg, HP: 30
+[07:43:06 PM]7: Right Leg, HP: 30
+[07:43:06 PM]Choice? 
+[07:43:08 PM]User: 0
+[07:43:08 PM]0: Left kick
+[07:43:08 PM]1: Left punch
+[07:43:08 PM]2: Right kick
+[07:43:08 PM]3: Left bite
+[07:43:08 PM]4: Right bite
+[07:43:08 PM]5: Right punch
+[07:43:08 PM]Choice? 
+[04:26:03 PM]Log opened
+[04:26:04 PM]This is QFTSOM 0.2
+[04:26:04 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[04:26:04 PM]0: Left Fang, HP: 5
+[04:26:04 PM]1: Right Fang, HP: 5
+[04:26:04 PM]2: Torso, HP: 60
+[04:26:04 PM]3: Head, HP: 30
+[04:26:04 PM]4: Left Arm, HP: 30
+[04:26:04 PM]5: Right Arm, HP: 30
+[04:26:04 PM]6: Left Leg, HP: 30
+[04:26:04 PM]7: Right Leg, HP: 30
+[04:26:04 PM]Choice? 
+[04:28:19 PM]Log Closed
+[04:28:58 PM]Log opened
+[04:28:58 PM]This is QFTSOM 0.2
+[04:28:58 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
+[04:28:58 PM]0: Left Fang, HP: 5
+[04:28:58 PM]1: Right Fang, HP: 5
+[04:28:58 PM]2: Torso, HP: 60
+[04:28:58 PM]3: Head, HP: 30
+[04:28:58 PM]4: Left Arm, HP: 30
+[04:28:58 PM]5: Right Arm, HP: 30
+[04:28:58 PM]6: Left Leg, HP: 30
+[04:28:58 PM]7: Right Leg, HP: 30
+[04:28:58 PM]Choice? 
+[04:43:09 PM]Log Closed
+[04:43:11 PM]Log opened
+[04:43:11 PM]This is QFTSOM 0.2
+[04:43:11 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
+[04:43:11 PM]0: Left Fang, HP: 5
+[04:43:11 PM]1: Right Fang, HP: 5
+[04:43:11 PM]2: Torso, HP: 60
+[04:43:11 PM]3: Head, HP: 30
+[04:43:11 PM]4: Left Arm, HP: 30
+[04:43:11 PM]5: Right Arm, HP: 30
+[04:43:11 PM]6: Left Leg, HP: 30
+[04:43:11 PM]7: Right Leg, HP: 30
+[04:43:11 PM]Choice? 
+[04:45:38 PM]Log Closed
+[04:45:41 PM]Log opened
+[04:45:42 PM]This is QFTSOM 0.2
+[04:45:42 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
+[04:45:42 PM]0: Left Fang, HP: 5
+[04:45:42 PM]1: Right Fang, HP: 5
+[04:45:42 PM]2: Torso, HP: 60
+[04:45:42 PM]3: Head, HP: 30
+[04:45:42 PM]4: Left Arm, HP: 30
+[04:45:42 PM]5: Right Arm, HP: 30
+[04:45:42 PM]6: Left Leg, HP: 30
+[04:45:42 PM]7: Right Leg, HP: 30
+[04:45:42 PM]Choice? 
+[04:46:47 PM]Log opened
+[04:46:47 PM]This is QFTSOM 0.2
+[04:46:47 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
+[04:46:47 PM]0: Left Fang, HP: 5
+[04:46:47 PM]1: Right Fang, HP: 5
+[04:46:47 PM]2: Torso, HP: 60
+[04:46:47 PM]3: Head, HP: 30
+[04:46:47 PM]4: Left Arm, HP: 30
+[04:46:47 PM]5: Right Arm, HP: 30
+[04:46:47 PM]6: Left Leg, HP: 30
+[04:46:47 PM]7: Right Leg, HP: 30
+[04:46:47 PM]Choice? 
+[04:47:03 PM]Log Closed
+[04:48:35 PM]Log opened
+[04:48:35 PM]This is QFTSOM 0.2
+[04:48:35 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
+[04:48:35 PM]0: Left Fang, HP: 5
+[04:48:35 PM]1: Right Fang, HP: 5
+[04:48:35 PM]2: Torso, HP: 60
+[04:48:35 PM]3: Head, HP: 30
+[04:48:35 PM]4: Left Arm, HP: 30
+[04:48:35 PM]5: Right Arm, HP: 30
+[04:48:35 PM]6: Left Leg, HP: 30
+[04:48:35 PM]7: Right Leg, HP: 30
+[04:48:35 PM]Choice? 
+[04:48:38 PM]User: 2
+[04:48:38 PM]0: Left kick
+[04:48:38 PM]1: Left punch
+[04:48:38 PM]2: Right kick
+[04:48:38 PM]3: Left bite
+[04:48:38 PM]4: Right bite
+[04:48:38 PM]5: Right punch
+[04:48:38 PM]Choice? 
+[04:48:44 PM]Log Closed
+[04:49:36 PM]Log Closed
+[04:49:59 PM]Log opened
+[04:49:59 PM]This is QFTSOM 0.2
+[04:49:59 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
+[04:49:59 PM]0: Left Fang, HP: 5
+[04:49:59 PM]1: Right Fang, HP: 5
+[04:49:59 PM]2: Torso, HP: 60
+[04:49:59 PM]3: Head, HP: 30
+[04:49:59 PM]4: Left Arm, HP: 30
+[04:49:59 PM]5: Right Arm, HP: 30
+[04:49:59 PM]6: Left Leg, HP: 30
+[04:49:59 PM]7: Right Leg, HP: 30
+[04:49:59 PM]Choice? 
+[04:50:03 PM]User: 0
+[04:50:03 PM]0: Left kick
+[04:50:03 PM]1: Left punch
+[04:50:03 PM]2: Right kick
+[04:50:03 PM]3: Left bite
+[04:50:03 PM]4: Right bite
+[04:50:03 PM]5: Right punch
+[04:50:03 PM]Choice? 
+[04:50:05 PM]User: 0
+[04:50:05 PM]Player has kick'd  
+[04:50:05 PM]Left Fang!
+[04:50:05 PM]Player's kick has 4.0 speed
+[04:50:05 PM]Huminoid Taco's Left Fang took 20 DMG, it now has -15
+[04:50:05 PM]Huminoid Taco has lost his Left Fang!
+[04:50:05 PM]Huminoid Taco has punch'd  Right Arm!
+[04:50:05 PM]Huminoid Taco's punch has 5.0 speed
+[04:50:05 PM]Player's Right Arm took 15 DMG, it now has 15
+[04:50:05 PM]0: Right Fang, HP: 5
+[04:50:05 PM]1: Torso, HP: 60
+[04:50:05 PM]2: Head, HP: 30
+[04:50:05 PM]3: Left Arm, HP: 30
+[04:50:05 PM]4: Right Arm, HP: 30
+[04:50:05 PM]5: Left Leg, HP: 30
+[04:50:05 PM]6: Right Leg, HP: 30
+[04:50:05 PM]Choice? 
+[04:59:27 PM]Log Closed
+[04:59:36 PM]Log opened
+[04:59:36 PM]This is QFTSOM 0.2
+[04:59:36 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:59:36 PM]0: Left Fang, HP: 5
+[04:59:36 PM]1: Right Fang, HP: 5
+[04:59:36 PM]2: Torso, HP: 60
+[04:59:36 PM]3: Head, HP: 30
+[04:59:36 PM]4: Left Arm, HP: 30
+[04:59:36 PM]5: Right Arm, HP: 30
+[04:59:36 PM]6: Left Leg, HP: 30
+[04:59:36 PM]7: Right Leg, HP: 30
+[04:59:36 PM]Choice? 
+[04:59:41 PM]User: 0
+[04:59:41 PM]0: Left kick
+[04:59:41 PM]1: Left punch
+[04:59:41 PM]2: Right kick
+[04:59:41 PM]3: Left bite
+[04:59:41 PM]4: Right bite
+[04:59:41 PM]5: Right punch
+[04:59:41 PM]Choice? 
+[04:59:45 PM]User: 2
+[04:59:45 PM]Player has kick'd 
+[04:59:45 PM] Left Fang!
+[04:59:45 PM]Player's kick has 4.0 speed
+[04:59:45 PM]Player's kick missed!
+[04:59:45 PM]Huminoid Taco has punch'd  Left Fang!
+[04:59:45 PM]Huminoid Taco's punch has 5.0 speed
+[04:59:45 PM]Player's Left Fang took 15 DMG, it now has -10
+[04:59:45 PM]Player has lost his Left Fang!
+[04:59:45 PM]0: Left Fang, HP: 5
+[04:59:45 PM]1: Right Fang, HP: 5
+[04:59:45 PM]2: Torso, HP: 60
+[04:59:45 PM]3: Head, HP: 30
+[04:59:45 PM]4: Left Arm, HP: 30
+[04:59:45 PM]5: Right Arm, HP: 30
+[04:59:45 PM]6: Left Leg, HP: 30
+[04:59:45 PM]7: Right Leg, HP: 30
+[04:59:45 PM]Choice? 
+[05:00:20 PM]User: 3
+[05:00:20 PM]0: Left kick
+[05:00:20 PM]1: Right kick
+[05:00:20 PM]2: Left punch
+[05:00:20 PM]3: Right punch
+[05:00:20 PM]Choice? 
+[05:00:23 PM]User: 0
+[05:00:23 PM]Player has kick'd  
+[05:00:23 PM]Head!
+[05:00:23 PM]Player's kick has 4.0 speed
+[05:00:23 PM]Huminoid Taco's Head took 20 DMG, it now has 10
+[05:00:23 PM]Huminoid Taco has kick'd  Torso!
+[05:00:23 PM]Huminoid Taco's kick has 5.0 speed
+[05:00:23 PM]Player's Torso took 20 DMG, it now has 40
+[05:00:23 PM]0: Left Fang, HP: 5
+[05:00:23 PM]1: Right Fang, HP: 5
+[05:00:23 PM]2: Torso, HP: 60
+[05:00:23 PM]3: Head, HP: 10
+[05:00:23 PM]4: Left Arm, HP: 30
+[05:00:23 PM]5: Right Arm, HP: 30
+[05:00:23 PM]6: Left Leg, HP: 30
+[05:00:23 PM]7: Right Leg, HP: 30
+[05:00:23 PM]Choice? 
+[05:00:31 PM]User: 3
+[05:00:31 PM]0: Left kick
+[05:00:31 PM]1: Right kick
+[05:00:31 PM]2: Left punch
+[05:00:31 PM]3: Right punch
+[05:00:31 PM]Choice? 
+[05:00:33 PM]User: 0
+[05:00:33 PM]Player has kick'd 
+[05:00:33 PM] Head!
+[05:00:33 PM]Player's kick has 4.0 speed
+[05:00:33 PM]Huminoid Taco's Head took 20 DMG, it now has -10
+[05:00:33 PM]Huminoid Taco has lost his Head!
+[05:00:33 PM]Huminoid Taco has lost his Left Fang!
+[05:00:33 PM]Huminoid Taco has lost his Right Fang!
+[05:00:33 PM]Huminoid Taco died!
+[05:00:33 PM]Huminoid Taco  exited. Players: 1
+[05:00:33 PM]Player has attained insanity!
+[05:00:33 PM]Player  exited. Players: 0
+[05:00:33 PM]You must go on to fight wierder stuff!
+[05:00:33 PM]0: Advance!
+[05:00:33 PM]Where do you want to go?  
+[05:00:35 PM]User: 0
+[05:00:35 PM]Python has whip'd 
+[05:00:35 PM] Left Leg!
+[05:00:35 PM]Python's whip has 4 speed
+[05:00:35 PM]0: Fang, HP: 5
+[05:00:35 PM]1: Head, HP: 30
+[05:00:35 PM]2: Tail, HP: 40
+[05:00:35 PM]Choice? 
+[06:01:02 PM]Log Closed
+[09:59:34 PM]Log opened
+[09:59:35 PM]This is QFTSOM 0.2
+[09:59:35 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[09:59:35 PM]0: Left Fang, HP: 5
+[09:59:35 PM]1: Right Fang, HP: 5
+[09:59:35 PM]2: Torso, HP: 60
+[09:59:35 PM]3: Head, HP: 30
+[09:59:35 PM]4: Left Arm, HP: 30
+[09:59:35 PM]5: Right Arm, HP: 30
+[09:59:35 PM]6: Left Leg, HP: 30
+[09:59:35 PM]7: Right Leg, HP: 30
+[09:59:35 PM]Choice? 
+[09:59:37 PM]User: 9
+[09:59:37 PM]Bad choice! Bad!
+[09:59:37 PM]Choice? 
+[09:59:39 PM]User: 0
+[09:59:39 PM]0: Left kick
+[09:59:39 PM]1: Left punch
+[09:59:39 PM]2: Right kick
+[09:59:39 PM]3: Left bite
+[09:59:39 PM]4: Right bite
+[09:59:39 PM]5: Right punch
+[09:59:39 PM]Choice? 
+[09:59:52 PM]Log Closed

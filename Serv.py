@@ -13,28 +13,27 @@ from time import strftime
 from sys import stdout
 import json
 
-prg ="/I/M1/tester.py"#"/home/glycan/QFTSOM/main.py"
+prg ="/home/glycan/QFTSOM/main.py"#"/home/glycan/QFTSOM/main.py"
 cwd = "/home/glycan/QFTSOM/"
 port = 7000
 users_needed = 2
 current_users = 0
+
 class Log:
     def __init__(self, f):
         self.f = f
-        self.lnbuff = deque([""])
+        self.lnbuff = ""
 
     def write(self, msg):
+        msg += "\n"
         for char in msg:
             if char == "\n":
-                self.lnbuff.append("")
+                if self.lnbuff:
+                    self.f.write(strftime("[%r]") + self.lnbuff + "\n")
+                    self.lnbuff = ""
             else:
-                self.lnbuff[-1] += char
-        while self.lnbuff:
-            line = self.lnbuff.popleft()
-            if line:
-                self.f.write(strftime("[%r]")+line+"\n")
+                self.lnbuff += char
         self.f.flush()
-        self.lnbuff.append("")
 
     def close(self):
         self.f.close()
@@ -110,13 +109,18 @@ class Prog(protocol.ProcessProtocol):#, basic.Int16StringReceiver):
         self.sendto = None
         self.charsleft = 0
 
+    def childDataReceived(self, fd, data):
+        if fd == 1:
+            self.dataReceived(data)
+        elif fd == 2:
+            self.errReceived(data)
+
     def dataReceived(self, data):
         """
         A whole message is sent to the user specified by the first bit
         """
-        print('DTRECV')
-        sendto = data[:1]
-        data = data[1:]
+        #sendto = data[:1]
+        #data = data[1:]
         self.user.log.write(data)
         self.user.transport.write(data)
 
@@ -147,13 +151,13 @@ def add(ip):
     """
     This is the sequance for keeping userstats.txt and iptable.txt accurate when adding a player
     """
-    stats = open("userstats.txt").read().split()
+    stats = open("userstats").read().split()
     global ipset
     ipset.add(ip)
     unique = len(ipset)
     maxu = max(int(stats[0]), current_users)
     total = str(int(stats[1])+1)
-    open('userstats.txt', 'w').write(" ".join((str(maxu), str(int(total)+1), str(unique))))
+    open('userstats', 'w').write(" ".join((str(maxu), str(int(total)+1), str(unique))))
     json.dump(list(ipset), open('IPs.txt', 'w'))
 
 def connect_users():
@@ -164,10 +168,9 @@ def connect_users():
         user.prog = prog
         reactor.spawnProcess(prog, prg, [], path = cwd)
         user.running = True
-        print user.name, 'is running'#!~
 
-ipset = set(json.load(open('IPs.txt')))
-names = json.load(open("/I/M1/names.txt"))
+ipset = set(json.load(open('IPs')))
+names = json.load(open("names"))
 
 users = []
 
@@ -175,5 +178,5 @@ factory = protocol.ServerFactory()
 factory.protocol = User
 reactor.listenTCP(port, factory)
 
-print 'Runing on ~~', port
+print 'Runing on ', port
 reactor.run()
