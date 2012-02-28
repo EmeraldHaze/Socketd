@@ -1,0 +1,107 @@
+[04:09:40 PM]Log opened
+[04:09:40 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:09:40 PM]knife
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]knife
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]Axe
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]Helm
+[04:09:40 PM] 
+[04:09:40 PM]Head
+[04:09:40 PM]E: Belong can not be equiped to this limb
+[04:09:40 PM]Axe
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]Helm
+[04:09:40 PM] 
+[04:09:40 PM]Head
+[04:09:40 PM]E: Belong can not be equiped to this limb
+[04:09:40 PM]knife
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]bomb
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]shoes
+[04:09:40 PM] 
+[04:09:40 PM]Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]Staff Arm
+[04:09:40 PM]E: No such limb
+[04:09:40 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:09:40 PM]1: Game #1
+[04:09:40 PM]2: Game #2
+[04:09:40 PM]3: Game #3
+[04:09:40 PM]4: Change Defaults
+[04:09:40 PM]5: Custom Game
+[04:09:40 PM]6: Ideas
+[04:09:40 PM]Where do you want to go?  
+[04:09:54 PM]User: 1
+[04:09:54 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:09:54 PM]0: Left Fang, HP: 5
+[04:09:54 PM]1: Right Fang, HP: 5
+[04:09:54 PM]2: Torso, HP: 60
+[04:09:54 PM]3: Head, HP: 20
+[04:09:54 PM]4: Left Arm, HP: 30
+[04:09:54 PM]5: Right Arm, HP: 30
+[04:09:54 PM]6: Left Leg, HP: 30
+[04:09:54 PM]7: Right Leg, HP: 30
+[04:09:54 PM]Choice? 
+[04:09:58 PM]User: 1
+[04:09:58 PM]0: Left kick
+[04:09:58 PM]1: Left punch
+[04:09:58 PM]2: Right kick
+[04:09:58 PM]3: Left bite
+[04:09:58 PM]4: Right bite
+[04:09:58 PM]5: Right punch
+[04:09:58 PM]Choice? 
+[04:10:01 PM]User: 0
+[04:10:01 PM]Player has kick'd Right Fang!
+[04:10:01 PM]Player's kick has 3.0 speed
+[04:10:01 PM]Huminoid Taco's Right Fang took 20 DMG, it now has -15
+[04:10:01 PM]Huminoid Taco has lost his Right Fang!
+[04:10:01 PM]Huminoid Taco has kick'd Left Arm!
+[04:10:01 PM]Huminoid Taco's kick has 4.0 speed
+[04:10:01 PM]Player's Left Arm took 20 DMG, it now has 10
+[04:10:01 PM]0: Left Fang, HP: 5
+[04:10:01 PM]1: Torso, HP: 60
+[04:10:01 PM]2: Head, HP: 20
+[04:10:01 PM]3: Left Arm, HP: 30
+[04:10:01 PM]4: Right Arm, HP: 30
+[04:10:01 PM]5: Left Leg, HP: 30
+[04:10:01 PM]6: Right Leg, HP: 30
+[04:10:01 PM]Choice? 
+[04:10:05 PM]User: 0
+[04:10:05 PM]0: Left kick
+[04:10:05 PM]1: Left punch
+[04:10:05 PM]2: Right kick
+[04:10:05 PM]3: Left bite
+[04:10:05 PM]4: Right bite
+[04:10:05 PM]5: Right punch
+[04:10:05 PM]Choice? 
+[04:10:07 PM]User: 2
+[04:10:07 PM]Player has kick'd Left Fang!
+[04:10:07 PM]Player's kick has 3.0 speed
+[04:10:07 PM]Player's kick missed!
+[04:10:07 PM]Huminoid Taco has punch'd Left Leg!
+[04:10:07 PM]Huminoid Taco's punch has 4.0 speed
+[04:10:07 PM]Player's Left Leg took 15 DMG, it now has 15
+[04:10:07 PM]0: Left Fang, HP: 5
+[04:10:07 PM]1: Torso, HP: 60
+[04:10:07 PM]2: Head, HP: 20
+[04:10:07 PM]3: Left Arm, HP: 30
+[04:10:07 PM]4: Right Arm, HP: 30
+[04:10:07 PM]5: Left Leg, HP: 30
+[04:10:07 PM]6: Right Leg, HP: 30
+[04:10:07 PM]Choice? 
+[04:10:11 PM]Log Closed

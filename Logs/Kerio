@@ -1,0 +1,113 @@
+[01:38:13 PM]Log opened
+[01:38:13 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[01:38:13 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[01:38:13 PM]1: Game #1
+[01:38:13 PM]2: Game #2
+[01:38:13 PM]3: Game #3
+[01:38:13 PM]4: Change Defaults
+[01:38:14 PM]5: Custom Game
+[01:38:14 PM]6: Ideas
+[01:38:14 PM]Where do you want to go?  
+[01:38:18 PM]User: 1
+[01:38:18 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[01:38:18 PM]0: Player, HP: 6
+[01:38:18 PM]1: OtherMan, HP: 4
+[01:38:18 PM]2: Oddball, HP: 5
+[01:38:18 PM]3: Man, HP: 5
+[01:38:18 PM]4: Staffo, HP: 5
+[01:38:18 PM]Target? 
+[01:38:33 PM]User: 0
+[01:38:33 PM]Player has poke'd Player!
+[01:38:33 PM]Player has lost 1 health!
+[01:38:33 PM]OtherMan has poke'd Player!
+[01:38:33 PM]Player has lost 1 health!
+[01:38:33 PM]Oddball has poke'd Man!
+[01:38:33 PM]Man has lost 1 health!
+[01:38:33 PM]Man has poke'd Player!
+[01:38:33 PM]Player has lost 1 health!
+[01:38:33 PM]Staffo
+[01:38:33 PM] 
+[01:38:33 PM]has
+[01:38:33 PM] 
+[01:38:33 PM]hit'd Player!
+[01:38:33 PM]Player has lost 2 health!
+[01:38:33 PM]0: Player, HP: 1
+[01:38:33 PM]1: OtherMan, HP: 4
+[01:38:33 PM]2: Oddball, HP: 5
+[01:38:33 PM]3: Man, HP: 4
+[01:38:33 PM]4: Staffo, HP: 5
+[01:38:33 PM]Target? 
+[01:38:35 PM]User: 0
+[01:38:35 PM]Player has poke'd Player!
+[01:38:35 PM]Player has lost 1 health!
+[01:38:35 PM]Player is woefully unlifelike!
+[01:38:35 PM]Player exited. Players: 4
+[01:38:35 PM]OtherMan has poke'd Man!
+[01:38:35 PM]Man has lost 1 health!
+[01:38:35 PM]Oddball has poke'd Staffo!
+[01:38:35 PM]Staffo has lost 1 health!
+[01:38:35 PM]Man has poke'd OtherMan!
+[01:38:35 PM]OtherMan has lost 1 health!
+[01:38:35 PM]Staffo has hit'd OtherMan!
+[01:38:35 PM]OtherMan has lost 2 health!
+[01:38:35 PM]OtherMan has poke'd Man!
+[01:38:35 PM]Man has lost 1 health!
+[01:38:35 PM]Oddball has poke'd Staffo!
+[01:38:35 PM]Staffo has lost 1 health!
+[01:38:35 PM]Man has poke'd OtherMan!
+[01:38:35 PM]OtherMan has lost 1 health!
+[01:38:35 PM]OtherMan is woefully unlifelike!
+[01:38:35 PM]OtherMan exited. Players: 3
+[01:38:35 PM]Staffo has hit'd Man!
+[01:38:35 PM]Man has lost 2 health!
+[01:38:35 PM]Man is woefully unlifelike!
+[01:38:35 PM]Man exited. Players: 2
+[01:38:35 PM]Oddball has poke'd Staffo!
+[01:38:35 PM]Staffo has lost 1 health!
+[01:38:35 PM]Staffo has hit'd Oddball!
+[01:38:35 PM]Oddball has lost 2 health!
+[01:38:35 PM]Oddball has poke'd Staffo!
+[01:38:35 PM]Staffo has lost 1 health!
+[01:38:35 PM]Staffo has hit'd Oddball!
+[01:38:35 PM]Oddball has lost 2 health!
+[01:38:35 PM]Oddball
+[01:38:35 PM] 
+[01:38:35 PM]has
+[01:38:35 PM] 
+[01:38:35 PM]poke'd
+[01:38:35 PM] 
+[01:38:35 PM]Staffo!
+[01:38:35 PM]Staffo
+[01:38:35 PM] 
+[01:38:35 PM]has lost
+[01:38:35 PM] 
+[01:38:35 PM]1
+[01:38:35 PM] 
+[01:38:35 PM]health!
+[01:38:35 PM]Staffo
+[01:38:35 PM] 
+[01:38:35 PM]is woefully unlifelike!
+[01:38:35 PM]Staffo exited. Players: 1
+[01:38:35 PM]Oddball has vanquished his foes!
+[01:38:35 PM]Oddball exited. Players: 0
+[01:38:35 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[01:38:35 PM]1: Game #1
+[01:38:35 PM]2: Game #2
+[01:38:35 PM]3: Game #3
+[01:38:35 PM]4: Change Defaults
+[01:38:35 PM]5: Custom Game
+[01:38:35 PM]6: Ideas
+[01:38:35 PM]Where do you want to go?  
+[01:38:38 PM]User: q
+[01:38:38 PM]Bad answer! User a number in range
+[01:38:38 PM]Where do you want to go?  
+[01:38:39 PM]User: quit
+[01:38:39 PM]Bad answer! User a number in range
+[01:38:39 PM]Where do you want to go?  
+[01:38:40 PM]User: exit
+[01:38:40 PM]Bad answer! User a number in range
+[01:38:40 PM]Where do you want to go?  
+[01:38:42 PM]User: fuck you
+[01:38:42 PM]Bad answer! User a number in range
+[01:38:42 PM]Where do you want to go?  
+[01:38:42 PM]Log Closed

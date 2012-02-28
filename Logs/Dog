@@ -1,0 +1,32 @@
+[09:34:31 PM]Log opened
+[09:34:31 PM].
+[09:34:31 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[09:34:31 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[09:34:31 PM]1: Game #1
+[09:34:31 PM]2: Game #2
+[09:34:31 PM]3: Game #3
+[09:34:31 PM]4: Change Defaults
+[09:34:31 PM]5: Custom Game
+[09:34:31 PM]6: Ideas
+[09:34:31 PM]Where do you want to go?  Bad answer! User a number in range
+[09:34:31 PM]Where do you want to go?  
+[09:34:45 PM]User: 1
+[09:34:45 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, whilst the puissant Staffo hits twice as hard as you stick-possesing fools.
+[09:34:45 PM]ERROR: Traceback (most recent call last):
+[09:34:45 PM]  File "/home/glycan/QFTSOM/main.py", line 45, in <module>
+[09:34:45 PM]    print(game.nodemap.travel())
+[09:34:45 PM]  File "/home/glycan/QFTSOM/api/net.py", line 54, in travel
+[09:34:45 PM]    nodename = node.travel()
+[09:34:45 PM]  File "/home/glycan/QFTSOM/api/net.py", line 48, in travel
+[09:34:45 PM]    result = do(args)
+[09:34:45 PM]  File "/home/glycan/QFTSOM/core/does.py", line 27, in battle
+[09:34:45 PM]    b = core.Battle(*args)
+[09:34:45 PM]  File "/home/glycan/QFTSOM/core/does.py", line 39, in _parsearg
+[09:34:45 PM]    base = default.copy()
+[09:34:45 PM]AttributeError: 'function' object has no attribute 'copy'
+[09:34:45 PM]*--- Failure #22 ---
+[09:34:45 PM]Failure: 
+[09:34:45 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:34:45 PM]*--- End of Failure #22 ---
+[09:34:45 PM]ended with errors!
+[09:35:56 PM]Log Closed

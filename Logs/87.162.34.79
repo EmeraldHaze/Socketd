@@ -1,0 +1,22 @@
+[05:32:50 AM]Log opened
+[05:32:51 AM]This is QFTSOM 0.2
+[05:32:51 AM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[05:32:51 AM]0: Game #1
+[05:32:51 AM]1: Change Defaults
+[05:32:51 AM]2: Custom Game
+[05:32:51 AM]3: Ideas
+[05:32:51 AM]Where do you want to go?  
+[05:33:12 AM]User: 3
+[05:33:12 AM]ERROR: Traceback (most recent call last):
+[05:33:12 AM]  File "/home/glycan/QFTSOM/main.py", line 30, in <module>
+[05:33:12 AM]    print(game.nodemap.travel())
+[05:33:12 AM]  File "/home/glycan/QFTSOM/api/net.py", line 56, in travel
+[05:33:12 AM]    nodename = node.names[op]
+[05:33:12 AM]IndexError: list index out of range
+[05:33:12 AM]*--- Failure #53 ---
+[05:33:12 AM]Failure: 
+[05:33:12 AM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[05:33:12 AM]*--- End of Failure #53 ---
+[05:33:12 AM]ended with errors!
+[05:33:19 AM]User: 2
+[05:33:19 AM]Log Closed

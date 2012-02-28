@@ -1,0 +1,566 @@
+[04:30:38 PM]Log opened
+[04:30:38 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:30:38 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:30:38 PM]0: Game #1
+[04:30:38 PM]1: Game #2
+[04:30:38 PM]2: Change Defaults
+[04:30:38 PM]3: Custom Game
+[04:30:38 PM]4: Ideas
+[04:30:38 PM]Where do you want to go?  
+[04:30:45 PM]User: n
+[04:30:45 PM]Bad answer! User a number in range
+[04:30:45 PM]Where do you want to go?  
+[04:30:52 PM]User: 0
+[04:30:52 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:30:52 PM]0: Left Fang, HP: 5
+[04:30:52 PM]1: Right Fang, HP: 5
+[04:30:52 PM]2: Torso, HP: 60
+[04:30:52 PM]3: Head, HP: 20
+[04:30:52 PM]4: Left Arm, HP: 30
+[04:30:52 PM]5: Right Arm, HP: 30
+[04:30:52 PM]6: Left Leg, HP: 30
+[04:30:52 PM]7: Right Leg, HP: 30
+[04:30:52 PM]Choice? 
+[04:31:01 PM]User: 3
+[04:31:01 PM]0: Left kick
+[04:31:01 PM]1: Left punch
+[04:31:01 PM]2: Right kick
+[04:31:01 PM]3: Left bite
+[04:31:01 PM]4: Right bite
+[04:31:01 PM]5: Right punch
+[04:31:01 PM]Choice? 
+[04:31:08 PM]User: 4
+[04:31:08 PM]Player has bite'd Head!
+[04:31:08 PM]Player's bite has 3.0 speed
+[04:31:08 PM]Player's bite missed!
+[04:31:08 PM]Huminoid Taco has bite'd Head!
+[04:31:08 PM]Huminoid Taco's bite has 4.0 speed
+[04:31:08 PM]Player's Head took 5 DMG, it now has 15
+[04:31:08 PM]Player's Head has been poisoned for 10
+[04:31:08 PM]Player's Head took 10 DMG from poison, it now has 5
+[04:31:08 PM]Player's Head took 9 DMG from poison, it now has -4
+[04:31:08 PM]Player has lost his Head!
+[04:31:08 PM]Player has lost his Left Fang!
+[04:31:08 PM]Player died!
+[04:31:08 PM]Player exited. Players: 1
+[04:31:08 PM]Huminoid Taco has vanquished his foes!
+[04:31:08 PM]Huminoid Taco exited. Players: 0
+[04:31:08 PM]You must go on to fight wierder stuff!
+[04:31:08 PM]0: Advance!
+[04:31:08 PM]Where do you want to go?  
+[06:57:03 PM]Log Closed
+[04:30:12 PM]Log opened
+[04:30:12 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:30:12 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:30:12 PM]1: Game #1
+[04:30:12 PM]2: Game #2
+[04:30:12 PM]3: Game #3
+[04:30:12 PM]4: Change Defaults
+[04:30:12 PM]5: Custom Game
+[04:30:12 PM]6: Ideas
+[04:30:12 PM]Where do you want to go?  
+[04:30:12 PM]Bad answer! User a number in range
+[04:30:12 PM]Where do you want to go?  
+[04:30:17 PM]User: 1
+[04:30:17 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[04:30:17 PM]0: Player, HP: 6
+[04:30:17 PM]1: OtherMan, HP: 4
+[04:30:17 PM]2: Oddball, HP: 5
+[04:30:17 PM]3: Man, HP: 5
+[04:30:17 PM]4: Staffo, HP: 5
+[04:30:17 PM]Target? 
+[04:30:43 PM]User: 2
+[04:30:43 PM]Player has poke'd Oddball!
+[04:30:43 PM]Oddball has lost 1 health!
+[04:30:43 PM]OtherMan has poke'd Oddball!
+[04:30:43 PM]Oddball has lost 1 health!
+[04:30:43 PM]Oddball has poke'd Player!
+[04:30:43 PM]Player has lost 1 health!
+[04:30:43 PM]Man has poke'd Oddball!
+[04:30:43 PM]Oddball has lost 1 health!
+[04:30:43 PM]Staffo has hit'd Oddball!
+[04:30:43 PM]Oddball has lost 2 health!
+[04:30:43 PM]Oddball is woefully unlifelike!
+[04:30:43 PM]Oddball exited. Players: 4
+[04:30:43 PM]0: Player, HP: 5
+[04:30:43 PM]1: OtherMan, HP: 4
+[04:30:43 PM]2: Man, HP: 5
+[04:30:43 PM]3: Staffo, HP: 5
+[04:30:43 PM]Target? 
+[04:31:11 PM]User: 1
+[04:31:11 PM]Player has poke'd OtherMan!
+[04:31:11 PM]OtherMan has lost 1 health!
+[04:31:11 PM]OtherMan has poke'd Player!
+[04:31:11 PM]Player has lost 1 health!
+[04:31:11 PM]Man has poke'd OtherMan!
+[04:31:11 PM]OtherMan has lost 1 health!
+[04:31:11 PM]Staffo has hit'd OtherMan!
+[04:31:11 PM]OtherMan has lost 2 health!
+[04:31:11 PM]OtherMan is woefully unlifelike!
+[04:31:11 PM]OtherMan exited. Players: 3
+[04:31:11 PM]0: Player, HP: 4
+[04:31:11 PM]1: Man, HP: 5
+[04:31:11 PM]2: Staffo, HP: 5
+[04:31:11 PM]Target? 
+[04:31:18 PM]User: 3
+[04:31:18 PM]Bad choice! Bad!
+[04:31:18 PM]Target? 
+[04:31:20 PM]User: 2
+[04:31:20 PM]Player has poke'd Staffo!
+[04:31:20 PM]Staffo has lost 1 health!
+[04:31:20 PM]Man has poke'd Player!
+[04:31:20 PM]Player has lost 1 health!
+[04:31:20 PM]Staffo has hit'd Player!
+[04:31:20 PM]Player has lost 2 health!
+[04:31:20 PM]0: Player, HP: 1
+[04:31:20 PM]1: Man, HP: 5
+[04:31:20 PM]2: Staffo, HP: 4
+[04:31:20 PM]Target? 
+[04:31:24 PM]User: 2
+[04:31:24 PM]Player has poke'd Staffo!
+[04:31:24 PM]Staffo has lost 1 health!
+[04:31:24 PM]Man has poke'd Player!
+[04:31:24 PM]Player has lost 1 health!
+[04:31:24 PM]Player is woefully unlifelike!
+[04:31:24 PM]Player exited. Players: 2
+[04:31:24 PM]Staffo has hit'd Man!
+[04:31:24 PM]Man has lost 2 health!
+[04:31:24 PM]Man has poke'd Staffo!
+[04:31:24 PM]Staffo has lost 1 health!
+[04:31:24 PM]Staffo has hit'd Man!
+[04:31:24 PM]Man has lost 2 health!
+[04:31:24 PM]Man has poke'd Staffo!
+[04:31:24 PM]Staffo has lost 1 health!
+[04:31:24 PM]Staffo has hit'd Man!
+[04:31:24 PM]Man has lost 2 health!
+[04:31:24 PM]Man is woefully unlifelike!
+[04:31:24 PM]Man exited. Players: 1
+[04:31:24 PM]Staffo has vanquished his foes!
+[04:31:24 PM]Staffo exited. Players: 0
+[04:31:24 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:31:24 PM]1: Game #1
+[04:31:24 PM]2: Game #2
+[04:31:24 PM]3: Game #3
+[04:31:24 PM]4: Change Defaults
+[04:31:24 PM]5: Custom Game
+[04:31:24 PM]6: Ideas
+[04:31:24 PM]Where do you want to go?  
+[04:31:27 PM]User: 1
+[04:31:27 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[04:31:27 PM]0: Player, HP: 6
+[04:31:27 PM]1: OtherMan, HP: 4
+[04:31:27 PM]2: Oddball, HP: 5
+[04:31:27 PM]3: Man, HP: 5
+[04:31:27 PM]4: Staffo, HP: 5
+[04:31:27 PM]Target? 
+[04:31:30 PM]User: 2
+[04:31:30 PM]Player has poke'd Oddball!
+[04:31:30 PM]Oddball has lost 1 health!
+[04:31:30 PM]OtherMan has poke'd Oddball!
+[04:31:30 PM]Oddball has lost 1 health!
+[04:31:30 PM]Oddball has poke'd Player!
+[04:31:30 PM]Player has lost 1 health!
+[04:31:30 PM]Man has poke'd Oddball!
+[04:31:30 PM]Oddball has lost 1 health!
+[04:31:30 PM]Staffo has hit'd Oddball!
+[04:31:30 PM]Oddball has lost 2 health!
+[04:31:30 PM]Oddball is woefully unlifelike!
+[04:31:30 PM]Oddball exited. Players: 4
+[04:31:30 PM]0: Player, HP: 5
+[04:31:30 PM]1: OtherMan, HP: 4
+[04:31:30 PM]2: Man, HP: 5
+[04:31:30 PM]3: Staffo, HP: 5
+[04:31:30 PM]Target? 
+[04:31:35 PM]User: 3
+[04:31:35 PM]Player has poke'd Staffo!
+[04:31:35 PM]Staffo has lost 1 health!
+[04:31:35 PM]OtherMan has poke'd Staffo!
+[04:31:35 PM]Staffo has lost 1 health!
+[04:31:35 PM]Man has poke'd Staffo!
+[04:31:35 PM]Staffo has lost 1 health!
+[04:31:35 PM]Staffo has hit'd OtherMan!
+[04:31:35 PM]OtherMan has lost 2 health!
+[04:31:35 PM]0: Player, HP: 5
+[04:31:35 PM]1: OtherMan, HP: 2
+[04:31:35 PM]2: Man, HP: 5
+[04:31:35 PM]3: Staffo, HP: 2
+[04:31:35 PM]Target? 
+[04:31:38 PM]User: 3
+[04:31:38 PM]Player has poke'd Staffo!
+[04:31:38 PM]Staffo has lost 1 health!
+[04:31:38 PM]OtherMan has poke'd Staffo!
+[04:31:38 PM]Staffo has lost 1 health!
+[04:31:38 PM]Staffo is woefully unlifelike!
+[04:31:38 PM]Staffo exited. Players: 3
+[04:31:38 PM]Man has poke'd OtherMan!
+[04:31:38 PM]OtherMan has lost 1 health!
+[04:31:38 PM]0: Player, HP: 5
+[04:31:38 PM]1: OtherMan, HP: 1
+[04:31:38 PM]2: Man, HP: 5
+[04:31:38 PM]Target? 
+[04:31:43 PM]User: 2
+[04:31:43 PM]Player has poke'd Man!
+[04:31:43 PM]Man has lost 1 health!
+[04:31:43 PM]OtherMan has poke'd Man!
+[04:31:43 PM]Man has lost 1 health!
+[04:31:43 PM]Man has poke'd OtherMan!
+[04:31:43 PM]OtherMan has lost 1 health!
+[04:31:43 PM]OtherMan is woefully unlifelike!
+[04:31:43 PM]OtherMan exited. Players: 2
+[04:31:43 PM]0: Player, HP: 5
+[04:31:43 PM]1: Man, HP: 3
+[04:31:43 PM]Target? 
+[04:31:46 PM]User: 1
+[04:31:46 PM]Player has poke'd Man!
+[04:31:46 PM]Man has lost 1 health!
+[04:31:46 PM]Man has poke'd Player!
+[04:31:46 PM]Player has lost 1 health!
+[04:31:46 PM]0: Player, HP: 4
+[04:31:46 PM]1: Man, HP: 2
+[04:31:46 PM]Target? 
+[04:31:47 PM]User: 1
+[04:31:47 PM]Player has poke'd Man!
+[04:31:47 PM]Man has lost 1 health!
+[04:31:47 PM]Man has poke'd Player!
+[04:31:47 PM]Player has lost 1 health!
+[04:31:47 PM]0: Player, HP: 3
+[04:31:47 PM]1: Man, HP: 1
+[04:31:47 PM]Target? 
+[04:31:48 PM]User: 1
+[04:31:48 PM]Player has poke'd Man!
+[04:31:48 PM]Man has lost 1 health!
+[04:31:48 PM]Man is woefully unlifelike!
+[04:31:48 PM]Man exited. Players: 1
+[04:31:48 PM]Player has vanquished his foes!
+[04:31:48 PM]Player exited. Players: 0
+[04:31:48 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:31:48 PM]1: Game #1
+[04:31:48 PM]2: Game #2
+[04:31:48 PM]3: Game #3
+[04:31:48 PM]4: Change Defaults
+[04:31:48 PM]5: Custom Game
+[04:31:48 PM]6: Ideas
+[04:31:48 PM]Where do you want to go?  
+[04:31:53 PM]User: 2
+[04:31:53 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:31:53 PM]ERROR: Traceback (most recent call last):
+[04:31:53 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[04:31:53 PM]    print(game.nodemap.travel())
+[04:31:53 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[04:31:53 PM]    nodename = node.travel()
+[04:31:53 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[04:31:53 PM]    result = do(args)
+[04:31:53 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[04:31:53 PM]    b.start()
+[04:31:53 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 18, in start
+[04:31:53 PM]    self.choices()
+[04:31:53 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 27, in choices
+[04:31:53 PM]    action = player.thinker()
+[04:31:53 PM]  File "/home/glycan/QFTSOM/api/thinker.py", line 36, in __call__
+[04:31:53 PM]    return self.func()
+[04:31:53 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 32, in limbthinker
+[04:31:53 PM]    target = next(target for target in self.battle.player_list if target != self.player)
+[04:31:53 PM]StopIteration
+[04:31:53 PM]*--- Failure #7 ---
+[04:31:53 PM]Failure: 
+[04:31:53 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[04:31:53 PM]*--- End of Failure #7 ---
+[04:31:53 PM]ended with errors!
+[04:32:51 PM]Log Closed
+[04:32:57 PM]Log opened
+[04:32:57 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:32:57 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:32:57 PM]1: Game #1
+[04:32:57 PM]2: Game #2
+[04:32:57 PM]3: Game #3
+[04:32:57 PM]4: Change Defaults
+[04:32:57 PM]5: Custom Game
+[04:32:57 PM]6: Ideas
+[04:32:57 PM]Where do you want to go?  
+[04:32:57 PM]Bad answer! User a number in range
+[04:32:57 PM]Where do you want to go?  
+[04:33:02 PM]User: 2
+[04:33:02 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:33:02 PM]ERROR: Traceback (most recent call last):
+[04:33:02 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[04:33:02 PM]    print(game.nodemap.travel())
+[04:33:02 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[04:33:02 PM]    nodename = node.travel()
+[04:33:02 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[04:33:02 PM]    result = do(args)
+[04:33:02 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[04:33:02 PM]    b.start()
+[04:33:02 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 18, in start
+[04:33:02 PM]    self.choices()
+[04:33:02 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 27, in choices
+[04:33:02 PM]    action = player.thinker()
+[04:33:02 PM]  File "/home/glycan/QFTSOM/api/thinker.py", line 36, in __call__
+[04:33:02 PM]    return self.func()
+[04:33:02 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 32, in limbthinker
+[04:33:02 PM]    target = next(target for target in self.battle.player_list if target != self.player)
+[04:33:02 PM]StopIteration
+[04:33:02 PM]*--- Failure #9 ---
+[04:33:02 PM]Failure: 
+[04:33:02 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[04:33:02 PM]*--- End of Failure #9 ---
+[04:33:02 PM]ended with errors!
+[04:33:06 PM]Log Closed
+[04:33:35 PM]Log opened
+[04:33:36 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:33:36 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:33:36 PM]1: Game #1
+[04:33:36 PM]2: Game #2
+[04:33:36 PM]3: Game #3
+[04:33:36 PM]4: Change Defaults
+[04:33:36 PM]5: Custom Game
+[04:33:36 PM]6: Ideas
+[04:33:36 PM]Where do you want to go?  
+[04:33:36 PM]Bad answer! User a number in range
+[04:33:36 PM]Where do you want to go?  
+[04:33:39 PM]User: 2
+[04:33:39 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:33:39 PM]ERROR: Traceback (most recent call last):
+[04:33:39 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[04:33:39 PM]    print(game.nodemap.travel())
+[04:33:39 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[04:33:39 PM]    nodename = node.travel()
+[04:33:39 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[04:33:39 PM]    result = do(args)
+[04:33:39 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[04:33:39 PM]    b.start()
+[04:33:39 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 18, in start
+[04:33:39 PM]    self.choices()
+[04:33:39 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 27, in choices
+[04:33:39 PM]    action = player.thinker()
+[04:33:39 PM]  File "/home/glycan/QFTSOM/api/thinker.py", line 36, in __call__
+[04:33:39 PM]    return self.func()
+[04:33:39 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 32, in limbthinker
+[04:33:39 PM]    target = next(target for target in self.battle.player_list if target != self.player)
+[04:33:39 PM]StopIteration
+[04:33:39 PM]*--- Failure #14 ---
+[04:33:39 PM]Failure: 
+[04:33:39 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[04:33:39 PM]*--- End of Failure #14 ---
+[04:33:39 PM]ended with errors!
+[04:33:45 PM]Log Closed
+[04:33:50 PM]Log opened
+[04:33:51 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:33:51 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:33:51 PM]1: Game #1
+[04:33:51 PM]2: Game #2
+[04:33:51 PM]3: Game #3
+[04:33:51 PM]4: Change Defaults
+[04:33:51 PM]5: Custom Game
+[04:33:51 PM]6: Ideas
+[04:33:51 PM]Where do you want to go?  
+[04:33:51 PM]Bad answer! User a number in range
+[04:33:51 PM]Where do you want to go?  
+[04:33:55 PM]User: 3
+[04:33:55 PM]0: Magus, HP: 100
+[04:33:55 PM]1: Dwarf II, HP: 115
+[04:33:55 PM]2: Dwarf I, HP: 115
+[04:33:55 PM]3: Rouge, HP: 100
+[04:33:55 PM]Target? 
+[04:34:03 PM]User: 1
+[04:34:03 PM]0: bolt, MP: 60
+[04:34:03 PM]1: heal, MP: 30
+[04:34:03 PM]2: rest, MP: 0
+[04:34:03 PM]Actions? 
+[04:34:10 PM]User: 0
+[04:34:10 PM]Magus has bolt'd Dwarf II!
+[04:34:10 PM]Dwarf II lost 120 health!
+[04:34:10 PM]Dwarf II is woefully unlifelike!
+[04:34:10 PM]Dwarf II exited. Players: 3
+[04:34:10 PM]Dwarf I has hack'd Magus!
+[04:34:10 PM]Magus lost 27 health!
+[04:34:10 PM]0: Magus, HP: 73
+[04:34:10 PM]1: Dwarf I, HP: 115
+[04:34:10 PM]2: Rouge, HP: 100
+[04:34:10 PM]Target? 
+[04:34:30 PM]User: 2
+[04:34:30 PM]0: stab, MP: 0
+[04:34:30 PM]1: explode, MP: 0
+[04:34:30 PM]Actions? 
+[04:34:35 PM]User: 1
+[04:34:35 PM]Rouge has explode'd Magus, Dwarf I!
+[04:34:35 PM]0: Magus, HP: 73
+[04:34:35 PM]1: Dwarf I, HP: 115
+[04:34:35 PM]2: Rouge, HP: 100
+[04:34:35 PM]Target? 
+[04:34:45 PM]User: 2
+[04:34:45 PM]0: bolt, MP: 60
+[04:34:45 PM]1: heal, MP: 30
+[04:34:45 PM]2: rest, MP: 0
+[04:34:45 PM]Actions? 
+[04:34:47 PM]User: 0
+[04:34:47 PM]Magus has bolt'd Rouge!
+[04:34:47 PM]Boom!
+[04:34:47 PM]Magus lost  891 vital energy in the blast!
+[04:34:47 PM]Dwarf I lost  405 vital energy in the blast!
+[04:34:47 PM]Rouge lost 60 health!
+[04:34:47 PM]Magus is woefully unlifelike!
+[04:34:47 PM]Magus exited. Players: 2
+[04:34:47 PM]Dwarf I has hack'd Rouge!
+[04:34:47 PM]Rouge lost 35 health!
+[04:34:47 PM]Dwarf I is woefully unlifelike!
+[04:34:47 PM]Dwarf I exited. Players: 1
+[04:34:47 PM]Rouge has vanquished his foes!
+[04:34:47 PM]Rouge exited. Players: 0
+[04:34:47 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:34:47 PM]1: Game #1
+[04:34:47 PM]2: Game #2
+[04:34:47 PM]3: Game #3
+[04:34:47 PM]4: Change Defaults
+[04:34:47 PM]5: Custom Game
+[04:34:47 PM]6: Ideas
+[04:34:47 PM]Where do you want to go?  
+[04:34:54 PM]User: 3
+[04:34:54 PM]0: Magus, HP: 100
+[04:34:54 PM]1: Dwarf II, HP: 115
+[04:34:54 PM]2: Dwarf I, HP: 115
+[04:34:54 PM]3: Rouge, HP: 100
+[04:34:54 PM]Target? 
+[04:34:59 PM]User: 3
+[04:34:59 PM]0: bolt, MP: 60
+[04:34:59 PM]1: heal, MP: 30
+[04:34:59 PM]2: rest, MP: 0
+[04:34:59 PM]Actions? 
+[04:35:03 PM]User: 0
+[04:35:03 PM]Magus has bolt'd Rouge!
+[04:35:03 PM]Rouge lost 108 health!
+[04:35:03 PM]Rouge is woefully unlifelike!
+[04:35:03 PM]Rouge exited. Players: 3
+[04:35:03 PM]Dwarf II has hack'd Magus!
+[04:35:03 PM]Magus lost 16 health!
+[04:35:03 PM]Dwarf I has hack'd Magus!
+[04:35:03 PM]Magus lost 23 health!
+[04:35:03 PM]0: Magus, HP: 61
+[04:35:03 PM]1: Dwarf II, HP: 115
+[04:35:03 PM]2: Dwarf I, HP: 115
+[04:35:03 PM]Target? 
+[04:35:13 PM]User: 0
+[04:35:13 PM]0: bolt, MP: 60
+[04:35:13 PM]1: heal, MP: 30
+[04:35:13 PM]2: rest, MP: 0
+[04:35:13 PM]Actions? 
+[04:35:52 PM]User: 1
+[04:35:52 PM]Magus has heal'd Magus!
+[04:35:52 PM]Dwarf II has hack'd Magus!
+[04:35:52 PM]Magus has gained 30 HP
+[04:35:52 PM]Magus lost 22 health!
+[04:35:52 PM]Dwarf I has hack'd Magus!
+[04:35:52 PM]Magus lost 17 health!
+[04:35:52 PM]0: Magus, HP: 52
+[04:35:52 PM]1: Dwarf II, HP: 115
+[04:35:52 PM]2: Dwarf I, HP: 115
+[04:35:52 PM]Target? 
+[04:35:58 PM]User: 2
+[04:35:58 PM]0: bolt, MP: 60
+[04:35:58 PM]1: heal, MP: 30
+[04:35:58 PM]2: rest, MP: 0
+[04:35:58 PM]Actions? 
+[04:36:01 PM]User: 1
+[04:36:01 PM]Magus has heal'd Dwarf I!
+[04:36:01 PM]Dwarf II has hack'd Magus!
+[04:36:01 PM]Dwarf I has gained 30 HP
+[04:36:01 PM]Magus lost 18 health!
+[04:36:01 PM]Dwarf I has hack'd Magus!
+[04:36:01 PM]Magus lost 17 health!
+[04:36:01 PM]0: Magus, HP: 17
+[04:36:01 PM]1: Dwarf II, HP: 115
+[04:36:01 PM]2: Dwarf I, HP: 145
+[04:36:01 PM]Target? 
+[04:36:10 PM]User: 0
+[04:36:10 PM]0: bolt, MP: 60
+[04:36:10 PM]1: heal, MP: 30
+[04:36:10 PM]2: rest, MP: 0
+[04:36:10 PM]Actions? 
+[04:36:11 PM]User: 1
+[04:36:11 PM]Magus has heal'd Magus!
+[04:36:11 PM]Dwarf II has hack'd Magus!
+[04:36:11 PM]Magus has gained 30 HP
+[04:36:11 PM]Magus lost 26 health!
+[04:36:11 PM]Dwarf I has hack'd Magus!
+[04:36:11 PM]Magus lost 24 health!
+[04:36:11 PM]Magus is woefully unlifelike!
+[04:36:11 PM]Magus exited. Players: 2
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 10 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 10 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 14 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 16 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 13 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 17 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 24 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 12 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 12 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 17 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 13 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 24 health!
+[04:36:11 PM]Dwarf II has hack'd 
+[04:36:11 PM]Dwarf I!
+[04:36:11 PM]Dwarf I lost 22 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 12 health!
+[04:36:11 PM]Dwarf II has hack'd Dwarf I!
+[04:36:11 PM]Dwarf I lost 13 health!
+[04:36:11 PM]Dwarf I has hack'd Dwarf II!
+[04:36:11 PM]Dwarf II lost 19 health!
+[04:36:11 PM]Dwarf II is woefully unlifelike!
+[04:36:11 PM]Dwarf II exited. Players: 1
+[04:36:11 PM]Dwarf I has vanquished his foes!
+[04:36:11 PM]Dwarf I exited. Players: 0
+[04:36:11 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:36:11 PM]1: Game #1
+[04:36:11 PM]2: Game #2
+[04:36:11 PM]3: Game #3
+[04:36:11 PM]4: Change Defaults
+[04:36:11 PM]5: Custom Game
+[04:36:11 PM]6: Ideas
+[04:36:11 PM]Where do you want to go?  
+[04:36:16 PM]User: 3
+[04:36:16 PM]0: Magus, HP: 100
+[04:36:16 PM]1: Dwarf II, HP: 115
+[04:36:16 PM]2: Dwarf I, HP: 115
+[04:36:16 PM]3: Rouge, HP: 100
+[04:36:16 PM]Target? 
+[04:36:20 PM]User: 1
+[04:36:20 PM]0: bolt, MP: 60
+[04:36:20 PM]1: heal, MP: 30
+[04:36:20 PM]2: rest, MP: 0
+[04:36:20 PM]Actions? 
+[04:36:23 PM]User: 0
+[04:36:23 PM]Magus has bolt'd Dwarf II!
+[04:36:23 PM]Dwarf II lost -12 health!
+[04:36:23 PM]Dwarf II has hack'd Magus!
+[04:36:23 PM]Magus lost 18 health!
+[04:36:23 PM]Dwarf I has hack'd Magus!
+[04:36:23 PM]Magus lost 14 health!
+[04:36:23 PM]0: Magus, HP: 68
+[04:36:23 PM]1: Dwarf II, HP: 127
+[04:36:23 PM]2: Dwarf I, HP: 115
+[04:36:23 PM]3: Rouge, HP: 100
+[04:36:23 PM]Target? 
+[04:36:32 PM]User: 1
+[04:36:32 PM]0: stab, MP: 0
+[04:36:32 PM]Actions? 
+[04:36:35 PM]User: 0
+[04:36:35 PM]Rouge has stab'd Dwarf II!
+[04:36:35 PM]Dwarf II lost -8 health!
+[04:36:35 PM]Dwarf II took 30 damadge from poison
+[04:36:35 PM]0: Magus, HP: 68
+[04:36:35 PM]1: Dwarf II, HP: 105
+[04:36:35 PM]2: Dwarf I, HP: 115
+[04:36:35 PM]3: Rouge, HP: 100
+[04:36:35 PM]Target? 

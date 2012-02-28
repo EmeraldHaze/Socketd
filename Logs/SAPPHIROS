@@ -1,0 +1,61 @@
+[04:11:02 PM]Log opened
+[04:11:02 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:11:02 PM]knife
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]knife
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]Axe
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]Helm
+[04:11:02 PM] 
+[04:11:02 PM]Head
+[04:11:02 PM]E: Belong can not be equiped to this limb
+[04:11:02 PM]Axe
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]Helm
+[04:11:02 PM] 
+[04:11:02 PM]Head
+[04:11:02 PM]E: Belong can not be equiped to this limb
+[04:11:02 PM]knife
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]bomb
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]shoes
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]Staff
+[04:11:02 PM] 
+[04:11:02 PM]Arm
+[04:11:02 PM]E: No such limb
+[04:11:02 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:11:02 PM]1: Game #1
+[04:11:02 PM]2: Game #2
+[04:11:02 PM]3: Game #3
+[04:11:02 PM]4: Change Defaults
+[04:11:02 PM]5: Custom Game
+[04:11:02 PM]6: Ideas
+[04:11:02 PM]Where do you want to go?  
+[04:11:18 PM]User: home
+[04:11:18 PM]Bad answer! User a number in range
+[04:11:18 PM]Where do you want to go?  
+[04:11:28 PM]User: 5
+[04:11:28 PM]You're making your own battle now. It follows defaults, so you don't necessarily have to have rules and exits- just people (enemies, normally)
+[04:11:28 PM]You must use non-numerical choices here. Try help first.
+[04:11:28 PM]Action? 
+[04:11:39 PM]User: help
+[04:11:39 PM]help gives you this message. "list" by itself lists all componants,and takes the following arguments: in (all selected componants), out (all unselected), p (all players- players are entities in the battle), r (rules, which determine how to do a given thing, like player order), e (all exits, which are exit conditions and effects,such as die and win), modules (all modules), <module name> (all componants of that module). An unselected componant's number selects it, and naming a selected componant'number unselects it. ? <componant number> gives more information about that componant. ? <module name> gives you more information about that module"end" ends the session.
+[04:11:39 PM]Action? 
+[04:11:46 PM]Log Closed

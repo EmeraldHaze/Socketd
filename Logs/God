@@ -1,0 +1,216 @@
+[08:52:17 PM]Log opened
+[08:52:17 PM]This is QFTSOM 0.2
+[08:52:17 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:52:17 PM]0: Game #1
+[08:52:17 PM]1: Change Defaults
+[08:52:17 PM]2: Custom Game
+[08:52:17 PM]3: Ideas
+[08:52:17 PM]Where do you want to go?  
+[08:52:39 PM]User: Custom battle
+[08:52:40 PM]ERROR: Traceback (most recent call last):
+[08:52:40 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[08:52:40 PM]    print(game.nodemap.travel())
+[08:52:40 PM]  File "/home/glycan/QFTSOM/api/net.py", line 49, in travel
+[08:52:40 PM]    op = int(input(node.q + "  "))
+[08:52:40 PM]ValueError: invalid literal for int() with base 10: 'Custom battle'
+[08:52:40 PM]*--- Failure #9 ---
+[08:52:40 PM]Failure: 
+[08:52:40 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[08:52:40 PM]*--- End of Failure #9 ---
+[08:52:40 PM]ended with errors!
+[08:53:27 PM]User: 0
+[08:53:27 PM]Log Closed
+[08:55:34 PM]Log opened
+[08:55:34 PM]This is QFTSOM 0.2
+[08:55:34 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:55:34 PM]0: Game #1
+[08:55:34 PM]1: Change Defaults
+[08:55:34 PM]2: Custom Game
+[08:55:34 PM]3: Ideas
+[08:55:34 PM]Where do you want to go?  
+[08:55:38 PM]User: 0
+[08:55:38 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[08:55:38 PM]0: Left Fang, HP: 5
+[08:55:38 PM]1: Right Fang, HP: 5
+[08:55:38 PM]2: Torso, HP: 60
+[08:55:38 PM]3: Head, HP: 20
+[08:55:38 PM]4: Left Arm, HP: 30
+[08:55:38 PM]5: Right Arm, HP: 30
+[08:55:38 PM]6: Left Leg, HP: 30
+[08:55:38 PM]7: Right Leg, HP: 30
+[08:55:38 PM]Choice? 
+[08:55:59 PM]User: Right arm
+[08:55:59 PM]Bad choice! Bad!
+[08:55:59 PM]Choice? 
+[08:56:30 PM]User: Right arm attack
+[08:56:30 PM]Bad choice! Bad!
+[08:56:30 PM]Choice? 
+[08:56:43 PM]User: Right Armor, Punch
+[08:56:43 PM]Bad choice! Bad!
+[08:56:43 PM]Choice? 
+[08:56:51 PM]User: Right Arm Punch
+[08:56:51 PM]Bad choice! Bad!
+[08:56:51 PM]Choice? 
+[08:59:44 PM]User: Torso, 60
+[08:59:44 PM]Bad choice! Bad!
+[08:59:44 PM]Choice? 
+[09:00:21 PM]User: 3
+[09:00:21 PM]0: Left kick
+[09:00:21 PM]1: Left punch
+[09:00:21 PM]2: Right kick
+[09:00:21 PM]3: Left bite
+[09:00:21 PM]4: Right bite
+[09:00:21 PM]5: Right punch
+[09:00:21 PM]Choice? 
+[09:00:31 PM]User: 4
+[09:00:31 PM]Player has bite'd Head!
+[09:00:31 PM]Player's bite has 3.0 speed
+[09:00:31 PM]Player's bite missed!
+[09:00:31 PM]Huminoid Taco has kick'd Left Fang!
+[09:00:31 PM]Huminoid Taco's kick has 4.0 speed
+[09:00:31 PM]Player's Left Fang took 20 DMG, it now has -15
+[09:00:31 PM]Player has lost his Left Fang!
+[09:00:31 PM]0: Left Fang, HP: 5
+[09:00:31 PM]1: Right Fang, HP: 5
+[09:00:31 PM]2: Torso, HP: 60
+[09:00:31 PM]3: Head, HP: 20
+[09:00:31 PM]4: Left Arm, HP: 30
+[09:00:31 PM]5: Right Arm, HP: 30
+[09:00:31 PM]6: Left Leg, HP: 30
+[09:00:31 PM]7: Right Leg, HP: 30
+[09:00:31 PM]Choice? 
+[09:01:19 PM]User: 0
+[09:01:19 PM]0: Left kick
+[09:01:19 PM]1: Right kick
+[09:01:19 PM]2: Left punch
+[09:01:19 PM]3: Right punch
+[09:01:19 PM]Choice? 
+[09:01:22 PM]User: 0
+[09:01:22 PM]Player has kick'd Left Fang!
+[09:01:22 PM]Player's kick has 3.0 speed
+[09:01:22 PM]Player's kick missed!
+[09:01:22 PM]Huminoid Taco has punch'd Right Leg!
+[09:01:22 PM]Huminoid Taco's punch has 4.0 speed
+[09:01:22 PM]Player's Right Leg took 15 DMG, it now has 15
+[09:01:22 PM]0: Left Fang, HP: 5
+[09:01:22 PM]1: Right Fang, HP: 5
+[09:01:22 PM]2: Torso, HP: 60
+[09:01:22 PM]3: Head, HP: 20
+[09:01:22 PM]4: Left Arm, HP: 30
+[09:01:22 PM]5: Right Arm, HP: 30
+[09:01:22 PM]6: Left Leg, HP: 30
+[09:01:22 PM]7: Right Leg, HP: 30
+[09:01:22 PM]Choice? 
+[09:01:40 PM]User: 3
+[09:01:40 PM]0: Left kick
+[09:01:40 PM]1: Right kick
+[09:01:40 PM]2: Left punch
+[09:01:40 PM]3: Right punch
+[09:01:40 PM]Choice? 
+[09:01:46 PM]User: 4
+[09:01:46 PM]Bad choice! Bad!
+[09:01:46 PM]Choice? 
+[09:01:49 PM]User: 3
+[09:01:49 PM]Player has punch'd Head!
+[09:01:49 PM]Player's punch has 3.0 speed
+[09:01:49 PM]Huminoid Taco's Head took 15 DMG, it now has 5
+[09:01:49 PM]Huminoid Taco has punch'd Right Leg!
+[09:01:49 PM]Huminoid Taco's punch has 4.0 speed
+[09:01:49 PM]0: Left Fang, HP: 5
+[09:01:49 PM]1: Right Fang, HP: 5
+[09:01:49 PM]2: Torso, HP: 60
+[09:01:49 PM]3: Head, HP: 5
+[09:01:49 PM]4: Left Arm, HP: 30
+[09:01:49 PM]5: Right Arm, HP: 30
+[09:01:49 PM]6: Left Leg, HP: 30
+[09:01:49 PM]7: Right Leg, HP: 30
+[09:01:49 PM]Choice? 
+[09:01:56 PM]User: 3
+[09:01:56 PM]0: Left kick
+[09:01:56 PM]1: Right kick
+[09:01:56 PM]2: Left punch
+[09:01:56 PM]3: Right punch
+[09:01:56 PM]Choice? 
+[09:01:59 PM]User: 0
+[09:01:59 PM]Player has kick'd Head!
+[09:01:59 PM]Player's kick has 3.0 speed
+[09:01:59 PM]Player's Right Leg took 15 DMG, it now has 0
+[09:01:59 PM]Huminoid Taco's Head took 20 DMG, it now has -15
+[09:01:59 PM]Player has lost his Right Leg!
+[09:01:59 PM]Huminoid Taco has lost his Head!
+[09:01:59 PM]Huminoid Taco has lost his Left Fang!
+[09:01:59 PM]Huminoid Taco has lost his Right Fang!
+[09:01:59 PM]Huminoid Taco died!
+[09:01:59 PM]Huminoid Taco  exited. Players: 1
+[09:01:59 PM]Player has vanquished his foes!
+[09:01:59 PM]Player  exited. Players: 0
+[09:01:59 PM]You must go on to fight wierder stuff!
+[09:01:59 PM]0: Advance!
+[09:01:59 PM]Where do you want to go?  
+[09:02:14 PM]User: 0
+[09:02:14 PM]0: Fang, HP: 5
+[09:02:14 PM]1: Head, HP: 30
+[09:02:14 PM]2: Tail, HP: 40
+[09:02:14 PM]Choice? 
+[09:02:27 PM]User: 0
+[09:02:27 PM]0: Left kick
+[09:02:27 PM]1: Left punch
+[09:02:27 PM]2: Right bite
+[09:02:27 PM]3: Right punch
+[09:02:27 PM]Choice? 
+[09:02:30 PM]User: 3
+[09:02:30 PM]Player has punch'd Fang!
+[09:02:30 PM]Player's punch has 3.0 speed
+[09:02:30 PM]Python's Fang took 15 DMG, it now has -10
+[09:02:30 PM]Python has lost his Fang!
+[09:02:30 PM]Python has whip'd Head!
+[09:02:30 PM]Python's whip has 4 speed
+[09:02:30 PM]Python's whip missed!
+[09:02:30 PM]0: Head, HP: 30
+[09:02:30 PM]1: Tail, HP: 40
+[09:02:30 PM]Choice? 
+[09:02:44 PM]User: 0
+[09:02:44 PM]0: Left kick
+[09:02:44 PM]1: Left punch
+[09:02:44 PM]2: Right bite
+[09:02:44 PM]3: Right punch
+[09:02:44 PM]Choice? 
+[09:02:53 PM]User: 2
+[09:02:53 PM]Player has bite'd Head!
+[09:02:53 PM]Player's bite has 3.0 speed
+[09:02:53 PM]Python's Head took 5 DMG, it now has 25
+[09:02:53 PM]Python's Head has been poisoned for 10
+[09:02:53 PM]Python's Head took 10 DMG from poison, it now has 15
+[09:02:53 PM]Python's Head took 9 DMG from poison, it now has 6
+[09:02:53 PM]Python has whip'd Right Arm!
+[09:02:53 PM]Python's whip has 4 speed
+[09:02:53 PM]Player's Right Arm took 10 DMG, it now has 20
+[09:02:53 PM]Python's Head took 8 DMG from poison, it now has -2
+[09:02:53 PM]Python has lost his Head!
+[09:02:53 PM]Python has lost his Fang!
+[09:02:53 PM]ERROR: Traceback (most recent call last):
+[09:02:53 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[09:02:53 PM]    print(game.nodemap.travel())
+[09:02:53 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[09:02:53 PM]    nodename = node.travel()
+[09:02:53 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[09:02:53 PM]    result = do(args)
+[09:02:53 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[09:02:53 PM]    b.start()
+[09:02:53 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 21, in start
+[09:02:53 PM]    self.check_exits("main")
+[09:02:53 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 51, in check_exits
+[09:02:53 PM]    if exit.condition(player, self):
+[09:02:53 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 15, in ldie_check
+[09:02:53 PM]    limb.kill()
+[09:02:53 PM]  File "/home/glycan/QFTSOM/api/limb.py", line 62, in kill
+[09:02:53 PM]    limb.kill()
+[09:02:53 PM]  File "/home/glycan/QFTSOM/api/limb.py", line 56, in kill
+[09:02:53 PM]    self.player.limbs.remove(self)
+[09:02:53 PM]ValueError: list.remove(x): x not in list
+[09:02:53 PM]*--- Failure #22 ---
+[09:02:53 PM]Failure: 
+[09:02:53 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:02:53 PM]*--- End of Failure #22 ---
+[09:02:53 PM]ended with errors!
+[09:06:46 PM]Log Closed

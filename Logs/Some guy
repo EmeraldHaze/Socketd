@@ -1,0 +1,370 @@
+[04:27:56 PM]Log opened
+[04:27:57 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:27:57 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:27:57 PM]0: Game #1
+[04:27:57 PM]1: Game #2
+[04:27:57 PM]2: Change Defaults
+[04:27:57 PM]3: Custom Game
+[04:27:57 PM]4: Ideas
+[04:27:57 PM]Where do you want to go?  
+[04:28:01 PM]User: 1
+[04:28:01 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[04:28:01 PM]0: Player, HP: 6
+[04:28:01 PM]1: OtherMan, HP: 4
+[04:28:01 PM]2: Oddball, HP: 5
+[04:28:01 PM]3: Staffo, HP: 5
+[04:28:01 PM]4: Man, HP: 5
+[04:28:01 PM]Target? 
+[04:28:17 PM]User: 2
+[04:28:17 PM]Player has poke'd Oddball!
+[04:28:17 PM]Oddball has lost 1 health!
+[04:28:17 PM]OtherMan has poke'd Oddball!
+[04:28:17 PM]Oddball has lost 1 health!
+[04:28:17 PM]Oddball has poke'd Player!
+[04:28:17 PM]Player has lost 1 health!
+[04:28:17 PM]Staffo has hit'd Oddball!
+[04:28:17 PM]Oddball has lost 2 health!
+[04:28:17 PM]Man has poke'd Oddball!
+[04:28:17 PM]Oddball has lost 1 health!
+[04:28:17 PM]Oddball is woefully unlifelike!
+[04:28:17 PM]Oddball exited. Players: 4
+[04:28:17 PM]0: Player, HP: 5
+[04:28:17 PM]1: OtherMan, HP: 4
+[04:28:17 PM]2: Staffo, HP: 5
+[04:28:17 PM]3: Man, HP: 5
+[04:28:17 PM]Target? 
+[04:28:56 PM]User: 2
+[04:28:56 PM]Player has poke'd Staffo!
+[04:28:56 PM]Staffo has lost 1 health!
+[04:28:56 PM]OtherMan has poke'd Staffo!
+[04:28:56 PM]Staffo has lost 1 health!
+[04:28:56 PM]Staffo has hit'd OtherMan!
+[04:28:56 PM]OtherMan has lost 2 health!
+[04:28:56 PM]Man has poke'd OtherMan!
+[04:28:56 PM]OtherMan has lost 1 health!
+[04:28:56 PM]0: Player, HP: 5
+[04:28:56 PM]1: OtherMan, HP: 1
+[04:28:56 PM]2: Staffo, HP: 3
+[04:28:56 PM]3: Man, HP: 5
+[04:28:56 PM]Target? 
+[04:29:09 PM]User: 2
+[04:29:09 PM]Player has poke'd Staffo!
+[04:29:09 PM]Staffo has lost 1 health!
+[04:29:09 PM]OtherMan has poke'd Staffo!
+[04:29:09 PM]Staffo has lost 1 health!
+[04:29:09 PM]Staffo has hit'd OtherMan!
+[04:29:09 PM]OtherMan has lost 2 health!
+[04:29:09 PM]OtherMan is woefully unlifelike!
+[04:29:09 PM]OtherMan exited. Players: 3
+[04:29:09 PM]Man has poke'd Staffo!
+[04:29:09 PM]Staffo has lost 1 health!
+[04:29:09 PM]Staffo is woefully unlifelike!
+[04:29:09 PM]Staffo exited. Players: 2
+[04:29:09 PM]0: Player, HP: 5
+[04:29:09 PM]1: Man, HP: 5
+[04:29:09 PM]Target? 
+[04:29:13 PM]User: 1
+[04:29:13 PM]Player has poke'd Man!
+[04:29:13 PM]Man has lost 1 health!
+[04:29:13 PM]0: Player, HP: 5
+[04:29:13 PM]1: Man, HP: 4
+[04:29:13 PM]Target? 
+[04:29:19 PM]User: 1
+[04:29:19 PM]Player has poke'd Man!
+[04:29:19 PM]Man has lost 1 health!
+[04:29:19 PM]Man has poke'd Player!
+[04:29:19 PM]Player has lost 1 health!
+[04:29:19 PM]0: Player, HP: 4
+[04:29:19 PM]1: Man, HP: 3
+[04:29:19 PM]Target? 
+[04:29:19 PM]User: 1
+[04:29:19 PM]Player has poke'd Man!
+[04:29:19 PM]Man has lost 1 health!
+[04:29:19 PM]Man has poke'd Player!
+[04:29:19 PM]Player has lost 1 health!
+[04:29:19 PM]0: Player, HP: 3
+[04:29:19 PM]1: Man, HP: 2
+[04:29:19 PM]Target? 
+[04:29:20 PM]User: 1
+[04:29:20 PM]Player has poke'd Man!
+[04:29:20 PM]Man has lost 1 health!
+[04:29:20 PM]Man has poke'd Player!
+[04:29:20 PM]Player has lost 1 health!
+[04:29:20 PM]0: Player, HP: 2
+[04:29:20 PM]1: Man, HP: 1
+[04:29:20 PM]Target? 
+[04:29:21 PM]User: 1
+[04:29:21 PM]Player has poke'd Man!
+[04:29:21 PM]Man has lost 1 health!
+[04:29:21 PM]Man is woefully unlifelike!
+[04:29:21 PM]Man exited. Players: 1
+[04:29:21 PM]Player has vanquished his foes!
+[04:29:21 PM]Player exited. Players: 0
+[04:29:21 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:29:21 PM]0: Game #1
+[04:29:21 PM]1: Game #2
+[04:29:21 PM]2: Change Defaults
+[04:29:21 PM]3: Custom Game
+[04:29:21 PM]4: Ideas
+[04:29:21 PM]Where do you want to go?  
+[04:29:37 PM]User: 0
+[04:29:37 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:29:37 PM]0: Left Fang, HP: 5
+[04:29:37 PM]1: Right Fang, HP: 5
+[04:29:37 PM]2: Torso, HP: 60
+[04:29:37 PM]3: Head, HP: 20
+[04:29:37 PM]4: Left Arm, HP: 30
+[04:29:37 PM]5: Right Arm, HP: 30
+[04:29:37 PM]6: Left Leg, HP: 30
+[04:29:37 PM]7: Right Leg, HP: 30
+[04:29:37 PM]Choice? 
+[04:29:45 PM]User: 3
+[04:29:45 PM]0: Left bite
+[04:29:45 PM]1: Left punch
+[04:29:45 PM]2: Right kick
+[04:29:45 PM]3: Left kick
+[04:29:45 PM]4: Right bite
+[04:29:45 PM]5: Right punch
+[04:29:45 PM]Choice? 
+[04:29:51 PM]User: 3
+[04:29:51 PM]Player has kick'd Head!
+[04:29:51 PM]Player's kick has 3.0 speed
+[04:29:51 PM]Player's kick missed!
+[04:29:51 PM]Huminoid Taco has bite'd Right Fang!
+[04:29:51 PM]Huminoid Taco's bite has 4.0 speed
+[04:29:51 PM]Huminoid Taco's bite missed!
+[04:29:51 PM]0: Left Fang, HP: 5
+[04:29:51 PM]1: Right Fang, HP: 5
+[04:29:51 PM]2: Torso, HP: 60
+[04:29:51 PM]3: Head, HP: 20
+[04:29:51 PM]4: Left Arm, HP: 30
+[04:29:51 PM]5: Right Arm, HP: 30
+[04:29:51 PM]6: Left Leg, HP: 30
+[04:29:51 PM]7: Right Leg, HP: 30
+[04:29:51 PM]Choice? 
+[04:30:07 PM]User: 3
+[04:30:07 PM]0: Left bite
+[04:30:07 PM]1: Left punch
+[04:30:07 PM]2: Right kick
+[04:30:07 PM]3: Left kick
+[04:30:07 PM]4: Right bite
+[04:30:07 PM]5: Right punch
+[04:30:07 PM]Choice? 
+[04:30:10 PM]User: 3
+[04:30:10 PM]Player has kick'd Head!
+[04:30:10 PM]Player's kick has 3.0 speed
+[04:30:10 PM]Huminoid Taco's Head took 20 DMG, it now has 0
+[04:30:10 PM]Huminoid Taco has lost his Head!
+[04:30:10 PM]Huminoid Taco has lost his Left Fang!
+[04:30:10 PM]Huminoid Taco died!
+[04:30:10 PM]Huminoid Taco exited. Players: 1
+[04:30:10 PM]Player has vanquished his foes!
+[04:30:10 PM]Player exited. Players: 0
+[04:30:10 PM]You must go on to fight wierder stuff!
+[04:30:10 PM]0: Advance!
+[04:30:10 PM]Where do you want to go?  
+[04:30:22 PM]User: 0
+[04:30:22 PM]0: Fang, HP: 5
+[04:30:22 PM]1: Head, HP: 30
+[04:30:22 PM]2: Tail, HP: 40
+[04:30:22 PM]Choice? 
+[04:30:34 PM]User: 1
+[04:30:34 PM]0: Left bite
+[04:30:34 PM]1: Left punch
+[04:30:34 PM]2: Right kick
+[04:30:34 PM]3: Left kick
+[04:30:34 PM]4: Right bite
+[04:30:34 PM]5: Right punch
+[04:30:34 PM]Choice? 
+[04:30:46 PM]User: 3
+[04:30:46 PM]Player has kick'd Head!
+[04:30:46 PM]Player's kick has 3.0 speed
+[04:30:46 PM]Python's Head took 20 DMG, it now has 10
+[04:30:46 PM]Python has bite'd Right Leg!
+[04:30:46 PM]Python's bite has 4 speed
+[04:30:46 PM]Player's Right Leg took 5 DMG, it now has 25
+[04:30:46 PM]Player's Right Leg has been poisoned for 10
+[04:30:46 PM]Player's Right Leg took 10 DMG from poison, it now has 15
+[04:30:46 PM]Player's Right Leg took 9 DMG from poison, it now has 6
+[04:30:46 PM]0: Fang, HP: 5
+[04:30:46 PM]1: Head, HP: 10
+[04:30:46 PM]2: Tail, HP: 40
+[04:30:46 PM]Choice? 
+[04:31:00 PM]User: 1
+[04:31:00 PM]0: Left bite
+[04:31:00 PM]1: Left punch
+[04:31:00 PM]2: Right kick
+[04:31:00 PM]3: Left kick
+[04:31:00 PM]4: Right bite
+[04:31:00 PM]5: Right punch
+[04:31:00 PM]Choice? 
+[04:31:07 PM]User: 1
+[04:31:07 PM]Player has punch'd Head!
+[04:31:07 PM]Player's punch has 3.0 speed
+[04:31:07 PM]Python's Head took 15 DMG, it now has -5
+[04:31:07 PM]Player's Right Leg took 8 DMG from poison, it now has -2
+[04:31:07 PM]Python has lost his Head!
+[04:31:07 PM]Python has lost his Fang!
+[04:31:07 PM]Python died!
+[04:31:07 PM]Python exited. Players: 1
+[04:31:07 PM]Player has vanquished his foes!
+[04:31:07 PM]Player exited. Players: 0
+[04:31:07 PM]0: Procced!
+[04:31:07 PM]Where do you want to go?  
+[04:31:24 PM]User: 0
+[04:31:24 PM]0: Fang, HP: 5
+[04:31:24 PM]1: Head, HP: 30
+[04:31:24 PM]2: Tail, HP: 40
+[04:31:24 PM]Choice? 
+[04:31:36 PM]User: 1
+[04:31:36 PM]0: Left bite
+[04:31:36 PM]1: Left punch
+[04:31:36 PM]2: Right kick
+[04:31:36 PM]3: Left kick
+[04:31:36 PM]4: Right bite
+[04:31:36 PM]5: Right punch
+[04:31:36 PM]Choice? 
+[04:31:40 PM]User: 2
+[04:31:40 PM]Player has kick'd Head!
+[04:31:40 PM]Player's kick has 3.0 speed
+[04:31:40 PM]Montey's Head took 20 DMG, it now has 10
+[04:31:40 PM]Montey has bite'd Torso!
+[04:31:40 PM]Montey's bite has 4 speed
+[04:31:40 PM]Player's Torso took 5 DMG, it now has 55
+[04:31:40 PM]Player's Torso has been poisoned for 10
+[04:31:40 PM]Player's Torso took 10 DMG from poison, it now has 45
+[04:31:40 PM]Player's Torso took 9 DMG from poison, it now has 36
+[04:31:40 PM]0: Fang, HP: 5
+[04:31:40 PM]1: Head, HP: 10
+[04:31:40 PM]2: Tail, HP: 40
+[04:31:40 PM]Choice? 
+[04:31:49 PM]User: 1
+[04:31:49 PM]0: Left bite
+[04:31:49 PM]1: Left punch
+[04:31:49 PM]2: Right kick
+[04:31:49 PM]3: Left kick
+[04:31:49 PM]4: Right bite
+[04:31:49 PM]5: Right punch
+[04:31:49 PM]Choice? 
+[04:31:50 PM]User: 3
+[04:31:50 PM]Player has kick'd Head!
+[04:31:50 PM]Player's kick has 3.0 speed
+[04:31:50 PM]Montey's Head took 20 DMG, it now has -10
+[04:31:50 PM]Player's Torso took 8 DMG from poison, it now has 28
+[04:31:50 PM]Montey has lost his Head!
+[04:31:50 PM]Montey has lost his Fang!
+[04:31:50 PM]Montey died!
+[04:31:50 PM]Montey exited. Players: 1
+[04:31:50 PM]Player has vanquished his foes!
+[04:31:50 PM]Player exited. Players: 0
+[04:31:50 PM]0: Procced!
+[04:31:50 PM]Where do you want to go?  
+[04:31:53 PM]User: 0
+[04:31:53 PM]0: Head, HP: 30
+[04:31:53 PM]1: Barb, HP: 10
+[04:31:53 PM]Choice? 
+[04:32:10 PM]User: 0
+[04:32:10 PM]0: Left bite
+[04:32:10 PM]1: Left punch
+[04:32:10 PM]2: Right kick
+[04:32:10 PM]3: Left kick
+[04:32:10 PM]4: Right bite
+[04:32:10 PM]5: Right punch
+[04:32:10 PM]Choice? 
+[04:32:13 PM]User: 5
+[04:32:13 PM]Player has punch'd Head!
+[04:32:13 PM]Player's punch has 3.0 speed
+[04:32:13 PM]Beezulbub has sting'd Right Arm!
+[04:32:13 PM]Beezulbub's sting has 3 speed
+[04:32:13 PM]Player's punch missed!
+[04:32:13 PM]Player's Right Arm took 2 DMG, it now has 28
+[04:32:13 PM]Player's Right Arm has been poisoned for 20
+[04:32:13 PM]Player's Right Arm took 20 DMG from poison, it now has 8
+[04:32:13 PM]Player's Right Arm took 19 DMG from poison, it now has -11
+[04:32:13 PM]Player has lost his Right Arm!
+[04:32:13 PM]0: Head, HP: 30
+[04:32:13 PM]1: Barb, HP: 10
+[04:32:13 PM]Choice? 
+[04:32:18 PM]User: 
+[04:32:18 PM]Bad choice! Bad!
+[04:32:18 PM]Choice? 
+[04:32:22 PM]User: 
+[04:32:22 PM]Bad choice! Bad!
+[04:32:22 PM]Choice? 
+[04:32:22 PM]User: 
+[04:32:22 PM]Bad choice! Bad!
+[04:32:22 PM]Choice? 
+[04:32:26 PM]User: 0
+[04:32:26 PM]0: Left bite
+[04:32:26 PM]1: Right kick
+[04:32:26 PM]2: Right bite
+[04:32:26 PM]3: Left kick
+[04:32:26 PM]Choice? 
+[04:32:29 PM]User: 3
+[04:32:29 PM]Player has kick'd Head!
+[04:32:29 PM]Player's kick has 3.0 speed
+[04:32:29 PM]Beezulbub has sting'd Torso!
+[04:32:29 PM]Beezulbub's sting has 3 speed
+[04:32:29 PM]Player's kick missed!
+[04:32:29 PM]Player's Torso took 2 DMG, it now has 58
+[04:32:29 PM]Player's Torso has been poisoned for 20
+[04:32:29 PM]Player's Torso took 20 DMG from poison, it now has 38
+[04:32:29 PM]Player's Torso took 19 DMG from poison, it now has 19
+[04:32:29 PM]Player's Torso took 18 DMG from poison, it now has 1
+[04:32:29 PM]0: Head, HP: 30
+[04:32:29 PM]1: Barb, HP: 10
+[04:32:29 PM]Choice? 
+[04:32:38 PM]User: 0
+[04:32:38 PM]0: Left bite
+[04:32:38 PM]1: Right kick
+[04:32:38 PM]2: Right bite
+[04:32:38 PM]3: Left kick
+[04:32:38 PM]Choice? 
+[04:32:41 PM]User: 2
+[04:32:41 PM]Player has bite'd Head!
+[04:32:41 PM]Player's bite has 3.0 speed
+[04:32:41 PM]Beezulbub has sting'd Head!
+[04:32:41 PM]Beezulbub's sting has 3 speed
+[04:32:41 PM]Beezulbub's Head took 5 DMG, it now has 25
+[04:32:41 PM]Beezulbub's Head has been poisoned for 10
+[04:32:41 PM]Player's Head took 2 DMG, it now has 18
+[04:32:41 PM]Player's Head has been poisoned for 20
+[04:32:41 PM]Player's Torso took 17 DMG from poison, it now has -16
+[04:32:41 PM]Player's Head took 20 DMG from poison, it now has -2
+[04:32:41 PM]Beezulbub's Head took 10 DMG from poison, it now has 15
+[04:32:41 PM]Player has lost his Torso!
+[04:32:41 PM]Player died!
+[04:32:41 PM]Player exited. Players: 1
+[04:32:41 PM]Beezulbub has vanquished his foes!
+[04:32:41 PM]Beezulbub exited. Players: 0
+[04:32:41 PM]0: Procced!
+[04:32:41 PM]Where do you want to go?  
+[04:32:48 PM]User: 0
+[04:32:48 PM]That's all the battles to be had
+[04:32:48 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:32:48 PM]0: Game #1
+[04:32:48 PM]1: Game #2
+[04:32:48 PM]2: Change Defaults
+[04:32:48 PM]3: Custom Game
+[04:32:48 PM]4: Ideas
+[04:32:48 PM]Where do you want to go?  
+[04:34:15 PM]User: 3
+[04:34:15 PM]You're making your own battle now. It follows defaults, so you don't necessarily have to have rules and exits- just people (enemies, normally)
+[04:34:15 PM]You must use non-numerical choices here. Try help first.
+[04:34:15 PM]Action? 
+[04:34:34 PM]User: help
+[04:34:34 PM]help gives you this message. "list" by itself lists all componants,and takes the following arguments: in (all selected componants), out (all unselected), p (all players- players are entities in the battle), r (rules, which determine how to do a given thing, like player order), e (all exits, which are exit conditions and effects,such as die and win). Naming an unselected componant's number selects it, and naming a selected componant'number unselects it. ? <componant number> gives more information about that componant."end" ends the session.
+[04:34:34 PM]Action? 
+[04:35:07 PM]User: end
+[04:35:07 PM]0: Yes
+[04:35:07 PM]1: No
+[04:35:07 PM]Start battle? 
+[04:35:13 PM]User: 1
+[04:35:13 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:35:13 PM]0: Game #1
+[04:35:13 PM]1: Game #2
+[04:35:13 PM]2: Change Defaults
+[04:35:13 PM]3: Custom Game
+[04:35:13 PM]4: Ideas
+[04:35:13 PM]Where do you want to go?  
+[04:35:18 PM]Log Closed

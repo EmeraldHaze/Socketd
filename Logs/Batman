@@ -1,0 +1,80 @@
+[04:19:15 PM]Log opened
+[04:19:15 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:19:15 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:19:15 PM]0: Game #1
+[04:19:15 PM]1: Game #2
+[04:19:15 PM]2: Change Defaults
+[04:19:15 PM]3: Custom Game
+[04:19:15 PM]4: Ideas
+[04:19:15 PM]Where do you want to go?  
+[04:19:48 PM]User: 0
+[04:19:48 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:19:48 PM]0: Left Fang, HP: 5
+[04:19:48 PM]1: Right Fang, HP: 5
+[04:19:48 PM]2: Torso, HP: 60
+[04:19:48 PM]3: Head, HP: 20
+[04:19:48 PM]4: Left Arm, HP: 30
+[04:19:48 PM]5: Right Arm, HP: 30
+[04:19:48 PM]6: Left Leg, HP: 30
+[04:19:48 PM]7: Right Leg, HP: 30
+[04:19:48 PM]Choice? 
+[04:19:54 PM]Log Closed
+[04:21:48 PM]Log opened
+[04:21:48 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:21:48 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:21:48 PM]0: Game #1
+[04:21:48 PM]1: Game #2
+[04:21:48 PM]2: Change Defaults
+[04:21:48 PM]3: Custom Game
+[04:21:48 PM]4: Ideas
+[04:21:48 PM]Where do you want to go?  
+[04:21:57 PM]User: 0
+[04:21:57 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:21:57 PM]0: Left Fang, HP: 5
+[04:21:57 PM]1: Right Fang, HP: 5
+[04:21:57 PM]2: Torso, HP: 60
+[04:21:57 PM]3: Head, HP: 20
+[04:21:57 PM]4: Left Arm, HP: 30
+[04:21:57 PM]5: Right Arm, HP: 30
+[04:21:57 PM]6: Left Leg, HP: 30
+[04:21:57 PM]7: Right Leg, HP: 30
+[04:21:57 PM]Choice? 
+[04:22:02 PM]User: 3
+[04:22:02 PM]0: Left kick
+[04:22:02 PM]1: Left punch
+[04:22:02 PM]2: Right kick
+[04:22:02 PM]3: Left bite
+[04:22:02 PM]4: Right bite
+[04:22:02 PM]5: Right punch
+[04:22:02 PM]Choice? 
+[04:22:13 PM]User: 0
+[04:22:13 PM]Player has kick'd Head!
+[04:22:13 PM]Player's kick has 3.0 speed
+[04:22:13 PM]Huminoid Taco's Head took 20 DMG, it now has 0
+[04:22:13 PM]Huminoid Taco has lost his Head!
+[04:22:13 PM]Huminoid Taco has lost his Left Fang!
+[04:22:13 PM]ERROR: Traceback (most recent call last):
+[04:22:13 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[04:22:13 PM]    print(game.nodemap.travel())
+[04:22:13 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[04:22:13 PM]    nodename = node.travel()
+[04:22:13 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[04:22:13 PM]    result = do(args)
+[04:22:13 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[04:22:13 PM]    b.start()
+[04:22:13 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 21, in start
+[04:22:13 PM]    self.check_exits("main")
+[04:22:13 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 51, in check_exits
+[04:22:13 PM]    if exit.condition(player, self):
+[04:22:13 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 15, in ldie_check
+[04:22:13 PM]    limb.kill()
+[04:22:13 PM]  File "/home/glycan/QFTSOM/api/limb.py", line 66, in kill
+[04:22:13 PM]    self.uplimb.attached.remove(self)
+[04:22:13 PM]AttributeError: 'NoneType' object has no attribute 'attached'
+[04:22:13 PM]*--- Failure #11 ---
+[04:22:13 PM]Failure: 
+[04:22:13 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[04:22:13 PM]*--- End of Failure #11 ---
+[04:22:13 PM]ended with errors!
+[04:22:28 PM]User: 
+[04:22:28 PM]Log Closed

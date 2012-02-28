@@ -1,307 +1,1062 @@
-[02:45:23 PM]Log opened
-[02:45:27 PM]User: a
-[02:45:27 PM]ERROR: Traceback (most recent call last):
-[02:45:27 PM]  File "/I/M1/tester.py", line 10, in <module>
-[02:45:27 PM]ERROR:     f = open("A FILE")
-[02:45:27 PM]IOError: [Errno 2] No such file or directory: 'A FILE'
-[02:45:27 PM]*--- Failure #9 ---
-[02:45:27 PM]Failure: 
-[02:45:27 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
-[02:45:27 PM]*--- End of Failure #9 ---
-[02:45:27 PM]ended with errors!
-[02:45:56 PM]Log Closed
-[02:46:00 PM]Log opened
-[02:46:59 PM]Log opened
-[02:47:03 PM]User: aa
-[02:47:03 PM]ended cleanly
-[02:47:14 PM]Log Closed
-[02:47:32 PM]User: z!!!
-[02:47:32 PM]ended cleanly
-[02:48:32 PM]Log opened
-[02:48:35 PM]User: ZZZZZZZZZZ
-[02:48:35 PM]ended cleanly
-[07:05:55 PM]Log opened
-[07:06:08 PM]User: foo
-[07:06:08 PM]ended cleanly
-[07:07:52 PM]Log Closed
-[07:21:39 PM]Log opened
-[07:38:09 PM]Log Closed
-[07:38:32 PM]Log opened
-[07:40:59 PM]Log opened
-[07:40:59 PM]ello world
-[07:40:59 PM]Query:
-[07:41:02 PM]User: a
-[07:41:02 PM]ou said: a
-[07:41:02 PM]ended cleanly
-[07:42:28 PM]Log opened
-[07:42:28 PM]his is QFTSOM 0.2
-[07:42:28 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
-[07:42:28 PM]: Left Fang, HP: 5
-[07:42:28 PM]: Right Fang, HP: 5
-[07:42:28 PM]: Torso, HP: 60
-[07:42:28 PM]3: Head, HP: 30
-[07:42:28 PM]: Left Arm, HP: 30
-[07:42:28 PM]5: Right Arm, HP: 30
-[07:42:28 PM]6: Left Leg, HP: 30
-[07:42:28 PM]: Right Leg, HP: 30
-[07:42:28 PM]Choice? 
-[07:42:58 PM]Log Closed
-[07:43:06 PM]Log opened
-[07:43:06 PM]This is QFTSOM 0.2
-[07:43:06 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
-[07:43:06 PM]0: Left Fang, HP: 5
-[07:43:06 PM]1: Right Fang, HP: 5
-[07:43:06 PM]2: Torso, HP: 60
-[07:43:06 PM]3: Head, HP: 30
-[07:43:06 PM]4: Left Arm, HP: 30
-[07:43:06 PM]5: Right Arm, HP: 30
-[07:43:06 PM]6: Left Leg, HP: 30
-[07:43:06 PM]7: Right Leg, HP: 30
-[07:43:06 PM]Choice? 
-[07:43:08 PM]User: 0
-[07:43:08 PM]0: Left kick
-[07:43:08 PM]1: Left punch
-[07:43:08 PM]2: Right kick
-[07:43:08 PM]3: Left bite
-[07:43:08 PM]4: Right bite
-[07:43:08 PM]5: Right punch
-[07:43:08 PM]Choice? 
-[04:26:03 PM]Log opened
-[04:26:04 PM]This is QFTSOM 0.2
-[04:26:04 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
-[04:26:04 PM]0: Left Fang, HP: 5
-[04:26:04 PM]1: Right Fang, HP: 5
-[04:26:04 PM]2: Torso, HP: 60
-[04:26:04 PM]3: Head, HP: 30
-[04:26:04 PM]4: Left Arm, HP: 30
-[04:26:04 PM]5: Right Arm, HP: 30
-[04:26:04 PM]6: Left Leg, HP: 30
-[04:26:04 PM]7: Right Leg, HP: 30
-[04:26:04 PM]Choice? 
-[04:28:19 PM]Log Closed
-[04:28:58 PM]Log opened
-[04:28:58 PM]This is QFTSOM 0.2
-[04:28:58 PM]You must fight some weird stuff! (Hint: choose a limb to attack, then an attack)
-[04:28:58 PM]0: Left Fang, HP: 5
-[04:28:58 PM]1: Right Fang, HP: 5
-[04:28:58 PM]2: Torso, HP: 60
-[04:28:58 PM]3: Head, HP: 30
-[04:28:58 PM]4: Left Arm, HP: 30
-[04:28:58 PM]5: Right Arm, HP: 30
-[04:28:58 PM]6: Left Leg, HP: 30
-[04:28:58 PM]7: Right Leg, HP: 30
-[04:28:58 PM]Choice? 
-[04:43:09 PM]Log Closed
-[04:43:11 PM]Log opened
-[04:43:11 PM]This is QFTSOM 0.2
-[04:43:11 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
-[04:43:11 PM]0: Left Fang, HP: 5
-[04:43:11 PM]1: Right Fang, HP: 5
-[04:43:11 PM]2: Torso, HP: 60
-[04:43:11 PM]3: Head, HP: 30
-[04:43:11 PM]4: Left Arm, HP: 30
-[04:43:11 PM]5: Right Arm, HP: 30
-[04:43:11 PM]6: Left Leg, HP: 30
-[04:43:11 PM]7: Right Leg, HP: 30
-[04:43:11 PM]Choice? 
-[04:45:38 PM]Log Closed
-[04:45:41 PM]Log opened
-[04:45:42 PM]This is QFTSOM 0.2
-[04:45:42 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
-[04:45:42 PM]0: Left Fang, HP: 5
-[04:45:42 PM]1: Right Fang, HP: 5
-[04:45:42 PM]2: Torso, HP: 60
-[04:45:42 PM]3: Head, HP: 30
-[04:45:42 PM]4: Left Arm, HP: 30
-[04:45:42 PM]5: Right Arm, HP: 30
-[04:45:42 PM]6: Left Leg, HP: 30
-[04:45:42 PM]7: Right Leg, HP: 30
-[04:45:42 PM]Choice? 
-[04:46:47 PM]Log opened
-[04:46:47 PM]This is QFTSOM 0.2
-[04:46:47 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
-[04:46:47 PM]0: Left Fang, HP: 5
-[04:46:47 PM]1: Right Fang, HP: 5
-[04:46:47 PM]2: Torso, HP: 60
-[04:46:47 PM]3: Head, HP: 30
-[04:46:47 PM]4: Left Arm, HP: 30
-[04:46:47 PM]5: Right Arm, HP: 30
-[04:46:47 PM]6: Left Leg, HP: 30
-[04:46:47 PM]7: Right Leg, HP: 30
-[04:46:47 PM]Choice? 
-[04:47:03 PM]Log Closed
-[04:48:35 PM]Log opened
-[04:48:35 PM]This is QFTSOM 0.2
-[04:48:35 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
-[04:48:35 PM]0: Left Fang, HP: 5
-[04:48:35 PM]1: Right Fang, HP: 5
-[04:48:35 PM]2: Torso, HP: 60
-[04:48:35 PM]3: Head, HP: 30
-[04:48:35 PM]4: Left Arm, HP: 30
-[04:48:35 PM]5: Right Arm, HP: 30
-[04:48:35 PM]6: Left Leg, HP: 30
-[04:48:35 PM]7: Right Leg, HP: 30
-[04:48:35 PM]Choice? 
-[04:48:38 PM]User: 2
-[04:48:38 PM]0: Left kick
-[04:48:38 PM]1: Left punch
-[04:48:38 PM]2: Right kick
-[04:48:38 PM]3: Left bite
-[04:48:38 PM]4: Right bite
-[04:48:38 PM]5: Right punch
-[04:48:38 PM]Choice? 
-[04:48:44 PM]Log Closed
-[04:49:36 PM]Log Closed
-[04:49:59 PM]Log opened
-[04:49:59 PM]This is QFTSOM 0.2
-[04:49:59 PM]You must fight some weird stuff! Also, tacos! (Hint: choose a limb to attack, then an attack)
-[04:49:59 PM]0: Left Fang, HP: 5
-[04:49:59 PM]1: Right Fang, HP: 5
-[04:49:59 PM]2: Torso, HP: 60
-[04:49:59 PM]3: Head, HP: 30
-[04:49:59 PM]4: Left Arm, HP: 30
-[04:49:59 PM]5: Right Arm, HP: 30
-[04:49:59 PM]6: Left Leg, HP: 30
-[04:49:59 PM]7: Right Leg, HP: 30
-[04:49:59 PM]Choice? 
-[04:50:03 PM]User: 0
-[04:50:03 PM]0: Left kick
-[04:50:03 PM]1: Left punch
-[04:50:03 PM]2: Right kick
-[04:50:03 PM]3: Left bite
-[04:50:03 PM]4: Right bite
-[04:50:03 PM]5: Right punch
-[04:50:03 PM]Choice? 
-[04:50:05 PM]User: 0
-[04:50:05 PM]Player has kick'd  
-[04:50:05 PM]Left Fang!
-[04:50:05 PM]Player's kick has 4.0 speed
-[04:50:05 PM]Huminoid Taco's Left Fang took 20 DMG, it now has -15
-[04:50:05 PM]Huminoid Taco has lost his Left Fang!
-[04:50:05 PM]Huminoid Taco has punch'd  Right Arm!
-[04:50:05 PM]Huminoid Taco's punch has 5.0 speed
-[04:50:05 PM]Player's Right Arm took 15 DMG, it now has 15
-[04:50:05 PM]0: Right Fang, HP: 5
-[04:50:05 PM]1: Torso, HP: 60
-[04:50:05 PM]2: Head, HP: 30
-[04:50:05 PM]3: Left Arm, HP: 30
-[04:50:05 PM]4: Right Arm, HP: 30
-[04:50:05 PM]5: Left Leg, HP: 30
-[04:50:05 PM]6: Right Leg, HP: 30
-[04:50:05 PM]Choice? 
-[04:59:27 PM]Log Closed
-[04:59:36 PM]Log opened
-[04:59:36 PM]This is QFTSOM 0.2
-[04:59:36 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
-[04:59:36 PM]0: Left Fang, HP: 5
-[04:59:36 PM]1: Right Fang, HP: 5
-[04:59:36 PM]2: Torso, HP: 60
-[04:59:36 PM]3: Head, HP: 30
-[04:59:36 PM]4: Left Arm, HP: 30
-[04:59:36 PM]5: Right Arm, HP: 30
-[04:59:36 PM]6: Left Leg, HP: 30
-[04:59:36 PM]7: Right Leg, HP: 30
-[04:59:36 PM]Choice? 
-[04:59:41 PM]User: 0
-[04:59:41 PM]0: Left kick
-[04:59:41 PM]1: Left punch
-[04:59:41 PM]2: Right kick
-[04:59:41 PM]3: Left bite
-[04:59:41 PM]4: Right bite
-[04:59:41 PM]5: Right punch
-[04:59:41 PM]Choice? 
-[04:59:45 PM]User: 2
-[04:59:45 PM]Player has kick'd 
-[04:59:45 PM] Left Fang!
-[04:59:45 PM]Player's kick has 4.0 speed
-[04:59:45 PM]Player's kick missed!
-[04:59:45 PM]Huminoid Taco has punch'd  Left Fang!
-[04:59:45 PM]Huminoid Taco's punch has 5.0 speed
-[04:59:45 PM]Player's Left Fang took 15 DMG, it now has -10
-[04:59:45 PM]Player has lost his Left Fang!
-[04:59:45 PM]0: Left Fang, HP: 5
-[04:59:45 PM]1: Right Fang, HP: 5
-[04:59:45 PM]2: Torso, HP: 60
-[04:59:45 PM]3: Head, HP: 30
-[04:59:45 PM]4: Left Arm, HP: 30
-[04:59:45 PM]5: Right Arm, HP: 30
-[04:59:45 PM]6: Left Leg, HP: 30
-[04:59:45 PM]7: Right Leg, HP: 30
-[04:59:45 PM]Choice? 
-[05:00:20 PM]User: 3
-[05:00:20 PM]0: Left kick
-[05:00:20 PM]1: Right kick
-[05:00:20 PM]2: Left punch
-[05:00:20 PM]3: Right punch
-[05:00:20 PM]Choice? 
-[05:00:23 PM]User: 0
-[05:00:23 PM]Player has kick'd  
-[05:00:23 PM]Head!
-[05:00:23 PM]Player's kick has 4.0 speed
-[05:00:23 PM]Huminoid Taco's Head took 20 DMG, it now has 10
-[05:00:23 PM]Huminoid Taco has kick'd  Torso!
-[05:00:23 PM]Huminoid Taco's kick has 5.0 speed
-[05:00:23 PM]Player's Torso took 20 DMG, it now has 40
-[05:00:23 PM]0: Left Fang, HP: 5
-[05:00:23 PM]1: Right Fang, HP: 5
-[05:00:23 PM]2: Torso, HP: 60
-[05:00:23 PM]3: Head, HP: 10
-[05:00:23 PM]4: Left Arm, HP: 30
-[05:00:23 PM]5: Right Arm, HP: 30
-[05:00:23 PM]6: Left Leg, HP: 30
-[05:00:23 PM]7: Right Leg, HP: 30
-[05:00:23 PM]Choice? 
-[05:00:31 PM]User: 3
-[05:00:31 PM]0: Left kick
-[05:00:31 PM]1: Right kick
-[05:00:31 PM]2: Left punch
-[05:00:31 PM]3: Right punch
-[05:00:31 PM]Choice? 
-[05:00:33 PM]User: 0
-[05:00:33 PM]Player has kick'd 
-[05:00:33 PM] Head!
-[05:00:33 PM]Player's kick has 4.0 speed
-[05:00:33 PM]Huminoid Taco's Head took 20 DMG, it now has -10
-[05:00:33 PM]Huminoid Taco has lost his Head!
-[05:00:33 PM]Huminoid Taco has lost his Left Fang!
-[05:00:33 PM]Huminoid Taco has lost his Right Fang!
-[05:00:33 PM]Huminoid Taco died!
-[05:00:33 PM]Huminoid Taco  exited. Players: 1
-[05:00:33 PM]Player has attained insanity!
-[05:00:33 PM]Player  exited. Players: 0
-[05:00:33 PM]You must go on to fight wierder stuff!
-[05:00:33 PM]0: Advance!
-[05:00:33 PM]Where do you want to go?  
-[05:00:35 PM]User: 0
-[05:00:35 PM]Python has whip'd 
-[05:00:35 PM] Left Leg!
-[05:00:35 PM]Python's whip has 4 speed
-[05:00:35 PM]0: Fang, HP: 5
-[05:00:35 PM]1: Head, HP: 30
-[05:00:35 PM]2: Tail, HP: 40
-[05:00:35 PM]Choice? 
-[06:01:02 PM]Log Closed
-[09:59:34 PM]Log opened
-[09:59:35 PM]This is QFTSOM 0.2
-[09:59:35 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
-[09:59:35 PM]0: Left Fang, HP: 5
-[09:59:35 PM]1: Right Fang, HP: 5
-[09:59:35 PM]2: Torso, HP: 60
-[09:59:35 PM]3: Head, HP: 30
-[09:59:35 PM]4: Left Arm, HP: 30
-[09:59:35 PM]5: Right Arm, HP: 30
-[09:59:35 PM]6: Left Leg, HP: 30
-[09:59:35 PM]7: Right Leg, HP: 30
-[09:59:35 PM]Choice? 
-[09:59:37 PM]User: 9
-[09:59:37 PM]Bad choice! Bad!
-[09:59:37 PM]Choice? 
-[09:59:39 PM]User: 0
-[09:59:39 PM]0: Left kick
-[09:59:39 PM]1: Left punch
-[09:59:39 PM]2: Right kick
-[09:59:39 PM]3: Left bite
-[09:59:39 PM]4: Right bite
-[09:59:39 PM]5: Right punch
-[09:59:39 PM]Choice? 
-[09:59:52 PM]Log Closed
+[01:46:00 PM]Log opened
+[02:04:31 PM]Log opened
+[02:04:31 PM]Log Closed
+[02:05:03 PM]Log opened
+[02:05:03 PM]Log Closed
+[02:06:29 PM]Log opened
+[02:06:29 PM]This is QFTSOM 0.2
+[02:06:29 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[02:06:29 PM]0: Game #1
+[02:06:29 PM]1: Change Defaults
+[02:06:29 PM]2: Custom Game
+[02:06:29 PM]3: Ideas
+[02:06:29 PM]Where do you want to go?  
+[02:07:11 PM]Log Closed
+[02:07:14 PM]Log opened
+[02:07:14 PM]This is QFTSOM 0.2
+[02:07:15 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[02:07:15 PM]0: Game #1
+[02:07:15 PM]1: Change Defaults
+[02:07:15 PM]2: Custom Game
+[02:07:15 PM]3: Ideas
+[02:07:15 PM]Where do you want to go?  
+[02:07:18 PM]Log Closed
+[02:07:24 PM]Log opened
+[02:07:24 PM]This is QFTSOM 0.2
+[02:07:24 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[02:07:24 PM]0: Game #1
+[02:07:24 PM]1: Change Defaults
+[02:07:24 PM]2: Custom Game
+[02:07:24 PM]3: Ideas
+[02:07:24 PM]Where do you want to go?  
+[02:10:13 PM]Log Closed
+[02:17:17 PM]Log opened
+[02:17:18 PM]This is QFTSOM 0.2
+[02:17:18 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[02:17:18 PM]0: Game #1
+[02:17:18 PM]1: Change Defaults
+[02:17:18 PM]2: Custom Game
+[02:17:18 PM]3: Ideas
+[02:17:18 PM]Where do you want to go?  
+[02:45:41 PM]Log Closed
+[08:50:25 PM]Log opened
+[08:50:25 PM]This is QFTSOM 0.2
+[08:50:25 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:50:25 PM]0: Game #1
+[08:50:25 PM]1: Change Defaults
+[08:50:25 PM]2: Custom Game
+[08:50:25 PM]3: Ideas
+[08:50:25 PM]Where do you want to go?  
+[09:22:17 PM]ERROR: Traceback (most recent call last):
+[09:22:17 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[09:22:17 PM]    print(game.nodemap.travel())
+[09:22:17 PM]  File "/home/glycan/QFTSOM/api/net.py", line 49, in travel
+[09:22:17 PM]    while 1:
+[09:22:17 PM]KeyboardInterrupt
+[09:22:17 PM]Log Closed
+[04:14:55 PM]Log opened
+[04:14:56 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:14:56 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:14:56 PM]0: Game #1
+[04:14:56 PM]1: Game #2
+[04:14:56 PM]2: Change Defaults
+[04:14:56 PM]3: Custom Game
+[04:14:56 PM]4: Ideas
+[04:14:56 PM]Where do you want to go?  
+[04:15:18 PM]User: 3
+[04:15:18 PM]You're making your own battle now. It follows defaults, so you don't necessarily have to have rules and exits- just people (enemies, normally)
+[04:15:18 PM]You must use non-numerical choices here. Try help first.
+[04:15:18 PM]Action? 
+[04:15:21 PM]User: help
+[04:15:21 PM]help gives you this message. "list" by itself lists all componants,and takes the following arguments: in (all selected componants), out (all unselected), p (all players- players are entities in the battle), r (rules, which determine how to do a given thing, like player order), e (all exits, which are exit conditions and effects,such as die and win). Naming an unselected componant's number selects it, and naming a selected componant'number unselects it. ? <componant number> gives more information about that componant."end" ends the session.
+[04:15:21 PM]Action? 
+[04:15:25 PM]User: list
+[04:15:25 PM]0: 
+[04:15:25 PM] 
+[04:15:25 PM]die
+[04:15:25 PM]1:  win
+[04:15:25 PM]2:  schedule: same
+[04:15:25 PM]3:  schedule: next
+[04:15:25 PM]4:  schedule: speed
+[04:15:25 PM]5:  get_actions: get_all
+[04:15:25 PM]6:  wipe_hist: reset
+[04:15:25 PM]7:  wipe_hist: wipe_limbs
+[04:15:25 PM]8:  Player
+[04:15:25 PM]9:  Oddball
+[04:15:25 PM]10: Man
+[04:15:25 PM]11: OtherMan
+[04:15:25 PM]12: Staffo
+[04:15:25 PM]13: limbdie
+[04:15:25 PM]14: Python
+[04:15:25 PM]15: Montey
+[04:15:25 PM]16: Beezulbub
+[04:15:25 PM]17: Player
+[04:15:25 PM]18: Huminoid Taco
+[04:15:25 PM]Action? 
+[04:19:54 PM]Log Closed
+[04:20:13 PM]Log opened
+[04:20:13 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:20:13 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:20:13 PM]0: Game #1
+[04:20:13 PM]1: Game #2
+[04:20:13 PM]2: Change Defaults
+[04:20:13 PM]3: Custom Game
+[04:20:13 PM]4: Ideas
+[04:20:13 PM]Where do you want to go?  
+[04:20:17 PM]Log Closed
+[04:21:22 PM]Log opened
+[04:21:22 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:21:23 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:21:23 PM]0: Game #1
+[04:21:23 PM]1: Game #2
+[04:21:23 PM]2: Change Defaults
+[04:21:23 PM]3: Custom Game
+[04:21:23 PM]4: Ideas
+[04:21:23 PM]Where do you want to go?  
+[04:21:25 PM]Log Closed
+[04:21:40 PM]Log opened
+[04:21:40 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:21:40 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:21:40 PM]0: Game #1
+[04:21:40 PM]1: Game #2
+[04:21:40 PM]2: Change Defaults
+[04:21:40 PM]3: Custom Game
+[04:21:40 PM]4: Ideas
+[04:21:40 PM]Where do you want to go?  
+[04:21:40 PM]Log Closed
+[05:55:07 PM]Log opened
+[05:55:07 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[05:55:07 PM]die
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]win
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]schedule: same
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]schedule: next
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]schedule: speed
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]get_actions: get_all
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]wipe_hist: reset
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]base
+[05:55:07 PM]wipe_hist: wipe_limbs registered from base
+[05:55:07 PM]Player
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] simple
+[05:55:07 PM]Oddball registered from simple
+[05:55:07 PM]Man registered from
+[05:55:07 PM] simple
+[05:55:07 PM]OtherMan registered from simple
+[05:55:07 PM]Staffo registered from simple
+[05:55:07 PM]limbdie
+[05:55:07 PM] 
+[05:55:07 PM]registered from limb
+[05:55:07 PM]Python
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] limb
+[05:55:07 PM]Montey
+[05:55:07 PM] registered from limb
+[05:55:07 PM]Beezulbub
+[05:55:07 PM] registered from limb
+[05:55:07 PM]Player
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]limb
+[05:55:07 PM]Huminoid Taco
+[05:55:07 PM] 
+[05:55:07 PM]registered from
+[05:55:07 PM] 
+[05:55:07 PM]limb
+[05:55:07 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[05:55:07 PM]0: Game #1
+[05:55:07 PM]1: Game #2
+[05:55:07 PM]2: Change Defaults
+[05:55:07 PM]3: Custom Game
+[05:55:07 PM]4: Ideas
+[05:55:07 PM]Where do you want to go?  Bad answer! User a number in range
+[05:55:07 PM]Where do you want to go?  
+[05:55:50 PM]Log Closed
+[05:55:54 PM]Log opened
+[05:55:54 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[05:55:54 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[05:55:54 PM]0: Game #1
+[05:55:54 PM]1: Game #2
+[05:55:54 PM]2: Change Defaults
+[05:55:54 PM]3: Custom Game
+[05:55:54 PM]4: Ideas
+[05:55:54 PM]Where do you want to go?  
+[09:47:04 AM]Log Closed
+[04:30:16 PM]Log opened
+[04:30:16 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:30:16 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:30:16 PM]1: Game #1
+[04:30:16 PM]2: Game #2
+[04:30:16 PM]3: Game #3
+[04:30:16 PM]4: Change Defaults
+[04:30:16 PM]5: Custom Game
+[04:30:16 PM]6: Ideas
+[04:30:16 PM]Where do you want to go?  
+[04:30:16 PM]Bad answer! User a number in range
+[04:30:16 PM]Where do you want to go?  
+[06:23:36 PM]Log opened
+[06:23:36 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[06:23:36 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[06:23:36 PM]1: Game #1
+[06:23:36 PM]2: Game #2
+[06:23:36 PM]3: Game #3
+[06:23:36 PM]4: Change Defaults
+[06:23:36 PM]5: Custom Game
+[06:23:36 PM]6: Ideas
+[06:23:36 PM]Where do you want to go?  
+[06:23:36 PM]Bad answer! User a number in range
+[06:23:36 PM]Where do you want to go?  
+[06:24:14 PM]User: 1
+[06:24:14 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[06:24:14 PM]0: Player, HP: 6
+[06:24:14 PM]1: OtherMan, HP: 4
+[06:24:14 PM]2: Oddball, HP: 5
+[06:24:14 PM]3: Man, HP: 5
+[06:24:14 PM]4: Staffo, HP: 5
+[06:24:14 PM]Target? 
+[06:24:36 PM]User: 1
+[06:24:36 PM]Player
+[06:24:36 PM] has poke'd OtherMan!
+[06:24:36 PM]OtherMan has lost 1 health!
+[06:24:36 PM]OtherMan has poke'd Oddball!
+[06:24:36 PM]Oddball has lost 1 health!
+[06:24:36 PM]Oddball has poke'd Player!
+[06:24:36 PM]Player has lost 1 health!
+[06:24:36 PM]Man has poke'd OtherMan!
+[06:24:36 PM]OtherMan has lost 1 health!
+[06:24:36 PM]Staffo has hit'd OtherMan!
+[06:24:36 PM]OtherMan has lost 2 health!
+[06:24:36 PM]OtherMan is woefully unlifelike!
+[06:24:36 PM]OtherMan exited. Players: 4
+[06:24:36 PM]0: Player, HP: 5
+[06:24:36 PM]1: Oddball, HP: 4
+[06:24:36 PM]2: Man, HP: 5
+[06:24:36 PM]3: Staffo, HP: 5
+[06:24:36 PM]Target? 
+[06:24:40 PM]User: 1
+[06:24:40 PM]Player
+[06:24:40 PM] has poke'd Oddball!
+[06:24:40 PM]Oddball has lost 1 health!
+[06:24:40 PM]Oddball has poke'd Player!
+[06:24:40 PM]Player has lost 1 health!
+[06:24:40 PM]Man has poke'd Oddball!
+[06:24:40 PM]Oddball has lost 1 health!
+[06:24:40 PM]Staffo has hit'd Oddball!
+[06:24:40 PM]Oddball has lost 2 health!
+[06:24:40 PM]Oddball is woefully unlifelike!
+[06:24:40 PM]Oddball exited. Players: 3
+[06:24:40 PM]0: Player, HP: 4
+[06:24:40 PM]1: Man, HP: 5
+[06:24:40 PM]2: Staffo, HP: 5
+[06:24:40 PM]Target? 
+[06:25:03 PM]User: 2
+[06:25:03 PM]Player
+[06:25:03 PM] 
+[06:25:03 PM]has poke'd Staffo!
+[06:25:03 PM]Staffo has lost 1 health!
+[06:25:03 PM]Man has poke'd Player!
+[06:25:03 PM]Player has lost 1 health!
+[06:25:03 PM]Staffo has hit'd Player!
+[06:25:03 PM]Player has lost 2 health!
+[06:25:03 PM]0: Player, HP: 1
+[06:25:03 PM]1: Man, HP: 5
+[06:25:03 PM]2: Staffo, HP: 4
+[06:25:03 PM]Target? 
+[06:25:14 PM]User: 2
+[06:25:14 PM]Player
+[06:25:14 PM] has poke'd Staffo!
+[06:25:14 PM]Staffo has lost 1 health!
+[06:25:14 PM]Man has poke'd Player!
+[06:25:14 PM]Player has lost 1 health!
+[06:25:14 PM]Player is woefully unlifelike!
+[06:25:14 PM]Player exited. Players: 2
+[06:25:14 PM]Staffo has hit'd Man!
+[06:25:14 PM]Man has lost 2 health!
+[06:25:14 PM]Man has poke'd Staffo!
+[06:25:14 PM]Staffo has lost 1 health!
+[06:25:14 PM]Staffo has hit'd Man!
+[06:25:14 PM]Man has lost 2 health!
+[06:25:14 PM]Man has poke'd Staffo!
+[06:25:14 PM]Staffo has lost 1 health!
+[06:25:14 PM]Staffo has hit'd Man!
+[06:25:14 PM]Man has lost 2 health!
+[06:25:14 PM]Man is woefully unlifelike!
+[06:25:14 PM]Man exited. Players: 1
+[06:25:14 PM]Staffo has vanquished his foes!
+[06:25:14 PM]Staffo exited. Players: 0
+[06:25:14 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[06:25:14 PM]1: Game #1
+[06:25:14 PM]2: Game #2
+[06:25:14 PM]3: Game #3
+[06:25:14 PM]4: Change Defaults
+[06:25:14 PM]5: Custom Game
+[06:25:14 PM]6: Ideas
+[06:25:14 PM]Where do you want to go?  
+[06:25:24 PM]User: 1
+[06:25:24 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, while the puissant Staffo hits twice as hard as you stick-possesing fools.
+[06:25:24 PM]0: Player, HP: 6
+[06:25:24 PM]1: OtherMan, HP: 4
+[06:25:24 PM]2: Oddball, HP: 5
+[06:25:24 PM]3: Man, HP: 5
+[06:25:24 PM]4: Staffo, HP: 5
+[06:25:24 PM]Target? 
+[06:25:27 PM]User: 4
+[06:25:27 PM]Player has poke'd Staffo!
+[06:25:27 PM]Staffo has lost 1 health!
+[06:25:27 PM]OtherMan has poke'd Staffo!
+[06:25:27 PM]Staffo has lost 1 health!
+[06:25:27 PM]Oddball has poke'd Player!
+[06:25:27 PM]Player has lost 1 health!
+[06:25:27 PM]Man has poke'd Staffo!
+[06:25:27 PM]Staffo has lost 1 health!
+[06:25:27 PM]Staffo has hit'd OtherMan!
+[06:25:27 PM]OtherMan has lost 2 health!
+[06:25:27 PM]0: Player, HP: 5
+[06:25:27 PM]1: OtherMan, HP: 2
+[06:25:27 PM]2: Oddball, HP: 5
+[06:25:27 PM]3: Man, HP: 5
+[06:25:27 PM]4: Staffo, HP: 2
+[06:25:27 PM]Target? 
+[06:25:29 PM]User: 4
+[06:25:29 PM]Player has poke'd Staffo!
+[06:25:29 PM]Staffo has lost 1 health!
+[06:25:29 PM]OtherMan has poke'd Staffo!
+[06:25:29 PM]Staffo has lost 1 health!
+[06:25:29 PM]Staffo is woefully unlifelike!
+[06:25:29 PM]Staffo exited. Players: 4
+[06:25:29 PM]Oddball has poke'd Player!
+[06:25:29 PM]Player has lost 1 health!
+[06:25:29 PM]Man has poke'd OtherMan!
+[06:25:29 PM]OtherMan has lost 1 health!
+[06:25:29 PM]0: Player, HP: 4
+[06:25:29 PM]1: OtherMan, HP: 1
+[06:25:29 PM]2: Oddball, HP: 5
+[06:25:29 PM]3: Man, HP: 5
+[06:25:29 PM]Target? 
+[06:25:37 PM]User: 2
+[06:25:37 PM]Player has poke'd Oddball!
+[06:25:37 PM]Oddball has lost 1 health!
+[06:25:37 PM]OtherMan has poke'd Player!
+[06:25:37 PM]Player has lost 1 health!
+[06:25:37 PM]Oddball has poke'd Man!
+[06:25:37 PM]Man has lost 1 health!
+[06:25:37 PM]Man has poke'd OtherMan!
+[06:25:37 PM]OtherMan has lost 1 health!
+[06:25:37 PM]OtherMan is woefully unlifelike!
+[06:25:37 PM]OtherMan exited. Players: 3
+[06:25:37 PM]0: Player, HP: 3
+[06:25:37 PM]1: Oddball, HP: 4
+[06:25:37 PM]2: Man, HP: 4
+[06:25:37 PM]Target? 
+[06:25:50 PM]User: 2
+[06:25:50 PM]Player has poke'd Man!
+[06:25:50 PM]Man has lost 1 health!
+[06:25:50 PM]Oddball has poke'd Player!
+[06:25:50 PM]Player has lost 1 health!
+[06:25:50 PM]Man has poke'd Player!
+[06:25:50 PM]Player has lost 1 health!
+[06:25:50 PM]0: Player, HP: 1
+[06:25:50 PM]1: Oddball, HP: 4
+[06:25:50 PM]2: Man, HP: 3
+[06:25:50 PM]Target? 
+[06:25:53 PM]User: 1
+[06:25:53 PM]Player has poke'd Oddball!
+[06:25:53 PM]Oddball has lost 1 health!
+[06:25:53 PM]Oddball has poke'd Man!
+[06:25:53 PM]Man has lost 1 health!
+[06:25:53 PM]Man has poke'd Player!
+[06:25:53 PM]Player has lost 1 health!
+[06:25:53 PM]Player is woefully unlifelike!
+[06:25:53 PM]Player exited. Players: 2
+[06:25:53 PM]Oddball has poke'd Man!
+[06:25:53 PM]Man has lost 1 health!
+[06:25:53 PM]Man has poke'd Oddball!
+[06:25:53 PM]Oddball has lost 1 health!
+[06:25:53 PM]Oddball has poke'd Man!
+[06:25:53 PM]Man has lost 1 health!
+[06:25:53 PM]Man is woefully unlifelike!
+[06:25:53 PM]Man exited. Players: 1
+[06:25:53 PM]Oddball has vanquished his foes!
+[06:25:53 PM]Oddball exited. Players: 0
+[06:25:53 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[06:25:53 PM]1: Game #1
+[06:25:53 PM]2: Game #2
+[06:25:53 PM]3: Game #3
+[06:25:53 PM]4: Change Defaults
+[06:25:53 PM]5: Custom Game
+[06:25:53 PM]6: Ideas
+[06:25:53 PM]Where do you want to go?  
+[06:25:56 PM]User: 2
+[06:25:56 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[06:25:56 PM]0: Left Fang, HP: 5
+[06:25:56 PM]1: Right Fang, HP: 5
+[06:25:56 PM]2: Torso, HP: 60
+[06:25:56 PM]3: Head, HP: 20
+[06:25:56 PM]4: Left Arm, HP: 30
+[06:25:56 PM]5: Right Arm, HP: 30
+[06:25:56 PM]6: Left Leg, HP: 30
+[06:25:56 PM]7: Right Leg, HP: 30
+[06:25:56 PM]Choice? 
+[06:26:11 PM]User: 0
+[06:26:11 PM]0: Left kick
+[06:26:11 PM]1: Left punch
+[06:26:11 PM]2: Right kick
+[06:26:11 PM]3: Left bite
+[06:26:11 PM]4: Right bite
+[06:26:11 PM]5: stab
+[06:26:11 PM]6: Right punch
+[06:26:11 PM]Choice? 
+[06:26:19 PM]User: 2
+[06:26:19 PM]Player has kick'd Left Fang!
+[06:26:19 PM]Player's kick has 3.0 speed
+[06:26:19 PM]Huminoid Taco's Left Fang took 20 DMG, it now has -15
+[06:26:19 PM]Huminoid Taco has lost his Left Fang!
+[06:26:19 PM]Huminoid Taco has punch'd Torso!
+[06:26:19 PM]Huminoid Taco's punch has 4.0 speed
+[06:26:19 PM]Player's Torso took 15 DMG, it now has 45
+[06:26:19 PM]0: Right Fang, HP: 5
+[06:26:19 PM]1: Torso, HP: 60
+[06:26:19 PM]2: Head, HP: 20
+[06:26:19 PM]3: Left Arm, HP: 30
+[06:26:19 PM]4: Right Arm, HP: 30
+[06:26:19 PM]5: Left Leg, HP: 30
+[06:26:19 PM]6: Right Leg, HP: 30
+[06:26:19 PM]Choice? 
+[06:26:35 PM]User: 2
+[06:26:35 PM]0: Left kick
+[06:26:35 PM]1: Left punch
+[06:26:35 PM]2: Right kick
+[06:26:35 PM]3: Left bite
+[06:26:35 PM]4: Right bite
+[06:26:35 PM]5: stab
+[06:26:35 PM]6: Right punch
+[06:26:35 PM]Choice? 
+[06:26:39 PM]User: 2
+[06:26:39 PM]Player has kick'd Head!
+[06:26:39 PM]Player's kick has 3.0 speed
+[06:26:39 PM]Player's kick missed!
+[06:26:39 PM]Huminoid Taco has kick'd Right Fang!
+[06:26:39 PM]Huminoid Taco's kick has 4.0 speed
+[06:26:39 PM]Huminoid Taco's kick missed!
+[06:26:39 PM]0: Right Fang, HP: 5
+[06:26:39 PM]1: Torso, HP: 60
+[06:26:39 PM]2: Head, HP: 20
+[06:26:39 PM]3: Left Arm, HP: 30
+[06:26:39 PM]4: Right Arm, HP: 30
+[06:26:39 PM]5: Left Leg, HP: 30
+[06:26:39 PM]6: Right Leg, HP: 30
+[06:26:39 PM]Choice? 
+[06:26:50 PM]User: 2
+[06:26:50 PM]0: Left kick
+[06:26:50 PM]1: Left punch
+[06:26:50 PM]2: Right kick
+[06:26:50 PM]3: Left bite
+[06:26:50 PM]4: Right bite
+[06:26:50 PM]5: stab
+[06:26:50 PM]6: Right punch
+[06:26:50 PM]Choice? 
+[06:26:54 PM]User: 5
+[06:26:54 PM]Player has stab'd Head!
+[06:26:54 PM]Player's stab has 2.0 speed
+[06:26:54 PM]Huminoid Taco's Head took 5 DMG, it now has 15
+[06:26:54 PM]Huminoid Taco's Head has been poisoned for 5
+[06:26:54 PM]Huminoid Taco's Head took 5 DMG from poison, it now has 10
+[06:26:54 PM]Huminoid Taco's Head took 4 DMG from poison, it now has 6
+[06:26:54 PM]0: Right Fang, HP: 5
+[06:26:54 PM]1: Torso, HP: 60
+[06:26:54 PM]2: Head, HP: 6
+[06:26:54 PM]3: Left Arm, HP: 30
+[06:26:54 PM]4: Right Arm, HP: 30
+[06:26:54 PM]5: Left Leg, HP: 30
+[06:26:54 PM]6: Right Leg, HP: 30
+[06:26:54 PM]Choice? 
+[06:27:30 PM]User: 1
+[06:27:30 PM]0: Left kick
+[06:27:30 PM]1: Left punch
+[06:27:30 PM]2: Right kick
+[06:27:30 PM]3: Left bite
+[06:27:30 PM]4: Right bite
+[06:27:30 PM]5: stab
+[06:27:30 PM]6: Right punch
+[06:27:30 PM]Choice? 
+[06:27:32 PM]User: 5
+[06:27:32 PM]Player has stab'd Torso!
+[06:27:32 PM]Player's stab has 2.0 speed
+[06:27:32 PM]Huminoid Taco's Torso took 5 DMG, it now has 55
+[06:27:32 PM]Huminoid Taco's Torso has been poisoned for 5
+[06:27:32 PM]Huminoid Taco's Head took 3 DMG from poison, it now has 3
+[06:27:32 PM]Huminoid Taco's Torso took 5 DMG from poison, it now has 50
+[06:27:32 PM]Huminoid Taco has stab'd Left Leg!
+[06:27:32 PM]Huminoid Taco's stab has 3.0 speed
+[06:27:32 PM]Player's Left Leg took 5 DMG, it now has 25
+[06:27:32 PM]Player's Left Leg has been poisoned for 5
+[06:27:32 PM]Player's Left Leg took 5 DMG from poison, it now has 20
+[06:27:32 PM]Huminoid Taco's Head took 2 DMG from poison, it now has 1
+[06:27:32 PM]Huminoid Taco's Torso took 4 DMG from poison, it now has 46
+[06:27:32 PM]0: Right Fang, HP: 5
+[06:27:32 PM]1: Torso, HP: 46
+[06:27:32 PM]2: Head, HP: 1
+[06:27:32 PM]3: Left Arm, HP: 30
+[06:27:32 PM]4: Right Arm, HP: 30
+[06:27:32 PM]5: Left Leg, HP: 30
+[06:27:32 PM]6: Right Leg, HP: 30
+[06:27:32 PM]Choice? 
+[06:27:42 PM]User: 5
+[06:27:42 PM]0: Left kick
+[06:27:42 PM]1: Left punch
+[06:27:42 PM]2: Right kick
+[06:27:42 PM]3: Left bite
+[06:27:42 PM]4: Right bite
+[06:27:42 PM]5: stab
+[06:27:42 PM]6: Right punch
+[06:27:42 PM]Choice? 
+[06:27:44 PM]User: 5
+[06:27:44 PM]Player has stab'd Left Leg!
+[06:27:44 PM]Player's stab has 2.0 speed
+[06:27:44 PM]Huminoid Taco's Left Leg took 5 DMG, it now has 25
+[06:27:44 PM]Huminoid Taco's Left Leg has been poisoned for 5
+[06:27:44 PM]Player's Left Leg took 4 DMG from poison, it now has 16
+[06:27:44 PM]Huminoid Taco's Head took 1 DMG from poison, it now has 0
+[06:27:44 PM]Huminoid Taco's Left Leg took 5 DMG from poison, it now has 20
+[06:27:44 PM]Huminoid Taco has lost his Head!
+[06:27:44 PM]Huminoid Taco has lost his Right Fang!
+[06:27:44 PM]Huminoid Taco died!
+[06:27:44 PM]Huminoid Taco exited. Players: 1
+[06:27:44 PM]Player has vanquished his foes!
+[06:27:44 PM]Player exited. Players: 0
+[06:27:44 PM]You must go on to fight wierder stuff!
+[06:27:44 PM]1: Advance!
+[06:27:44 PM]Where do you want to go?  
+[06:28:06 PM]User: 1
+[06:28:06 PM]0: Fang, HP: 5
+[06:28:06 PM]1: Head, HP: 30
+[06:28:06 PM]2: Tail, HP: 40
+[06:28:06 PM]Choice? 
+[06:28:12 PM]User: 1
+[06:28:12 PM]0: Left kick
+[06:28:12 PM]1: Left punch
+[06:28:12 PM]2: Right kick
+[06:28:12 PM]3: Left bite
+[06:28:12 PM]4: Right bite
+[06:28:12 PM]5: stab
+[06:28:12 PM]6: Right punch
+[06:28:12 PM]Choice? 
+[06:28:14 PM]User: 5
+[06:28:14 PM]Player has stab'd Head!
+[06:28:14 PM]Player's stab has 2.0 speed
+[06:28:14 PM]Player's stab missed!
+[06:28:14 PM]Python has bite'd Right Fang!
+[06:28:14 PM]Python's bite has 4 speed
+[06:28:14 PM]Python's bite missed!
+[06:28:14 PM]0: Fang, HP: 5
+[06:28:14 PM]1: Head, HP: 30
+[06:28:14 PM]2: Tail, HP: 40
+[06:28:14 PM]Choice? 
+[06:28:23 PM]User: 1
+[06:28:23 PM]0: Left kick
+[06:28:23 PM]1: Left punch
+[06:28:23 PM]2: Right kick
+[06:28:23 PM]3: Left bite
+[06:28:23 PM]4: Right bite
+[06:28:23 PM]5: stab
+[06:28:23 PM]6: Right punch
+[06:28:23 PM]Choice? 
+[06:28:27 PM]User: 3
+[06:28:27 PM]Player has bite'd Head!
+[06:28:27 PM]Player's bite has 3.0 speed
+[06:28:27 PM]Player's bite missed!
+[06:28:27 PM]Python has whip'd Left Leg!
+[06:28:27 PM]Python's whip has 4 speed
+[06:28:27 PM]0: Fang, HP: 5
+[06:28:27 PM]1: Head, HP: 30
+[06:28:27 PM]2: Tail, HP: 40
+[06:28:27 PM]Choice? 
+[06:28:33 PM]User: 2
+[06:28:33 PM]0: Left kick
+[06:28:33 PM]1: Left punch
+[06:28:33 PM]2: Right kick
+[06:28:33 PM]3: Left bite
+[06:28:33 PM]4: Right bite
+[06:28:33 PM]5: stab
+[06:28:33 PM]6: Right punch
+[06:28:33 PM]Choice? 
+[06:28:33 PM]User: 5
+[06:28:33 PM]Player has stab'd Tail!
+[06:28:33 PM]Player's stab has 2.0 speed
+[06:28:33 PM]Player's Left Leg took 10 DMG, it now has 20
+[06:28:33 PM]Python's Tail took 5 DMG, it now has 35
+[06:28:33 PM]Python's Tail has been poisoned for 5
+[06:28:33 PM]Python's Tail took 5 DMG from poison, it now has 30
+[06:28:33 PM]Python's Tail took 4 DMG from poison, it now has 26
+[06:28:33 PM]0: Fang, HP: 5
+[06:28:33 PM]1: Head, HP: 30
+[06:28:33 PM]2: Tail, HP: 26
+[06:28:33 PM]Choice? 
+[06:28:39 PM]User: 1
+[06:28:39 PM]0: Left kick
+[06:28:39 PM]1: Left punch
+[06:28:39 PM]2: Right kick
+[06:28:39 PM]3: Left bite
+[06:28:39 PM]4: Right bite
+[06:28:39 PM]5: stab
+[06:28:39 PM]6: Right punch
+[06:28:39 PM]Choice? 
+[06:28:40 PM]User: 5
+[06:28:40 PM]Player has stab'd Head!
+[06:28:40 PM]Player's stab has 2.0 speed
+[06:28:40 PM]Python's Head took 5 DMG, it now has 25
+[06:28:40 PM]Python's Head has been poisoned for 5
+[06:28:40 PM]Python's Tail took 3 DMG from poison, it now has 23
+[06:28:40 PM]Python's Head took 5 DMG from poison, it now has 20
+[06:28:40 PM]Python's Tail took 2 DMG from poison, it now has 21
+[06:28:40 PM]Python's Head took 4 DMG from poison, it now has 16
+[06:28:40 PM]Python has whip'd Right Fang!
+[06:28:40 PM]Python's whip has 4 speed
+[06:28:40 PM]0: Fang, HP: 5
+[06:28:40 PM]1: Head, HP: 16
+[06:28:40 PM]2: Tail, HP: 21
+[06:28:40 PM]Choice? 
+[06:28:47 PM]User: 1
+[06:28:47 PM]0: Left kick
+[06:28:47 PM]1: Left punch
+[06:28:47 PM]2: Right kick
+[06:28:47 PM]3: Left bite
+[06:28:47 PM]4: Right bite
+[06:28:47 PM]5: stab
+[06:28:47 PM]6: Right punch
+[06:28:47 PM]Choice? 
+[06:28:47 PM]User: 5
+[06:28:47 PM]Player has stab'd Head!
+[06:28:47 PM]Player's stab has 2.0 speed
+[06:28:47 PM]Python's whip missed!
+[06:28:47 PM]Player's stab missed!
+[06:28:47 PM]Python's Tail took 1 DMG from poison, it now has 20
+[06:28:47 PM]Python's Head took 3 DMG from poison, it now has 13
+[06:28:47 PM]0: Fang, HP: 5
+[06:28:47 PM]1: Head, HP: 13
+[06:28:47 PM]2: Tail, HP: 20
+[06:28:47 PM]Choice? 
+[06:28:53 PM]User: 1
+[06:28:53 PM]0: Left kick
+[06:28:53 PM]1: Left punch
+[06:28:53 PM]2: Right kick
+[06:28:53 PM]3: Left bite
+[06:28:53 PM]4: Right bite
+[06:28:53 PM]5: stab
+[06:28:53 PM]6: Right punch
+[06:28:53 PM]Choice? 
+[06:28:54 PM]User: 5
+[06:28:54 PM]Player has stab'd Head!
+[06:28:54 PM]Player's stab has 2.0 speed
+[06:28:54 PM]Python's Head took 5 DMG, it now has 8
+[06:28:54 PM]Python's Head has been poisoned for 5
+[06:28:54 PM]Python's Head took 2 DMG from poison, it now has 6
+[06:28:54 PM]Python's Head took 5 DMG from poison, it now has 1
+[06:28:54 PM]Python's Head took 1 DMG from poison, it now has 0
+[06:28:54 PM]Python has lost his Head!
+[06:28:54 PM]Python has lost his Fang!
+[06:28:54 PM]Python died!
+[06:28:54 PM]Python exited. Players: 1
+[06:28:54 PM]Player has vanquished his foes!
+[06:28:54 PM]Player exited. Players: 0
+[06:28:54 PM]1: Procced!
+[06:28:54 PM]Where do you want to go?  
+[06:28:57 PM]User: 1
+[06:28:57 PM]0: Fang, HP: 5
+[06:28:57 PM]1: Head, HP: 30
+[06:28:57 PM]2: Tail, HP: 40
+[06:28:57 PM]Choice? 
+[06:29:11 PM]User: 1
+[06:29:11 PM]0: Left kick
+[06:29:11 PM]1: Left punch
+[06:29:11 PM]2: Right kick
+[06:29:11 PM]3: Left bite
+[06:29:11 PM]4: Right bite
+[06:29:11 PM]5: stab
+[06:29:11 PM]6: Right punch
+[06:29:11 PM]Choice? 
+[06:29:14 PM]User: 5
+[06:29:14 PM]Player has stab'd Head!
+[06:29:14 PM]Player's stab has 2.0 speed
+[06:29:14 PM]Montey's Head took 5 DMG, it now has 25
+[06:29:14 PM]Montey's Head has been poisoned for 5
+[06:29:14 PM]Montey's Head took 5 DMG from poison, it now has 20
+[06:29:14 PM]Montey has whip'd Head!
+[06:29:14 PM]Montey's whip has 4 speed
+[06:29:14 PM]Montey's whip missed!
+[06:29:14 PM]Montey's Head took 4 DMG from poison, it now has 16
+[06:29:14 PM]0: Fang, HP: 5
+[06:29:14 PM]1: Head, HP: 16
+[06:29:14 PM]2: Tail, HP: 40
+[06:29:14 PM]Choice? 
+[06:29:21 PM]User: 1
+[06:29:21 PM]0: Left kick
+[06:29:21 PM]1: Left punch
+[06:29:21 PM]2: Right kick
+[06:29:21 PM]3: Left bite
+[06:29:21 PM]4: Right bite
+[06:29:21 PM]5: stab
+[06:29:21 PM]6: Right punch
+[06:29:21 PM]Choice? 
+[06:29:21 PM]User: 5
+[06:29:21 PM]Player has stab'd Head!
+[06:29:21 PM]Player's stab has 2.0 speed
+[06:29:21 PM]Player's stab missed!
+[06:29:21 PM]Montey's Head took 3 DMG from poison, it now has 13
+[06:29:21 PM]Montey's Head took 2 DMG from poison, it now has 11
+[06:29:21 PM]0: Fang, HP: 5
+[06:29:21 PM]1: Head, HP: 11
+[06:29:21 PM]2: Tail, HP: 40
+[06:29:21 PM]Choice? 
+[06:29:23 PM]User: 1
+[06:29:23 PM]0: Left kick
+[06:29:23 PM]1: Left punch
+[06:29:23 PM]2: Right kick
+[06:29:23 PM]3: Left bite
+[06:29:23 PM]4: Right bite
+[06:29:23 PM]5: stab
+[06:29:23 PM]6: Right punch
+[06:29:23 PM]Choice? 
+[06:29:23 PM]User: 5
+[06:29:23 PM]Player has stab'd Head!
+[06:29:23 PM]Player's stab has 2.0 speed
+[06:29:23 PM]Player's stab missed!
+[06:29:23 PM]Montey's Head took 1 DMG from poison, it now has 10
+[06:29:23 PM]Montey has whip'd Head!
+[06:29:23 PM]Montey's whip has 4 speed
+[06:29:23 PM]Player's Head took 10 DMG, it now has 10
+[06:29:23 PM]0: Fang, HP: 5
+[06:29:23 PM]1: Head, HP: 10
+[06:29:23 PM]2: Tail, HP: 40
+[06:29:23 PM]Choice? 
+[06:29:28 PM]User: 1
+[06:29:28 PM]0: Left kick
+[06:29:28 PM]1: Left punch
+[06:29:28 PM]2: Right kick
+[06:29:28 PM]3: Left bite
+[06:29:28 PM]4: Right bite
+[06:29:28 PM]5: stab
+[06:29:28 PM]6: Right punch
+[06:29:28 PM]Choice? 
+[06:29:29 PM]User: 5
+[06:29:29 PM]Player has stab'd Head!
+[06:29:29 PM]Player's stab has 2.0 speed
+[06:29:29 PM]Player's stab missed!
+[06:29:29 PM]0: Fang, HP: 5
+[06:29:29 PM]1: Head, HP: 10
+[06:29:29 PM]2: Tail, HP: 40
+[06:29:29 PM]Choice? 
+[06:29:33 PM]User: 1
+[06:29:33 PM]0: Left kick
+[06:29:33 PM]1: Left punch
+[06:29:33 PM]2: Right kick
+[06:29:33 PM]3: Left bite
+[06:29:33 PM]4: Right bite
+[06:29:33 PM]5: stab
+[06:29:33 PM]6: Right punch
+[06:29:33 PM]Choice? 
+[06:29:34 PM]User: 5
+[06:29:34 PM]Player has stab'd Head!
+[06:29:34 PM]Player's stab has 2.0 speed
+[06:29:34 PM]Montey's Head took 5 DMG, it now has 5
+[06:29:34 PM]Montey's Head has been poisoned for 5
+[06:29:34 PM]Montey's Head took 5 DMG from poison, it now has 0
+[06:29:34 PM]Montey has lost his Head!
+[06:29:34 PM]Montey has lost his Fang!
+[06:29:34 PM]Montey died!
+[06:29:34 PM]Montey exited. Players: 1
+[06:29:34 PM]Player has vanquished his foes!
+[06:29:34 PM]Player exited. Players: 0
+[06:29:34 PM]1: Procced!
+[06:29:34 PM]Where do you want to go?  
+[06:29:39 PM]User: 1
+[06:29:39 PM]0: Head, HP: 30
+[06:29:39 PM]1: Barb, HP: 10
+[06:29:39 PM]Choice? 
+[06:29:46 PM]User: 0
+[06:29:46 PM]0: Left kick
+[06:29:46 PM]1: Left punch
+[06:29:46 PM]2: Right kick
+[06:29:46 PM]3: Left bite
+[06:29:46 PM]4: Right bite
+[06:29:46 PM]5: stab
+[06:29:46 PM]6: Right punch
+[06:29:46 PM]Choice? 
+[06:29:48 PM]User: 5
+[06:29:48 PM]Player has stab'd Head!
+[06:29:48 PM]Player's stab has 2.0 speed
+[06:29:48 PM]Beezulbub has sting'd Right Arm!
+[06:29:48 PM]Beezulbub's sting has 3 speed
+[06:29:48 PM]Beezulbub's Head took 5 DMG, it now has 25
+[06:29:48 PM]Beezulbub's Head has been poisoned for 5
+[06:29:48 PM]Player's Right Arm took 2 DMG, it now has 28
+[06:29:48 PM]Player's Right Arm has been poisoned for 20
+[06:29:48 PM]Player's Right Arm took 20 DMG from poison, it now has 8
+[06:29:48 PM]Beezulbub's Head took 5 DMG from poison, it now has 20
+[06:29:48 PM]Player's Right Arm took 19 DMG from poison, it now has -11
+[06:29:48 PM]Beezulbub's Head took 4 DMG from poison, it now has 16
+[06:29:48 PM]Player has lost his Right Arm!
+[06:29:48 PM]0: Head, HP: 16
+[06:29:48 PM]1: Barb, HP: 10
+[06:29:48 PM]Choice? 
+[06:29:55 PM]User: 0
+[06:29:55 PM]0: Left kick
+[06:29:55 PM]1: stab
+[06:29:55 PM]2: Right kick
+[06:29:55 PM]3: Right bite
+[06:29:55 PM]4: Left bite
+[06:29:55 PM]Choice? 
+[06:29:56 PM]User: 5
+[06:29:56 PM]Bad choice! Bad!
+[06:29:56 PM]Choice? 
+[06:30:11 PM]User: 1
+[06:30:11 PM]Player has stab'd Head!
+[06:30:11 PM]Player's stab has 2.0 speed
+[06:30:11 PM]Beezulbub's Head took 5 DMG, it now has 11
+[06:30:11 PM]Beezulbub's Head has been poisoned for 5
+[06:30:11 PM]Beezulbub's Head took 3 DMG from poison, it now has 8
+[06:30:11 PM]Beezulbub's Head took 5 DMG from poison, it now has 3
+[06:30:11 PM]Beezulbub has sting'd Left Arm!
+[06:30:11 PM]Beezulbub's sting has 3 speed
+[06:30:11 PM]Player's Left Arm took 2 DMG, it now has 28
+[06:30:11 PM]Player's Left Arm has been poisoned for 20
+[06:30:11 PM]Player's Left Arm took 20 DMG from poison, it now has 8
+[06:30:11 PM]Beezulbub's Head took 2 DMG from poison, it now has 1
+[06:30:11 PM]Beezulbub's Head took 4 DMG from poison, it now has -3
+[06:30:11 PM]Beezulbub has lost his Head!
+[06:30:11 PM]Beezulbub died!
+[06:30:11 PM]Beezulbub exited. Players: 1
+[06:30:11 PM]Player has vanquished his foes!
+[06:30:11 PM]Player exited. Players: 0
+[06:30:11 PM]1: Procced!
+[06:30:11 PM]Where do you want to go?  
+[06:30:17 PM]User: 1
+[06:30:17 PM]That's all the battles to be had
+[06:30:17 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[06:30:17 PM]1: Game #1
+[06:30:17 PM]2: Game #2
+[06:30:17 PM]3: Game #3
+[06:30:17 PM]4: Change Defaults
+[06:30:17 PM]5: Custom Game
+[06:30:17 PM]6: Ideas
+[06:30:17 PM]Where do you want to go?  
+[06:30:24 PM]Log Closed
+[07:21:54 PM]Log Closed
+[01:28:01 PM]Log opened
+[01:28:02 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[01:28:02 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[01:28:02 PM]1: Game #1
+[01:28:02 PM]2: Game #2
+[01:28:02 PM]3: Game #3
+[01:28:02 PM]4: Change Defaults
+[01:28:02 PM]5: Custom Game
+[01:28:02 PM]6: Ideas
+[01:28:02 PM]Where do you want to go?  
+[05:25:18 PM]Log Closed
+[01:21:42 PM]Log opened
+[01:21:43 PM]ERROR: Traceback (most recent call last):
+[01:21:43 PM]  File "/home/glycan/QFTSOM/main.py", line 8, in <module>
+[01:21:43 PM]    import game
+[01:21:43 PM]  File "/home/glycan/QFTSOM/game/__init__.py", line 1, in <module>
+[01:21:43 PM]    from game.nodemap import nodemap
+[01:21:43 PM]  File "/home/glycan/QFTSOM/game/nodemap.py", line 2, in <module>
+[01:21:43 PM]    from api import Net, Node
+[01:21:43 PM]  File "/home/glycan/QFTSOM/api/__init__.py", line 10, in <module>
+[01:21:43 PM]    from api.action import Action
+[01:21:43 PM]  File "/home/glycan/QFTSOM/api/action.py", line 18
+[01:21:43 PM]    self.m axt = maxt
+[01:21:43 PM]             ^
+[01:21:43 PM]SyntaxError: invalid syntax
+[01:21:43 PM]*--- Failure #9 ---
+[01:21:43 PM]Failure: 
+[01:21:43 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[01:21:43 PM]*--- End of Failure #9 ---
+[01:21:43 PM]ended with errors!
+[01:23:25 PM]Log Closed
+[09:29:03 PM]Log opened
+[09:29:03 PM]ERROR: Upon execvpe /home/glycan/QFTSOM/main.py [] in environment id 166681020
+[09:29:03 PM]:Traceback (most recent call last):
+[09:29:03 PM]  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 414, in _fork
+[09:29:03 PM]    executable, args, environment)
+[09:29:03 PM]  File "/usr/lib/python2.7/dist-packages/twisted/internet/process.py", line 460, in _execChild
+[09:29:03 PM]    os.execvpe(executable, args, environment)
+[09:29:03 PM]  File "/usr/lib/python2.7/os.py", line 353, in execvpe
+[09:29:03 PM]    _execvpe(file, args, env)
+[09:29:03 PM]  File "/usr/lib/python2.7/os.py", line 368, in _execvpe
+[09:29:03 PM]    func(file, *argrest)
+[09:29:03 PM]OSError: [Errno 13] Permission denied
+[09:29:03 PM]*--- Failure #8 ---
+[09:29:03 PM]Failure: 
+[09:29:03 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:29:03 PM]*--- End of Failure #8 ---
+[09:29:03 PM]ended with errors!
+[09:30:45 PM]Log Closed
+[09:30:49 PM]Log opened
+[09:30:49 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[09:30:49 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[09:30:49 PM]1: Game #1
+[09:30:49 PM]2: Game #2
+[09:30:49 PM]3: Game #3
+[09:30:49 PM]4: Change Defaults
+[09:30:49 PM]5: Custom Game
+[09:30:49 PM]6: Ideas
+[09:30:49 PM]Where do you want to go?  
+[09:30:49 PM]Bad answer! User a number in range
+[09:30:49 PM]Where do you want to go?  
+[09:31:21 PM]Log Closed
+[09:31:30 PM]Log opened
+[09:31:30 PM].
+[09:31:30 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[09:31:30 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[09:31:30 PM]1: Game #1
+[09:31:30 PM]2: Game #2
+[09:31:30 PM]3: Game #3
+[09:31:30 PM]4: Change Defaults
+[09:31:30 PM]5: Custom Game
+[09:31:30 PM]6: Ideas
+[09:31:30 PM]Where do you want to go?  Bad answer! User a number in range
+[09:31:30 PM]Where do you want to go?  
+[09:31:36 PM]User: 3
+[09:31:36 PM]###At does.battle
+[09:31:36 PM]###[[Dwarf I, Dwarf II, Magus, Rouge], [die], [schedule: next, wipe_hist: wipe_normal]]
+[09:31:36 PM]ERROR: Traceback (most recent call last):
+[09:31:36 PM]  File "/home/glycan/QFTSOM/main.py", line 45, in <module>
+[09:31:36 PM]    print(game.nodemap.travel())
+[09:31:36 PM]  File "/home/glycan/QFTSOM/api/net.py", line 48, in travel
+[09:31:36 PM]    result = do(args)
+[09:31:36 PM]  File "/home/glycan/QFTSOM/core/does.py", line 27, in battle
+[09:31:36 PM]    b = core.Battle(*args)
+[09:31:36 PM]  File "/home/glycan/QFTSOM/core/does.py", line 39, in _parsearg
+[09:31:36 PM]    base = default.copy()
+[09:31:36 PM]AttributeError: 'function' object has no attribute 'copy'
+[09:31:36 PM]*--- Failure #12 ---
+[09:31:36 PM]Failure: 
+[09:31:36 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:31:36 PM]*--- End of Failure #12 ---
+[09:31:36 PM]ended with errors!
+[09:32:17 PM]Log Closed
+[09:32:19 PM]Log opened
+[09:32:19 PM].
+[09:32:19 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[09:32:19 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[09:32:19 PM]1: Game #1
+[09:32:19 PM]2: Game #2
+[09:32:19 PM]3: Game #3
+[09:32:19 PM]4: Change Defaults
+[09:32:19 PM]5: Custom Game
+[09:32:19 PM]6: Ideas
+[09:32:19 PM]Where do you want to go?  Bad answer! User a number in range
+[09:32:19 PM]Where do you want to go?  
+[09:32:21 PM]User: 3
+[09:32:21 PM]ERROR: Traceback (most recent call last):
+[09:32:21 PM]  File "/home/glycan/QFTSOM/main.py", line 45, in <module>
+[09:32:21 PM]    print(game.nodemap.travel())
+[09:32:21 PM]  File "/home/glycan/QFTSOM/api/net.py", line 48, in travel
+[09:32:21 PM]    result = do(args)
+[09:32:21 PM]  File "/home/glycan/QFTSOM/core/does.py", line 27, in battle
+[09:32:21 PM]    b = core.Battle(*args)
+[09:32:21 PM]  File "/home/glycan/QFTSOM/core/does.py", line 39, in _parsearg
+[09:32:21 PM]    base = default.copy()
+[09:32:21 PM]AttributeError: 'function' object has no attribute 'copy'
+[09:32:21 PM]*--- Failure #14 ---
+[09:32:21 PM]Failure: 
+[09:32:21 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:32:21 PM]*--- End of Failure #14 ---
+[09:32:21 PM]ended with errors!
+[09:32:35 PM]Log Closed
+[09:32:37 PM]Log opened
+[09:32:37 PM].
+[09:32:37 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[09:32:37 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[09:32:37 PM]1: Game #1
+[09:32:37 PM]2: Game #2
+[09:32:37 PM]3: Game #3
+[09:32:37 PM]4: Change Defaults
+[09:32:37 PM]5: Custom Game
+[09:32:37 PM]6: Ideas
+[09:32:37 PM]Where do you want to go?  Bad answer! User a number in range
+[09:32:37 PM]Where do you want to go?  
+[09:32:39 PM]User: 1
+[09:32:39 PM]ERROR: Traceback (most recent call last):
+[09:32:39 PM]  File "/home/glycan/QFTSOM/main.py", line 45, in <module>
+[09:32:39 PM]    print(game.nodemap.travel())
+[09:32:39 PM]  File "/home/glycan/QFTSOM/api/net.py", line 54, in travel
+[09:32:39 PM]    nodename = node.travel()
+[09:32:39 PM]  File "/home/glycan/QFTSOM/api/net.py", line 48, in travel
+[09:32:39 PM]    result = do(args)
+[09:32:39 PM]  File "/home/glycan/QFTSOM/core/does.py", line 27, in battle
+[09:32:39 PM]    b = core.Battle(*args)
+[09:32:39 PM]  File "/home/glycan/QFTSOM/core/does.py", line 39, in _parsearg
+[09:32:39 PM]    base = default.copy()
+[09:32:39 PM]AttributeError: 'function' object has no attribute 'copy'
+[09:32:39 PM]The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, whilst the puissant Staffo hits twice as hard as you stick-possesing fools.
+[09:32:39 PM]*--- Failure #16 ---
+[09:32:39 PM]Failure: 
+[09:32:39 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[09:32:39 PM]*--- End of Failure #16 ---
+[09:32:39 PM]ended with errors!
+[09:35:56 PM]Log Closed
+[05:55:52 PM]Log opened
+[05:55:52 PM]ERROR: Traceback (most recent call last):
+[05:55:52 PM]  File "/home/glycan/QFTSOM/main.py", line 9, in <module>
+[05:55:52 PM]    import game
+[05:55:52 PM]  File "/home/glycan/QFTSOM/game/__init__.py", line 1, in <module>
+[05:55:52 PM]    from game.nodemap import nodemap
+[05:55:52 PM]  File "/home/glycan/QFTSOM/game/nodemap.py", line 7
+[05:55:52 PM]    from lib.fancy  import game as game3
+[05:55:52 PM]    ^
+[05:55:52 PM]IndentationError: unexpected indent
+[05:55:52 PM]*--- Failure #21 ---
+[05:55:52 PM]Failure: 
+[05:55:52 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[05:55:52 PM]*--- End of Failure #21 ---
+[05:55:52 PM]ended with errors!
+[05:56:22 PM]Log Closed
+[05:56:25 PM]Log opened
+[05:56:25 PM].
+[05:56:25 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[05:56:25 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[05:56:25 PM]1: Game #1
+[05:56:25 PM]2: Game #2
+[05:56:25 PM]3: Game #3
+[05:56:25 PM]4: Change Defaults
+[05:56:25 PM]5: Custom Game
+[05:56:25 PM]6: Ideas
+[05:56:25 PM]Where do you want to go?  Bad answer! User a number in range
+[05:56:25 PM]Where do you want to go?  
+[06:03:43 PM]ERROR: Traceback (most recent call last):
+[06:03:43 PM]  File "/home/glycan/QFTSOM/main.py", line 45, in <module>
+[06:03:43 PM]    print(game.nodemap.travel())
+[06:03:43 PM]  File "/home/glycan/QFTSOM/api/net.py", line 65, in travel
+[06:03:43 PM]    nodename = node.names[int(input(node.q + "  ")) - 1]
+[06:03:43 PM]KeyboardInterrupt
+[06:03:43 PM]Log Closed

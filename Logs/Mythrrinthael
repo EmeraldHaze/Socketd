@@ -1,0 +1,408 @@
+[04:19:27 PM]Log opened
+[04:19:27 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:19:28 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:19:28 PM]0: Game #1
+[04:19:28 PM]1: Game #2
+[04:19:28 PM]2: Change Defaults
+[04:19:28 PM]3: Custom Game
+[04:19:28 PM]4: Ideas
+[04:19:28 PM]Where do you want to go?  
+[04:19:45 PM]User: 0
+[04:19:45 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:19:45 PM]0: Left Fang, HP: 5
+[04:19:45 PM]1: Right Fang, HP: 5
+[04:19:45 PM]2: Torso, HP: 60
+[04:19:45 PM]3: Head, HP: 20
+[04:19:45 PM]4: Left Arm, HP: 30
+[04:19:45 PM]5: Right Arm, HP: 30
+[04:19:45 PM]6: Left Leg, HP: 30
+[04:19:45 PM]7: Right Leg, HP: 30
+[04:19:45 PM]Choice? 
+[04:19:54 PM]Log Closed
+[04:24:56 PM]Log opened
+[04:24:57 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:24:57 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:24:57 PM]0: Game #1
+[04:24:57 PM]1: Game #2
+[04:24:57 PM]2: Change Defaults
+[04:24:57 PM]3: Custom Game
+[04:24:57 PM]4: Ideas
+[04:24:57 PM]Where do you want to go?  
+[04:25:00 PM]User: 0
+[04:25:00 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:25:00 PM]0: Left Fang, HP: 5
+[04:25:00 PM]1: Right Fang, HP: 5
+[04:25:00 PM]2: Torso, HP: 60
+[04:25:00 PM]3: Head, HP: 20
+[04:25:00 PM]4: Left Arm, HP: 30
+[04:25:00 PM]5: Right Arm, HP: 30
+[04:25:00 PM]6: Left Leg, HP: 30
+[04:25:00 PM]7: Right Leg, HP: 30
+[04:25:00 PM]Choice? 
+[04:25:04 PM]User: 3
+[04:25:04 PM]0: Left kick
+[04:25:04 PM]1: Left punch
+[04:25:04 PM]2: Right kick
+[04:25:04 PM]3: Left bite
+[04:25:04 PM]4: Right bite
+[04:25:04 PM]5: Right punch
+[04:25:04 PM]Choice? 
+[04:25:11 PM]User: 2
+[04:25:11 PM]Player
+[04:25:11 PM] has kick'd Head!
+[04:25:11 PM]Player's kick has 3.0 speed
+[04:25:11 PM]Player's kick missed!
+[04:25:11 PM]Huminoid Taco has kick'd Left Arm!
+[04:25:11 PM]Huminoid Taco's kick has 4.0 speed
+[04:25:11 PM]Player's Left Arm took 20 DMG, it now has 10
+[04:25:11 PM]0: Left Fang, HP: 5
+[04:25:11 PM]1: Right Fang, HP: 5
+[04:25:11 PM]2: Torso, HP: 60
+[04:25:11 PM]3: Head, HP: 20
+[04:25:11 PM]4: Left Arm, HP: 30
+[04:25:11 PM]5: Right Arm, HP: 30
+[04:25:11 PM]6: Left Leg, HP: 30
+[04:25:11 PM]7: Right Leg, HP: 30
+[04:25:11 PM]Choice? 
+[04:25:22 PM]User: 3
+[04:25:22 PM]0: Left kick
+[04:25:22 PM]1: Left punch
+[04:25:22 PM]2: Right kick
+[04:25:22 PM]3: Left bite
+[04:25:22 PM]4: Right bite
+[04:25:22 PM]5: Right punch
+[04:25:22 PM]Choice? 
+[04:25:26 PM]User: 5
+[04:25:26 PM]Player has punch'd Head!
+[04:25:26 PM]Player's punch has 3.0 speed
+[04:25:26 PM]Huminoid Taco's Head took 15 DMG, it now has 5
+[04:25:26 PM]Huminoid Taco has kick'd Left Fang!
+[04:25:26 PM]Huminoid Taco's kick has 4.0 speed
+[04:25:26 PM]Huminoid Taco's kick missed!
+[04:25:26 PM]0: Left Fang, HP: 5
+[04:25:26 PM]1: Right Fang, HP: 5
+[04:25:26 PM]2: Torso, HP: 60
+[04:25:26 PM]3: Head, HP: 5
+[04:25:26 PM]4: Left Arm, HP: 30
+[04:25:26 PM]5: Right Arm, HP: 30
+[04:25:26 PM]6: Left Leg, HP: 30
+[04:25:26 PM]7: Right Leg, HP: 30
+[04:25:26 PM]Choice? 
+[04:25:33 PM]User: 3
+[04:25:33 PM]0: Left kick
+[04:25:33 PM]1: Left punch
+[04:25:33 PM]2: Right kick
+[04:25:33 PM]3: Left bite
+[04:25:33 PM]4: Right bite
+[04:25:33 PM]5: Right punch
+[04:25:33 PM]Choice? 
+[04:25:38 PM]User: 3
+[04:25:38 PM]Player has bite'd Head!
+[04:25:38 PM]Player's bite has 3.0 speed
+[04:25:38 PM]Huminoid Taco's Head took 5 DMG, it now has 0
+[04:25:38 PM]Huminoid Taco's Head has been poisoned for 10
+[04:25:38 PM]Huminoid Taco's Head took 10 DMG from poison, it now has -10
+[04:25:38 PM]Huminoid Taco has lost his Head!
+[04:25:38 PM]Huminoid Taco has lost his Left Fang!
+[04:25:38 PM]ERROR: Traceback (most recent call last):
+[04:25:38 PM]  File "/home/glycan/QFTSOM/main.py", line 38, in <module>
+[04:25:38 PM]    print(game.nodemap.travel())
+[04:25:38 PM]  File "/home/glycan/QFTSOM/api/net.py", line 40, in travel
+[04:25:38 PM]    nodename = node.travel()
+[04:25:38 PM]  File "/home/glycan/QFTSOM/api/net.py", line 35, in travel
+[04:25:38 PM]    result = do(args)
+[04:25:38 PM]  File "/home/glycan/QFTSOM/core/does.py", line 16, in battle
+[04:25:38 PM]    b.start()
+[04:25:38 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 21, in start
+[04:25:38 PM]    self.check_exits("main")
+[04:25:38 PM]  File "/home/glycan/QFTSOM/core/battle.py", line 51, in check_exits
+[04:25:38 PM]    if exit.condition(player, self):
+[04:25:38 PM]  File "/home/glycan/QFTSOM/lib/limb.py", line 15, in ldie_check
+[04:25:38 PM]    limb.kill()
+[04:25:38 PM]  File "/home/glycan/QFTSOM/api/limb.py", line 66, in kill
+[04:25:38 PM]    self.uplimb.attached.remove(self)
+[04:25:38 PM]AttributeError: 'NoneType' object has no attribute 'attached'
+[04:25:38 PM]*--- Failure #15 ---
+[04:25:38 PM]Failure: 
+[04:25:38 PM]twisted.internet.error.ProcessTerminated: A process has ended with a probable error condition: process ended with exit code 1.
+[04:25:38 PM]*--- End of Failure #15 ---
+[04:25:38 PM]ended with errors!
+[04:27:51 PM]Log Closed
+[04:37:56 PM]Log opened
+[04:37:56 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:37:56 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:37:56 PM]0: Game #1
+[04:37:56 PM]1: Game #2
+[04:37:56 PM]2: Change Defaults
+[04:37:56 PM]3: Custom Game
+[04:37:56 PM]4: Ideas
+[04:37:56 PM]Where do you want to go?  
+[04:38:03 PM]User: 0
+[04:38:03 PM]You must fight a weird taco! (Hint: choose a limb to attack, then an attack)
+[04:38:03 PM]0: Left Fang, HP: 5
+[04:38:03 PM]1: Right Fang, HP: 5
+[04:38:03 PM]2: Torso, HP: 60
+[04:38:03 PM]3: Head, HP: 20
+[04:38:03 PM]4: Left Arm, HP: 30
+[04:38:03 PM]5: Right Arm, HP: 30
+[04:38:03 PM]6: Left Leg, HP: 30
+[04:38:03 PM]7: Right Leg, HP: 30
+[04:38:03 PM]Choice? 
+[04:38:06 PM]User: 3
+[04:38:06 PM]0: Left kick
+[04:38:06 PM]1: Left punch
+[04:38:06 PM]2: Right kick
+[04:38:06 PM]3: Left bite
+[04:38:06 PM]4: Right bite
+[04:38:06 PM]5: Right punch
+[04:38:06 PM]Choice? 
+[04:38:09 PM]User: 3
+[04:38:09 PM]Player has bite'd Head!
+[04:38:09 PM]Player's bite has 3.0 speed
+[04:38:09 PM]Player's bite missed!
+[04:38:09 PM]Huminoid Taco has kick'd Left Fang!
+[04:38:09 PM]Huminoid Taco's kick has 4.0 speed
+[04:38:09 PM]Huminoid Taco's kick missed!
+[04:38:09 PM]0: Left Fang, HP: 5
+[04:38:09 PM]1: Right Fang, HP: 5
+[04:38:09 PM]2: Torso, HP: 60
+[04:38:09 PM]3: Head, HP: 20
+[04:38:09 PM]4: Left Arm, HP: 30
+[04:38:09 PM]5: Right Arm, HP: 30
+[04:38:09 PM]6: Left Leg, HP: 30
+[04:38:09 PM]7: Right Leg, HP: 30
+[04:38:09 PM]Choice? 
+[04:38:15 PM]User: 3
+[04:38:15 PM]0: Left kick
+[04:38:15 PM]1: Left punch
+[04:38:15 PM]2: Right kick
+[04:38:15 PM]3: Left bite
+[04:38:15 PM]4: Right bite
+[04:38:15 PM]5: Right punch
+[04:38:15 PM]Choice? 
+[04:44:22 PM]User: 2
+[04:44:22 PM]Player has kick'd Head!
+[04:44:22 PM]Player's kick has 3.0 speed
+[04:44:22 PM]Huminoid Taco's Head took 20 DMG, it now has 0
+[04:44:22 PM]Huminoid Taco has lost his Head!
+[04:44:22 PM]Huminoid Taco has lost his Left Fang!
+[04:44:22 PM]Huminoid Taco died!
+[04:44:22 PM]Huminoid Taco exited. Players: 1
+[04:44:22 PM]Player has vanquished his foes!
+[04:44:22 PM]Player exited. Players: 0
+[04:44:22 PM]You must go on to fight wierder stuff!
+[04:44:22 PM]0: Advance!
+[04:44:22 PM]Where do you want to go?  
+[04:44:30 PM]User: 0
+[04:44:30 PM]0: Fang, HP: 5
+[04:44:30 PM]1: Head, HP: 30
+[04:44:30 PM]2: Tail, HP: 40
+[04:44:30 PM]Choice? 
+[04:44:36 PM]User: 1
+[04:44:36 PM]0: Left kick
+[04:44:36 PM]1: Left punch
+[04:44:36 PM]2: Right kick
+[04:44:36 PM]3: Left bite
+[04:44:36 PM]4: Right bite
+[04:44:36 PM]5: Right punch
+[04:44:36 PM]Choice? 
+[04:44:41 PM]User: 5
+[04:44:41 PM]Player has punch'd Head!
+[04:44:41 PM]Player's punch has 3.0 speed
+[04:44:41 PM]Player's punch missed!
+[04:44:41 PM]Python has whip'd Left Fang!
+[04:44:41 PM]Python's whip has 4 speed
+[04:44:41 PM]Python's whip missed!
+[04:44:41 PM]0: Fang, HP: 5
+[04:44:41 PM]1: Head, HP: 30
+[04:44:41 PM]2: Tail, HP: 40
+[04:44:41 PM]Choice? 
+[04:44:47 PM]User: 1
+[04:44:47 PM]0: Left kick
+[04:44:47 PM]1: Left punch
+[04:44:47 PM]2: Right kick
+[04:44:47 PM]3: Left bite
+[04:44:47 PM]4: Right bite
+[04:44:47 PM]5: Right punch
+[04:44:47 PM]Choice? 
+[04:44:49 PM]User: 2
+[04:44:49 PM]Player has kick'd Head!
+[04:44:49 PM]Player's kick has 3.0 speed
+[04:44:49 PM]Player's kick missed!
+[04:44:49 PM]Python has whip'd Left Arm!
+[04:44:49 PM]Python's whip has 4 speed
+[04:44:49 PM]Player's Left Arm took 10 DMG, it now has 20
+[04:44:49 PM]0: Fang, HP: 5
+[04:44:49 PM]1: Head, HP: 30
+[04:44:49 PM]2: Tail, HP: 40
+[04:44:49 PM]Choice? 
+[04:44:54 PM]User: 1
+[04:44:54 PM]0: Left kick
+[04:44:54 PM]1: Left punch
+[04:44:54 PM]2: Right kick
+[04:44:54 PM]3: Left bite
+[04:44:54 PM]4: Right bite
+[04:44:54 PM]5: Right punch
+[04:44:54 PM]Choice? 
+[04:44:57 PM]User: 2
+[04:44:57 PM]Player has kick'd Head!
+[04:44:57 PM]Player's kick has 3.0 speed
+[04:44:57 PM]Player's kick missed!
+[04:44:57 PM]Python has whip'd Left Leg!
+[04:44:57 PM]Python's whip has 4 speed
+[04:44:57 PM]0: Fang, HP: 5
+[04:44:57 PM]1: Head, HP: 30
+[04:44:57 PM]2: Tail, HP: 40
+[04:44:57 PM]Choice? 
+[04:45:05 PM]User: 1
+[04:45:05 PM]0: Left kick
+[04:45:05 PM]1: Left punch
+[04:45:05 PM]2: Right kick
+[04:45:05 PM]3: Left bite
+[04:45:05 PM]4: Right bite
+[04:45:05 PM]5: Right punch
+[04:45:05 PM]Choice? 
+[04:45:10 PM]User: 5
+[04:45:10 PM]Player has punch'd Head!
+[04:45:10 PM]Player's punch has 3.0 speed
+[04:45:10 PM]Player's Left Leg took 10 DMG, it now has 20
+[04:45:10 PM]Python's Head took 15 DMG, it now has 15
+[04:45:10 PM]0: Fang, HP: 5
+[04:45:10 PM]1: Head, HP: 15
+[04:45:10 PM]2: Tail, HP: 40
+[04:45:10 PM]Choice? 
+[04:45:16 PM]User: 1
+[04:45:16 PM]0: Left kick
+[04:45:16 PM]1: Left punch
+[04:45:16 PM]2: Right kick
+[04:45:16 PM]3: Left bite
+[04:45:16 PM]4: Right bite
+[04:45:16 PM]5: Right punch
+[04:45:16 PM]Choice? 
+[04:45:22 PM]User: 0
+[04:45:22 PM]Player has kick'd Head!
+[04:45:22 PM]Player's kick has 3.0 speed
+[04:45:22 PM]Python's Head took 20 DMG, it now has -5
+[04:45:22 PM]Python has lost his Head!
+[04:45:22 PM]Python has lost his Fang!
+[04:45:22 PM]Python died!
+[04:45:22 PM]Python exited. Players: 1
+[04:45:22 PM]Player has vanquished his foes!
+[04:45:22 PM]Player exited. Players: 0
+[04:45:22 PM]0: Procced!
+[04:45:22 PM]Where do you want to go?  
+[04:45:26 PM]User: 0
+[04:45:26 PM]0: Fang, HP: 5
+[04:45:26 PM]1: Head, HP: 30
+[04:45:26 PM]2: Tail, HP: 40
+[04:45:26 PM]Choice? 
+[05:06:39 PM]User: 1
+[05:06:39 PM]0: Left kick
+[05:06:39 PM]1: Left punch
+[05:06:39 PM]2: Right kick
+[05:06:39 PM]3: Left bite
+[05:06:39 PM]4: Right bite
+[05:06:39 PM]5: Right punch
+[05:06:39 PM]Choice? 
+[05:06:42 PM]User: 0
+[05:06:42 PM]Player has kick'd Head!
+[05:06:42 PM]Player's kick has 3.0 speed
+[05:06:42 PM]Montey's Head took 20 DMG, it now has 10
+[05:06:42 PM]Montey has bite'd Left Arm!
+[05:06:42 PM]Montey's bite has 4 speed
+[05:06:42 PM]Player's Left Arm took 5 DMG, it now has 25
+[05:06:42 PM]Player's Left Arm has been poisoned for 10
+[05:06:42 PM]Player's Left Arm took 10 DMG from poison, it now has 15
+[05:06:42 PM]Player's Left Arm took 9 DMG from poison, it now has 6
+[05:06:42 PM]0: Fang, HP: 5
+[05:06:42 PM]1: Head, HP: 10
+[05:06:42 PM]2: Tail, HP: 40
+[05:06:42 PM]Choice? 
+[05:06:50 PM]User: 1
+[05:06:50 PM]0: Left kick
+[05:06:50 PM]1: Left punch
+[05:06:50 PM]2: Right kick
+[05:06:50 PM]3: Left bite
+[05:06:50 PM]4: Right bite
+[05:06:50 PM]5: Right punch
+[05:06:50 PM]Choice? 
+[05:06:52 PM]User: 2
+[05:06:52 PM]Player has kick'd Head!
+[05:06:52 PM]Player's kick has 3.0 speed
+[05:06:52 PM]Montey's Head took 20 DMG, it now has -10
+[05:06:52 PM]Player's Left Arm took 8 DMG from poison, it now has -2
+[05:06:52 PM]Player has lost his Left Arm!
+[05:06:52 PM]Montey has lost his Head!
+[05:06:52 PM]Montey has lost his Fang!
+[05:06:52 PM]Montey died!
+[05:06:52 PM]Montey exited. Players: 1
+[05:06:52 PM]Player has vanquished his foes!
+[05:06:52 PM]Player exited. Players: 0
+[05:06:52 PM]0: Procced!
+[05:06:52 PM]Where do you want to go?  
+[05:06:55 PM]User: 0
+[05:06:55 PM]0: Head, HP: 30
+[05:06:55 PM]1: Barb, HP: 10
+[05:06:55 PM]Choice? 
+[05:06:59 PM]Log Closed
+[04:16:08 PM]Log opened
+[04:16:08 PM]This is QFTSOM 0.2. In lieu of a proper interface, use the numbers. Failure to do so can cause crashs.
+[04:16:08 PM]knife
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]knife
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]Axe
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]Helm
+[04:16:08 PM] 
+[04:16:08 PM]Head
+[04:16:08 PM]E: Belong can not be equiped to this limb
+[04:16:08 PM]Axe
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]Helm
+[04:16:08 PM] 
+[04:16:08 PM]Head
+[04:16:08 PM]E: Belong can not be equiped to this limb
+[04:16:08 PM]knife
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]bomb
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]shoes
+[04:16:08 PM] 
+[04:16:08 PM]Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]Staff Arm
+[04:16:08 PM]E: No such limb
+[04:16:08 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:16:08 PM]1: Game #1
+[04:16:08 PM]2: Game #2
+[04:16:08 PM]3: Game #3
+[04:16:08 PM]4: Change Defaults
+[04:16:08 PM]5: Custom Game
+[04:16:08 PM]6: Ideas
+[04:16:08 PM]Where do you want to go?  
+[04:17:06 PM]User: 6
+[04:17:06 PM]What is your idea, suggestion, or feedback? (Please, one idea per line)
+[04:17:46 PM]User: You need a less chaotic background.
+[04:17:46 PM]Idea/feedback/suggestion submitted.
+[04:17:46 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[04:17:46 PM]1: Game #1
+[04:17:46 PM]2: Game #2
+[04:17:46 PM]3: Game #3
+[04:17:46 PM]4: Change Defaults
+[04:17:46 PM]5: Custom Game
+[04:17:46 PM]6: Ideas
+[04:17:46 PM]Where do you want to go?  
+[04:17:57 PM]Log Closed

@@ -1,0 +1,134 @@
+[05:48:29 PM]Log opened
+[05:48:29 PM].
+[05:48:29 PM]This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[05:48:29 PM]Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[05:48:29 PM]1: Game #1
+[05:48:29 PM]2: Game #2
+[05:48:29 PM]3: Game #3
+[05:48:29 PM]4: Change Defaults
+[05:48:29 PM]5: Custom Game
+[05:48:29 PM]6: Ideas
+[05:48:29 PM]Where do you want to go?  Bad answer! User a number in range
+[05:48:29 PM]Where do you want to go?  
+[05:48:44 PM]User: 2
+[05:48:44 PM]You'll fight an odd taco! (Hint: choose a limb, then an attack)
+[05:48:44 PM]0: Left fang, HP: 5
+[05:48:44 PM]1: Right fang, HP: 5
+[05:48:44 PM]2: Torso, HP: 60
+[05:48:44 PM]3: Head, HP: 20
+[05:48:44 PM]4: Left arm, HP: 30
+[05:48:44 PM]5: Right arm, HP: 30
+[05:48:44 PM]6: Left leg, HP: 30
+[05:48:44 PM]7: Right leg, HP: 30
+[05:48:44 PM]Choice? 
+[05:49:20 PM]User: 3
+[05:49:20 PM]0: Left bite
+[05:49:20 PM]1: Left punch
+[05:49:20 PM]2: Right kick
+[05:49:20 PM]3: Left kick
+[05:49:20 PM]4: Right bite
+[05:49:20 PM]5: Stab
+[05:49:20 PM]6: Right punch
+[05:49:20 PM]Choice? 
+[05:50:06 PM]User: 5
+[05:50:06 PM]Player has stab'd head!
+[05:50:06 PM]Player's stab has taken 2 turns
+[05:50:06 PM]Huminoid Taco's head took 5 DMG, it now has 15 HP
+[05:50:06 PM]Huminoid Taco's head has been poisoned for 5
+[05:50:06 PM]Huminoid Taco's head took 5 DMG from poison, it now has 10
+[05:50:06 PM]Huminoid Taco has kick'd right arm!
+[05:50:06 PM]Huminoid Taco's kick has taken 4 turns
+[05:50:06 PM]Player's right arm took 20 DMG, it now has 10 HP
+[05:50:06 PM]Huminoid Taco's head took 4 DMG from poison, it now has 6
+[05:50:06 PM]0: Left fang, HP: 5
+[05:50:06 PM]1: Right fang, HP: 5
+[05:50:06 PM]2: Torso, HP: 60
+[05:50:06 PM]3: Head, HP: 6
+[05:50:06 PM]4: Left arm, HP: 30
+[05:50:06 PM]5: Right arm, HP: 30
+[05:50:06 PM]6: Left leg, HP: 30
+[05:50:06 PM]7: Right leg, HP: 30
+[05:50:06 PM]Choice? 
+[05:50:26 PM]User: 3
+[05:50:26 PM]0: Left bite
+[05:50:26 PM]1: Left punch
+[05:50:26 PM]2: Right kick
+[05:50:26 PM]3: Left kick
+[05:50:26 PM]4: Right bite
+[05:50:26 PM]5: Stab
+[05:50:26 PM]6: Right punch
+[05:50:26 PM]Choice? 
+[05:50:31 PM]User: 6
+[05:50:31 PM]Player has punch'd head!
+[05:50:31 PM]Player's punch has taken 3 turns
+[05:50:31 PM]Huminoid Taco's head took 15 DMG, it now has -9 HP
+[05:50:31 PM]Huminoid Taco's head took 3 DMG from poison, it now has -12
+[05:50:31 PM]Huminoid Taco has lost his head!
+[05:50:31 PM]Huminoid Taco has lost his left fang!
+[05:50:31 PM]Huminoid Taco died!
+[05:50:31 PM]Player has vanquished his foes!
+[05:50:31 PM]You must go on to fight wierder stuff!
+[05:50:31 PM]0: Fang, HP: 5
+[05:50:31 PM]1: Head, HP: 30
+[05:50:31 PM]2: Tail, HP: 40
+[05:50:31 PM]Choice? 
+[05:50:45 PM]User: 0
+[05:50:45 PM]0: Left bite
+[05:50:45 PM]1: Left punch
+[05:50:45 PM]2: Right kick
+[05:50:45 PM]3: Left kick
+[05:50:45 PM]4: Right bite
+[05:50:45 PM]5: Stab
+[05:50:45 PM]6: Right punch
+[05:50:45 PM]Choice? 
+[05:50:49 PM]User: 1
+[05:50:49 PM]Player has punch'd fang!
+[05:50:49 PM]Player's punch has taken 3 turns
+[05:50:49 PM]Python's fang took 15 DMG, it now has -10 HP
+[05:50:49 PM]Python has lost his fang!
+[05:50:49 PM]Python has whip'd right arm!
+[05:50:49 PM]Python's whip has taken 4 turns
+[05:50:49 PM]Player's right arm took 10 DMG, it now has 20 HP
+[05:50:49 PM]0: Head, HP: 30
+[05:50:49 PM]1: Tail, HP: 40
+[05:50:49 PM]Choice? 
+[05:51:24 PM]User: 0
+[05:51:24 PM]0: Left bite
+[05:51:24 PM]1: Left punch
+[05:51:24 PM]2: Right kick
+[05:51:24 PM]3: Left kick
+[05:51:24 PM]4: Right bite
+[05:51:24 PM]5: Stab
+[05:51:24 PM]6: Right punch
+[05:51:24 PM]Choice? 
+[05:51:28 PM]User: 2
+[05:51:28 PM]Player has kick'd head!
+[05:51:28 PM]Player's kick has taken 3 turns
+[05:51:28 PM]Python's head took 20 DMG, it now has 10 HP
+[05:51:28 PM]Python has whip'd head!
+[05:51:28 PM]Python's whip has taken 4 turns
+[05:51:28 PM]Player's head took 10 DMG, it now has 10 HP
+[05:51:28 PM]0: Head, HP: 10
+[05:51:28 PM]1: Tail, HP: 40
+[05:51:28 PM]Choice? 
+[05:51:38 PM]User: 0
+[05:51:38 PM]0: Left bite
+[05:51:38 PM]1: Left punch
+[05:51:38 PM]2: Right kick
+[05:51:38 PM]3: Left kick
+[05:51:38 PM]4: Right bite
+[05:51:38 PM]5: Stab
+[05:51:38 PM]6: Right punch
+[05:51:38 PM]Choice? 
+[05:51:42 PM]User: 1
+[05:51:42 PM]Player has punch'd head!
+[05:51:42 PM]Player's punch has taken 3 turns
+[05:51:42 PM]Python's head took 15 DMG, it now has -5 HP
+[05:51:42 PM]Python has lost his head!
+[05:51:42 PM]Python died!
+[05:51:42 PM]Player has vanquished his foes!
+[05:51:42 PM]0: Fang, HP: 5
+[05:51:42 PM]1: Head, HP: 30
+[05:51:42 PM]2: Tail, HP: 40
+[05:51:42 PM]Choice? 
+[05:51:49 PM]Log Closed
