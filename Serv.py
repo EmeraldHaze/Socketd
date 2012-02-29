@@ -7,8 +7,6 @@ C) acts as a interface between them, logging eavrything by hostname.
 """
 
 from twisted.internet import reactor, protocol, stdio
-from time import strftime
-from sys import stdout
 import json
 
 
@@ -22,7 +20,7 @@ class UserFactory(protocol.ServerFactory):
 
     def buildUser(self, addr):
         p = self.protocol()
-        p.server = self.server
+        p.server = server
         self.server.users.append(p)
         return p
 
@@ -48,11 +46,11 @@ class Server:
 
     def startup(self):
         self.stats = json.load(open("stats.json"))
-        self.IP = json.load(open("IP.json")
+        self.IPs = json.load(open("IPs.json")
 
     def shutdown(self):
         json.dumps(self.stats, open("stats.json", "w"), indent = 4)
-        json.dumps(self.IP, open("IP.json", "w"), indent = 4)
+        json.dumps(self.IPs, open("IPs.json", "w"), indent = 4)
 
     def add(self, IP, name):
         """
@@ -65,6 +63,7 @@ class Server:
         self.stats["total"] += 1
         self.stats["unique"] = len(self.IP)
 
+    def out(self, msg):
+
 server = Server()
-#reactor.spawnProcess(prog, prg, [], path = cwd)
 server.run()

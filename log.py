@@ -1,3 +1,6 @@
+from time import strftime
+from sys import stdout
+
 class Log:
     """
     Nifty log file-wrapping object
@@ -6,8 +9,8 @@ class Log:
         self.f = f
         self.lnbuff = ""
 
-    def write(self, msg):
-        msg += "\n"
+    def write(self, *msgs, sep=" ", end="\n"):
+        msg = sep.join(msgs) + end
         for char in msg:
             if char == "\n":
                 if self.lnbuff:
@@ -18,4 +21,7 @@ class Log:
         self.f.flush()
 
     def close(self):
+        self.write("Log closed.")
         self.f.close()
+
+out = Log(stdout)
