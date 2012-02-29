@@ -4,4 +4,4 @@ class Ctrl(basic.LineReceiver):
     from os import linesep as delimiter
 
     def lineReceived(self, line):
-        print("Line recieved!")
+        cmd, args

@@ -12,7 +12,7 @@ class User(basic.Int16StringReceiver):
         """
         self.modes = ["pre", "ID", "start", "run", "killed"]
         self.mode = "pre"
-        self.uname = "no-name"
+        self.name = "no-name"
 
         self.predata = ''
         #predata is the raw data recived before the start
@@ -41,7 +41,7 @@ class User(basic.Int16StringReceiver):
             self.data_dict = json.loads(self.predata)
             self.ip = self.data_dict["ip"]
             try:
-                self.uname = self.server.IPs[self.ip]
+                self.name = self.server.IPs[self.ip]
                 self.mode = "start"
                 self.start_prog()
             except KeyError:
@@ -50,7 +50,7 @@ class User(basic.Int16StringReceiver):
                 self.mode = "ID"
 
         elif self.mode is "ID":
-            self.uname = string
+            self.name = string
             self.mode = "start"
             self.start_prog()
 

@@ -46,7 +46,7 @@ class Server:
 
     def startup(self):
         self.stats = json.load(open("stats.json"))
-        self.IPs = json.load(open("IPs.json")
+        self.IPs = json.load(open("IPs.json"))
 
     def shutdown(self):
         json.dumps(self.stats, open("stats.json", "w"), indent = 4)
@@ -62,8 +62,6 @@ class Server:
             self.stats["max"] = users
         self.stats["total"] += 1
         self.stats["unique"] = len(self.IP)
-
-    def out(self, msg):
 
 server = Server()
 server.run()

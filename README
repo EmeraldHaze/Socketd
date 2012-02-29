@@ -1,0 +1,5 @@
+Socket'd is a tool that connects users to process. I use it to connect my
+python game to my flash client; you could probably make it a remote MC
+launcher with some configuration. A client should send something like {"ip":
+"$IP"}, and prefix it's messages with their length as a Int16. However,
+don't expect the same in return.

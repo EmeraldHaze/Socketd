@@ -4,6 +4,7 @@ from sys import stdout
 class Log:
     """
     Nifty log file-wrapping object
+    f: the file-like object to wrap
     """
     def __init__(self, f):
         self.f = f
