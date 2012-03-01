@@ -11,14 +11,21 @@ class Ctrl(basic.LineReceiver):
         half_parsed = line.split()
         cmd = half_parsed[0]
         args = half_parsed[1:]
-        try:
+        if cmd in dir(self):
             getattr(self, cmd)(args)
-        except AttributeError:
+        else:
             out.write("No such command")
 
     def watch(self, args):
         pass
 
     def whois(self, args):
-        name = args[0]
-        out.write(name + ":", self.server[name])
+        print("whois invokes")
+        search_name = args[0]
+        for ip, name in self.server.IPs.items():
+            if name is search_name:
+                out.write(name + ":", name)
+                return
+                #super-break
+        out.write("No such name")
+        #if we reached this, that means we considered every IP
