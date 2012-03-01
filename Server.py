@@ -8,17 +8,17 @@ C) acts as a interface between them, logging eavrything by hostname.
 
 from twisted.internet import reactor, protocol, stdio
 import json
-
-
-PRG ="/home/glycan/QFTSOM/main.py"
-CWD = "/home/glycan/QFTSOM/"
-PORT = 7000
+#from user import User
+#from prog import Prog
+#from ctrl import Ctrl
+#from log  import Log
 
 class UserFactory(protocol.ServerFactory):
-    def __init__(self, protocol):
+    def __init__(self, server, protocol):
         self.protocol = protocol
+        self.server = server
 
-    def buildUser(self, addr):
+    def buildProtocol(self, addr):
         p = self.protocol()
         p.server = server
         self.server.users.append(p)
@@ -26,31 +26,43 @@ class UserFactory(protocol.ServerFactory):
 
 class Server:
     from twisted.internet import reactor
-    from ctrl import Ctrl
-    from user import User
-    __init__(self):
+    PRG ="/home/glycan/QFTSOM/main.py"
+    CWD = "/home/glycan/QFTSOM/"
+    PORT = 7000
+
+    def __init__(self):
         self.startup()
         self.users = []
         self.progs = []
+        self.named_users = {}
         #Users
-        factory = UserFactory(User)
-        self.reactor.listenTCP(PORT, factory)
+        from user import User
+        factory = UserFactory(self, User)
+        self.reactor.listenTCP(self.PORT, factory)
         #Ctrl
-        stdio.StandardIO(Ctrl())
+        from ctrl import Ctrl
+        stdio.StandardIO(Ctrl(self))
         #Shutdown
         self.reactor.addSystemEventTrigger("before", "shutdown", self.shutdown)
 
-    def run():
-        print "Running on", PORT
+    def run(self):
+        print "Running on", self.PORT
         self.reactor.run()
 
     def startup(self):
+        print "Loading JSON files..."
         self.stats = json.load(open("stats.json"))
         self.IPs = json.load(open("IPs.json"))
 
     def shutdown(self):
-        json.dumps(self.stats, open("stats.json", "w"), indent = 4)
-        json.dumps(self.IPs, open("IPs.json", "w"), indent = 4)
+        with open("stats.json", "w") as statfile:
+            json.dump(self.stats, statfile, indent = 4)
+            statfile.flush()
+
+        with open("IPs.json", "w") as IPfile:
+            json.dump(self.IPs, IPfile, indent = 4)
+            IPfile.flush()
+        print "\nJSON files dumped"
 
     def add(self, IP, name):
         """
@@ -61,7 +73,7 @@ class Server:
         if users > self.stats["max"]:
             self.stats["max"] = users
         self.stats["total"] += 1
-        self.stats["unique"] = len(self.IP)
+        self.stats["unique"] = len(self.IPs)
 
 server = Server()
 server.run()

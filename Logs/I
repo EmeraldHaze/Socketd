@@ -1,0 +1,94 @@
+[08:10:03 PM] Log opened
+[08:10:03 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[08:10:03 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:10:03 PM] 1: Game #1
+[08:10:03 PM] 2: Game #2
+[08:10:03 PM] 3: Game #3
+[08:10:03 PM] 4: Change Defaults
+[08:10:03 PM] 5: Custom Game
+[08:10:03 PM] 6: Ideas
+[08:10:03 PM] Where do you want to go?  
+[08:10:06 PM] User: FOOKER
+[08:10:06 PM] Bad answer! User a number in range
+[08:10:06 PM] Where do you want to go?  
+[08:14:32 PM] Log closed.
+[08:17:08 PM] Log opened
+[08:17:08 PM] I
+[08:17:08 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[08:18:48 PM] Log opened
+[08:18:48 PM] User: I
+[08:18:48 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[08:18:48 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:18:48 PM] 1: Game #1
+[08:18:48 PM] 2: Game #2
+[08:18:48 PM] 3: Game #3
+[08:18:48 PM] 4: Change Defaults
+[08:18:48 PM] 5: Custom Game
+[08:18:48 PM] 6: Ideas
+[08:18:48 PM] Where do you want to go?  
+[08:18:53 PM] User: hey?
+[08:18:53 PM] Bad answer! User a number in range
+[08:18:53 PM] Where do you want to go?  
+[08:19:42 PM] Log closed.
+[08:20:09 PM] Log opened
+[08:20:09 PM] User: I
+[08:20:09 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[08:20:09 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[08:20:09 PM] 1: Game #1
+[08:20:09 PM] 2: Game #2
+[08:20:09 PM] 3: Game #3
+[08:20:09 PM] 4: Change Defaults
+[08:20:09 PM] 5: Custom Game
+[08:20:09 PM] 6: Ideas
+[08:20:09 PM] Where do you want to go?  Bad answer! User a number in range
+[08:20:09 PM] Where do you want to go?  
+[08:20:20 PM] User: foofoo
+[08:20:20 PM] Bad answer! User a number in range
+[08:20:20 PM] Where do you want to go?  
+[08:20:30 PM] User: 1
+[08:20:30 PM] The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, whilst the puissant Staffo hits twice as hard as you stick-possesing fools.
+[08:20:30 PM] 0: Player, HP: 6
+[08:20:30 PM] 1: OtherMan, HP: 4
+[08:20:30 PM] 2: Oddball, HP: 5
+[08:20:30 PM] 3: Man, HP: 5
+[08:20:30 PM] 4: Staffo, HP: 5
+[08:20:30 PM] Target? 
+[08:20:33 PM] User: 3
+[08:20:33 PM] Player has poke'd Man!
+[08:20:33 PM] Man has lost 1 health!
+[08:20:33 PM] OtherMan has poke'd Man!
+[08:20:33 PM] Man has lost 1 
+[08:20:33 PM] health!
+[08:20:33 PM] Oddball has poke'd Player!
+[08:20:33 PM] Player has lost 1 health!
+[08:20:33 PM] Man has poke'd OtherMan!
+[08:20:33 PM] OtherMan has lost 1 health!
+[08:20:33 PM] Staffo has hit'd OtherMan!
+[08:20:33 PM] OtherMan has lost 2 health!
+[08:20:33 PM] 0: Player, HP: 5
+[08:20:33 PM] 1: OtherMan, HP: 1
+[08:20:33 PM] 2: Oddball, HP: 5
+[08:20:33 PM] 3: Man, HP: 3
+[08:20:33 PM] 4: Staffo, HP: 5
+[08:20:33 PM] Target? 
+[08:20:40 PM] User: 0
+[08:20:40 PM] Player has poke'd Player!
+[08:20:40 PM] Player has lost 1 health!
+[08:20:40 PM] OtherMan has poke'd Man!
+[08:20:40 PM] Man has lost 1 health!
+[08:20:40 PM] Oddball has poke'd Staffo!
+[08:20:40 PM] Staffo has lost 1 
+[08:20:40 PM] health!
+[08:20:40 PM] Man has poke'd OtherMan!
+[08:20:40 PM] OtherMan has lost 1 health!
+[08:20:40 PM] OtherMan is woefully unlifelike!
+[08:20:40 PM] 4 beings left
+[08:20:40 PM] Staffo has hit'd Man!
+[08:20:40 PM] Man has lost 2 health!
+[08:20:40 PM] Man is woefully unlifelike!
+[08:20:40 PM] 3 beings left
+[08:20:40 PM] 0: Player, HP: 4
+[08:20:40 PM] 1: Oddball, HP: 5
+[08:20:40 PM] 2: Staffo, HP: 4
+[08:20:40 PM] Target? 
+[08:20:42 PM] Log closed.

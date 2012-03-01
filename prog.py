@@ -7,18 +7,14 @@ class Prog(protocol.ProcessProtocol):
     """
     def __init__(self, user):
         self.user = user
-        self.charsleft = 0
 
-    #def childDataReceived(self, fd, data):
-     #   if fd == 1:
-      #      self.dataReceived(data)
-       # elif fd == 2:
-        #    self.errReceived(data)
+    def childDataReceived(self, fd, data):
+        if fd == 1:
+            self.dataReceived(data)
+        elif fd == 2:
+            self.errReceived(data)
 
     def dataReceived(self, data):
-        """
-        A whole message is sent to the user specified by the first bit
-        """
         self.user.log.write(data)
         self.user.transport.write(data)
 
