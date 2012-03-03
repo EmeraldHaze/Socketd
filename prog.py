@@ -7,6 +7,10 @@ class Prog(protocol.ProcessProtocol):
     """
     def __init__(self, user):
         self.user = user
+        self.state = 0
+
+    def connectionMade(self):
+        self.state = 1
 
     def childDataReceived(self, fd, data):
         if fd == 1:
@@ -15,8 +19,9 @@ class Prog(protocol.ProcessProtocol):
             self.errReceived(data)
 
     def dataReceived(self, data):
-        self.user.log.write(data)
-        self.user.transport.write(data)
+        if self.state is 1 and self.user.state is 1:
+            self.user.log.write(data)
+            self.user.transport.write(data)
 
     def errReceived(self, data):
         """
@@ -26,15 +31,15 @@ class Prog(protocol.ProcessProtocol):
         out.write("{}'s process has errored: {}".format(self.user.name, data))
 
     def processEnded(self, reason):
-        if self.user.mode is not "killed":
+        if self.user.state is 1:
             if reason.check(error.ProcessDone):
                 #Is it done?
-                quitmsg = 'Ended cleanly'
+                quitmsg = 'cleanly'
             else:
-                quitmsg = 'Ended with errors!'
+                quitmsg = 'with errors!'
                 reason.printDetailedTraceback(self.user.log)
-                self.user.transport.write('You seem to of have crashed your'
+                self.user.transport.write('You seem to of have crashed your '
                 'game, you insensitive clod!')
-
-            self.user.log.write(quitmsg)
-            out.write(self.user.name, "'s process has", quitmsg)
+            self.user.log.write("Ended", quitmsg)
+            out.write(self.user.name, "'s process has ended", quitmsg)
+            self.user.state = 2

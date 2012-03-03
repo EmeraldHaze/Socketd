@@ -5,13 +5,14 @@ A) makes an instance of a specified program
 B) logs some data
 C) acts as a interface between them, logging eavrything by hostname.
 """
-
-from twisted.internet import reactor, protocol, stdio
 import json
-#from user import User
-#from prog import Prog
-#from ctrl import Ctrl
-#from log  import Log
+from twisted.internet import reactor, protocol, stdio
+from sys import stdout
+from user import User
+from ctrl import Ctrl
+from log import out
+
+STATES = ["not yet running", "running", "stopped running"]
 
 class UserFactory(protocol.ServerFactory):
     def __init__(self, server, protocol):
@@ -36,21 +37,21 @@ class Server:
         self.progs = []
         self.named_users = {}
         #Users
-        from user import User
         factory = UserFactory(self, User)
         self.reactor.listenTCP(self.PORT, factory)
         #Ctrl
-        from ctrl import Ctrl
         stdio.StandardIO(Ctrl(self))
         #Shutdown
         self.reactor.addSystemEventTrigger("before", "shutdown", self.shutdown)
 
     def run(self):
-        print "Running on", self.PORT
+        out.write("Running on", self.PORT)
         self.reactor.run()
 
     def startup(self):
-        print "Loading JSON files..."
+        out.open(stdout)
+
+        out.write("Loading JSON files...")
         self.stats = json.load(open("stats.json"))
         self.IPs = json.load(open("IPs.json"))
 
@@ -62,7 +63,9 @@ class Server:
         with open("IPs.json", "w") as IPfile:
             json.dump(self.IPs, IPfile, indent = 4)
             IPfile.flush()
-        print "\nJSON files dumped"
+        out.write("\nJSON files dumped")
+
+        out.close()
 
     def add(self, IP, name):
         """
