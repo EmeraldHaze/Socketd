@@ -12,3 +12,23 @@
 [02:19:53 PM] User: a
 [02:19:53 PM] Bad answer! User a number in range
 [02:19:53 PM] Where do you want to go?  
+[03:20:41 PM] Log opened
+[03:20:41 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[03:20:41 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[03:20:41 PM] 1: Game #1
+[03:20:41 PM] 2: Game #2
+[03:20:41 PM] 3: Game #3
+[03:20:41 PM] 4: Change Defaults
+[03:20:41 PM] 5: Custom Game
+[03:20:41 PM] 6: Ideas
+[03:20:41 PM] Where do you want to go?  
+[03:21:38 PM] User: a
+[03:21:38 PM] Bad answer! User a number in range
+[03:21:38 PM] Where do you want to go?  
+[03:21:39 PM] User: a
+[03:21:39 PM] Bad answer! User a number in range
+[03:21:39 PM] Where do you want to go?  
+[03:21:39 PM] User: a
+[03:21:39 PM] Bad answer! User a number in range
+[03:21:39 PM] Where do you want to go?  
+[03:21:46 PM] Log closed. <stdout>

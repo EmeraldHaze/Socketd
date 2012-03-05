@@ -1,0 +1,88 @@
+[03:23:12 PM] Log opened
+[03:23:12 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[03:23:12 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[03:23:12 PM] 1: Game #1
+[03:23:12 PM] 2: Game #2
+[03:23:12 PM] 3: Game #3
+[03:23:12 PM] 4: Change Defaults
+[03:23:12 PM] 5: Custom Game
+[03:23:12 PM] 6: Ideas
+[03:23:12 PM] Where do you want to go?  
+[03:24:30 PM] User: a
+[03:24:30 PM] Bad answer! User a number in range
+[03:24:30 PM] Where do you want to go?  
+[03:24:30 PM] User: a
+[03:24:30 PM] Bad answer! User a number in range
+[03:24:30 PM] Where do you want to go?  
+[03:24:30 PM] User: a
+[03:24:30 PM] Bad answer! User a number in range
+[03:24:30 PM] Where do you want to go?  
+[03:24:31 PM] User: a
+[03:24:31 PM] Bad answer! User a number in range
+[03:24:31 PM] Where do you want to go?  
+[03:25:03 PM] User: a
+[03:25:03 PM] Bad answer! User a number in range
+[03:25:03 PM] Where do you want to go?  
+[03:25:04 PM] User: 1
+[03:25:04 PM] The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, whilst the puissant Staffo hits twice as hard as you stick-possesing fools.
+[03:25:04 PM] 0: Player, HP: 6
+[03:25:04 PM] 1: OtherMan, HP: 4
+[03:25:04 PM] 2: Oddball, HP: 5
+[03:25:04 PM] 3: Man, HP: 5
+[03:25:04 PM] 4: Staffo, HP: 5
+[03:25:04 PM] Target? 
+[03:25:04 PM] User: 2
+[03:25:04 PM] Player has poke'd Oddball!
+[03:25:04 PM] Oddball has lost 1 health!
+[03:25:04 PM] OtherMan has poke'd Oddball!
+[03:25:04 PM] Oddball has lost 
+[03:25:04 PM] 1 health!
+[03:25:04 PM] Oddball has poke'd Player!
+[03:25:04 PM] Player has lost 1 health!
+[03:25:04 PM] Man has poke'd Oddball!
+[03:25:04 PM] Oddball has lost 1 health!
+[03:25:04 PM] Staffo has hit'd Oddball!
+[03:25:04 PM] Oddball has lost 2 health!
+[03:25:04 PM] Oddball 
+[03:25:04 PM] is woefully unlifelike!
+[03:25:04 PM] 4 beings left
+[03:25:04 PM] 0: Player, HP: 5
+[03:25:04 PM] 1: OtherMan, HP: 4
+[03:25:04 PM] 2: Man, HP: 5
+[03:25:04 PM] 3: Staffo, HP: 5
+[03:25:04 PM] Target? 
+[03:25:05 PM] User: 3
+[03:25:05 PM] Player has poke'd Staffo!
+[03:25:05 PM] Staffo has lost 1 health!
+[03:25:05 PM] OtherMan has poke'd Staffo!
+[03:25:05 PM] Staffo has lost 1 health!
+[03:25:05 PM] Man has poke'd Staffo!
+[03:25:05 PM] Staffo has lost 1
+[03:25:05 PM]  health!
+[03:25:05 PM] Staffo has hit'd OtherMan!
+[03:25:05 PM] OtherMan has lost 2 health!
+[03:25:05 PM] 0: Player, HP: 5
+[03:25:05 PM] 1: OtherMan, HP: 2
+[03:25:05 PM] 2: Man, HP: 5
+[03:25:05 PM] 3: Staffo, HP: 2
+[03:25:05 PM] Target? 
+[03:26:09 PM] Log opened
+[03:26:09 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[03:26:09 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[03:26:09 PM] 1: Game #1
+[03:26:09 PM] 2: Game #2
+[03:26:09 PM] 3: Game #3
+[03:26:09 PM] 4: Change Defaults
+[03:26:09 PM] 5: Custom Game
+[03:26:09 PM] 6: Ideas
+[03:26:09 PM] Where do you want to go?  
+[03:26:49 PM] Log opened
+[03:26:49 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[03:26:49 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[03:26:49 PM] 1: Game #1
+[03:26:49 PM] 2: Game #2
+[03:26:49 PM] 3: Game #3
+[03:26:49 PM] 4: Change Defaults
+[03:26:49 PM] 5: Custom Game
+[03:26:49 PM] 6: Ideas
+[03:26:49 PM] Where do you want to go?  

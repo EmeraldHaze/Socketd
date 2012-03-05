@@ -9,15 +9,17 @@ class Log:
     """
     def __init__(self):
         self.files = {}
+        self.fixes = {}
+        #suffixes and prefixes
         self.lnbuff = ""
 
-    def open(self, name):
+    def open(self, name, prefix="", suffix=""):
         if type(name) is str:
             f = open("Logs/" + name, "a")
         else:
             f = name
             name = f.name
-
+        self.fixes[f] = (prefix, suffix)
         self.files[name] = f
         self.write("Log opened", f=name)
 
@@ -37,7 +39,8 @@ class Log:
                 if self.lnbuff:
                     for f in options["f"]:
                         f = self.files[f]
-                        f.write(strftime("[%r] ") + self.lnbuff + "\n")
+                        prefix, suffix = self.fixes[f]
+                        f.write("\r" + strftime("[%r] ") + prefix + self.lnbuff + suffix)
                     self.lnbuff = ""
             else:
                 self.lnbuff += char
@@ -46,15 +49,16 @@ class Log:
 
     def close(self, names=None):
         if not names:
-            names = self.files.values()
+            names = self.files.keys()
         else:
             names = [names]
         for name in names:
             try:
+                self.write("Log closed.", f=name)
                 f = self.files.pop(name)
-                self.write("Log closed.", name)
-                f.close()
+                if f.name != "<stdout>":
+                    f.close()
             except KeyError:
-                print("No file with name,", name, "exists")
+                out.write("[closing file] No file with name, %s exists" % name )
 
 out = Log()

@@ -1,0 +1,37 @@
+[03:27:26 PM] Log opened
+[03:27:26 PM] This is QFTSOM 0.3. In lieu of a proper interface, use the numbers.  Failure to do so can cause crashs.
+[03:27:26 PM] Here are some game presets. You can change the defaults (rules and exit conditions) which will apply to presets, and/or make your own game. It may not work, note. Being a good person, you'll also give feedback and ideas.
+[03:27:26 PM] 1: Game #1
+[03:27:26 PM] 2: Game #2
+[03:27:26 PM] 3: Game #3
+[03:27:26 PM] 4: Change Defaults
+[03:27:26 PM] 5: Custom Game
+[03:27:26 PM] 6: Ideas
+[03:27:26 PM] Where do you want to go?  
+[03:27:28 PM] User: 1
+[03:27:28 PM] The folks you're to fight are simple: they attack he who has the least HP. The town fool, Oddball, does the reverse, whilst the puissant Staffo hits twice as hard as you stick-possesing fools.
+[03:27:28 PM] 0: Player, HP: 6
+[03:27:28 PM] 1: OtherMan, HP: 4
+[03:27:28 PM] 2: Oddball, HP: 5
+[03:27:28 PM] 3: Man, HP: 5
+[03:27:28 PM] 4: Staffo, HP: 5
+[03:27:28 PM] Target? 
+[03:27:29 PM] User: 1
+[03:27:29 PM] Player has poke'd OtherMan!
+[03:27:29 PM] OtherMan has lost
+[03:27:29 PM]  1 health!
+[03:27:29 PM] OtherMan has poke'd Oddball!
+[03:27:29 PM] Oddball has lost 1 health!
+[03:27:29 PM] Oddball has poke'd Player!
+[03:27:29 PM] Player has lost 1 health!
+[03:27:29 PM] Man has poke'd OtherMan!
+[03:27:29 PM] OtherMan has lost 1 health!
+[03:27:29 PM] Staffo has hit'd OtherMan!
+[03:27:29 PM] OtherMan has lost 2 health!
+[03:27:29 PM] OtherMan is woefully unlifelike!
+[03:27:29 PM] 4 beings left
+[03:27:29 PM] 0: Player, HP: 5
+[03:27:29 PM] 1: Oddball, HP: 4
+[03:27:29 PM] 2: Man, HP: 5
+[03:27:29 PM] 3: Staffo, HP: 5
+[03:27:29 PM] Target? 

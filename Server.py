@@ -1,11 +1,13 @@
-#!/usr/bin/python -i
+#!/usr/bin/env python
 """
 This is a server that, on a connect:
 A) makes an instance of a specified program
 B) logs some data
 C) acts as a interface between them, logging eavrything by hostname.
 """
+#import readline
 import json
+import sys
 from twisted.internet import reactor, protocol, stdio
 from sys import stdout
 from user import User
@@ -13,6 +15,7 @@ from ctrl import Ctrl
 from log import out
 
 STATES = ["not yet running", "running", "stopped running"]
+
 
 class UserFactory(protocol.ServerFactory):
     def __init__(self, server, protocol):
@@ -27,12 +30,15 @@ class UserFactory(protocol.ServerFactory):
 
 class Server:
     from twisted.internet import reactor
-    PRG ="/home/glycan/QFTSOM/main.py"
-    CWD = "/home/glycan/QFTSOM/"
+    PRG = "/home/glycan/I/Socketdgames/Maze.py"
+    CWD = "/home/glycan/I/Socketdgames/"
+    #PRG ="/home/glycan/QFTSOM/main.py"
+    #CWD = "/home/glycan/QFTSOM/"
     PORT = 7000
 
     def __init__(self):
-        self.startup()
+        self.state = 0
+
         self.users = []
         self.progs = []
         self.named_users = {}
@@ -40,20 +46,25 @@ class Server:
         factory = UserFactory(self, User)
         self.reactor.listenTCP(self.PORT, factory)
         #Ctrl
-        stdio.StandardIO(Ctrl(self))
-        #Shutdown
+        ctrl = Ctrl(stdout=out)
+        ctrl.init(self)
+        reactor.callInThread(ctrl.cmdloop)
+
+        self.startup()
         self.reactor.addSystemEventTrigger("before", "shutdown", self.shutdown)
 
     def run(self):
         out.write("Running on", self.PORT)
         self.reactor.run()
+        return None
 
     def startup(self):
-        out.open(stdout)
-
+        out.open(stdout, suffix="\n>>> ")
         out.write("Loading JSON files...")
         self.stats = json.load(open("stats.json"))
         self.IPs = json.load(open("IPs.json"))
+        self.state = 1
+
 
     def shutdown(self):
         with open("stats.json", "w") as statfile:
@@ -64,7 +75,7 @@ class Server:
             json.dump(self.IPs, IPfile, indent = 4)
             IPfile.flush()
         out.write("\nJSON files dumped")
-
+        self.state = 2
         out.close()
 
     def add(self, IP, name):
@@ -80,3 +91,9 @@ class Server:
 
 server = Server()
 server.run()
+
+sys.stdout.write("\r")
+sys.stdout.flush()
+
+#prevents two >>>s on the same line. This makes the -i interactive prompt
+#overwrite out prompt
