@@ -21,7 +21,10 @@ class Prog(protocol.ProcessProtocol):
     def dataReceived(self, data):
         if self.state is 1 and self.user.state is 1:
             self.user.log.write(data)
-            self.user.transport.write(data)
+            self.user.send(data)
+
+    def send(self, data):
+        self.transport.write(data)
 
     def errReceived(self, data):
         """

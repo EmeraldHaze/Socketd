@@ -30,10 +30,10 @@ class UserFactory(protocol.ServerFactory):
 
 class Server:
     from twisted.internet import reactor
-    PRG = "/home/glycan/I/Socketdgames/Maze.py"
-    CWD = "/home/glycan/I/Socketdgames/"
-    #PRG ="/home/glycan/QFTSOM/main.py"
-    #CWD = "/home/glycan/QFTSOM/"
+    #PRG = "/home/glycan/I/Socketdgames/Maze.py"
+    #CWD = "/home/glycan/I/Socketdgames/"
+    PRG ="/home/glycan/QFTSOM/main.py"
+    CWD = "/home/glycan/QFTSOM/"
     PORT = 7000
 
     def __init__(self):
@@ -60,6 +60,7 @@ class Server:
 
     def startup(self):
         out.open(stdout, suffix="\n>>> ")
+        sys.stderr = out
         out.write("Loading JSON files...")
         self.stats = json.load(open("stats.json"))
         self.IPs = json.load(open("IPs.json"))

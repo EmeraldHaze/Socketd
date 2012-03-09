@@ -3,6 +3,7 @@ from log import Log, out
 from prog import Prog
 import json
 from pprint import pprint
+import struct
 
 class User(basic.Int16StringReceiver):
     """
@@ -14,12 +15,15 @@ class User(basic.Int16StringReceiver):
         Called when a user is made. This initilizes some stuff basic stuff,
         but the rest is done after ID.
         """
-        old = self.dataReceived
-        #self.dataReceived = lambda data: out.write(data) and old(data)
+        #self.old = self.dataReceived
+        #self.dataReceived = lambda data: out.write(data) and self.old(data)
         self.state = 0
         self.name = None
         self.data_dict = None
         #data_dict is the json.loads'd information sent to us by the client
+        self.dtrecv = self.dataReceived
+#        self.dataReceived = lambda data: pprint(data) and self.dtrecv(data)
+
 
     def stringReceived(self, string):
         if self.state is 0 and not self.data_dict:
@@ -53,11 +57,14 @@ class User(basic.Int16StringReceiver):
         elif self.state is 1 and self.prog.state is 1:
             #If running
             line = ' '.join(self.sanitize(string).split())
-            #normalize spacing and remove bad charecters (e.g,
-            #"../Server.py" as a name)
+            #normalize spacing and remove potentially malicious charecters
             self.log.write("User:", line)
-            #0 is stdin
-            self.prog.transport.writeToChild(0, line + "\n")
+            self.prog.send(line + "\n")
+
+    def send(self, msg):
+        self.transport.write(msg)
+        #This conveniece message can be changed later instead of changing
+        #each write
 
     def start_prog(self):
         self.name = str(self.makename("".join(self.name.split())))
@@ -80,6 +87,12 @@ class User(basic.Int16StringReceiver):
 
         out.write(self.name, "had connected. Users:", len(self.server.users))
         self.transport.write("Hello, %s.\n" % self.name)
+        self.prog.transport.write(self.name + "\n")
+        if self.name.lower().startswith("sex"):
+            def boobs(reactor):
+                self.transport.write("BOOBS")
+                reactor.callLater(0, boobs, reactor)
+            self.server.reactor.callLater(0, boobs, self.server.reactor)
         self.state = 1
 
     def connectionLost(self, reason):
