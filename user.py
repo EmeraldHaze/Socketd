@@ -100,8 +100,6 @@ class User(basic.Int16StringReceiver):
         Called when a user quits. If we are running, shuts down everything
         that we opened.
         """
-
-
         self.server.users.remove(self)
         users = len(self.server.users)
 

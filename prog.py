@@ -34,6 +34,7 @@ class Prog(protocol.ProcessProtocol):
         out.write("{}'s process has errored: {}".format(self.user.name, data))
 
     def processEnded(self, reason):
+        self.state = 2
         if self.user.state is 1:
             if reason.check(error.ProcessDone):
                 #Is it done?
@@ -44,5 +45,5 @@ class Prog(protocol.ProcessProtocol):
                 self.user.transport.write('You seem to of have crashed your '
                 'game, you insensitive clod!')
             self.user.log.write("Ended", quitmsg)
-            out.write(self.user.name, "'s process has ended", quitmsg)
+            out.write(self.user.name + "'s process has ended", quitmsg)
             self.user.state = 2
